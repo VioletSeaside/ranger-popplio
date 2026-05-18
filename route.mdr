@@ -794,7 +794,7 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
   ::::card{theme=info}
   ::::pokemon[Totem Salazzle (Low Exp)]{info="faster than Salandit at 35+ Speed (x / 25+ / 12+)" infoColor=blue}
   - Z-Scald Salazzle
-  ::damage[Brionne's Z-Scald at Level 22 (Low Exp)]{source="Popplio" special=true evolution=1 movePower=106 stab=true effectiveness=2 level=22 evs=5 opponentLevel=22 opponentStat=52 opponentCombatStages=1 healthThreshold=69 theme=error}
+  ::damage[Brionne's Z-Scald at Level 22 (Low Exp)]{source="Popplio" special=true evolution=1 movePower=160 stab=true effectiveness=2 level=22 evs=5 opponentLevel=22 opponentStat=52 opponentCombatStages=1 healthThreshold=69 theme=error}
   ::variable{name="OHKOSalazzle" type="boolean" title="Did you one shot Salazzle ?(With a crit for example)" defaultValue="false"}
   :::if{source="Popplio" condition=!$OHKOSalazzle}
   - Aqua Jet Salazzle
@@ -818,9 +818,7 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
   ::variable{name="OHKOSalazzle" type="boolean" title="Did you one shot Salazzle ?" defaultValue="false"}
   :::if{source="Popplio" condition=!$OHKOSalazzle}
   - Aqua Jet Salazzle
-  - *Aqua Jet or Scald Salandit :info[Range to fix,6/16 is 0-4,5-8 is 11/16,else is right]{color=red}
-  ::damage[Brionne's *Aqua Jet at Level 25 (High Exp)]{source="Popplio" special=false evolution=1 movePower=40 stab=true torrent=true effectiveness=2 level=25 evs=7 opponentLevel=20 opponentStat=24 healthThreshold=52 theme=error}
-  - You can assume 1 more Speed IV.
+  - *Aqua Jet or Scald Salandit
   :::
   :info[Remember HP !]{color=green}
   ::::
