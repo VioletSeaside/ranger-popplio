@@ -789,11 +789,12 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
   ::::
 
   Any answer is correct
+  
   ::::if{source="Popplio" condition=$isLowExp}
   ::::card{theme=info}
   ::::pokemon[Totem Salazzle (Low Exp)]{info="faster than Salandit at 35+ Speed (x / 25+ / 12+)" infoColor=blue}
   - Z-Scald Salazzle
-  ::damage[Brionne's Z-Scald at Level 22 (Low Exp)]{source="Popplio" special=true evolution=1 movePower=106 stab=true effectiveness=2 level=22 evs=5 opponentLevel=22 opponentStat=52 opponentcombatStages=1 healthThreshold=69 theme=error}
+  ::damage[Brionne's Z-Scald at Level 22 (Low Exp)]{source="Popplio" special=true evolution=1 movePower=106 stab=true effectiveness=2 level=22 evs=5 opponentLevel=22 opponentStat=52 opponentCombatStages=1 healthThreshold=69 theme=error}
   ::variable{name="OHKOSalazzle" type="boolean" title="Did you one shot Salazzle ?(With a crit for example)" defaultValue="false"}
   :::if{source="Popplio" condition=!$OHKOSalazzle}
   - Aqua Jet Salazzle
@@ -805,12 +806,15 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
   - Kill this encounter with Scald.
   - If you do not get an encounter on Route 8, you will need to fight an additional Fomantis during the grass trial.
   - You are missing out on 4 Speed EVs. This means that you will need to assume that you are 1 Speed IV lower than what you actually are when it comes to speed thresholds.
+  :::
+  :info[Remember HP !]{color=green}
   ::::
+
   ::::if{source="Popplio" condition=!$isLowExp}
   ::::card{theme=warning}
   ::::pokemon[Totem Salazzle (High Exp)]{info="faster than Salandit at 35+ Speed (29+ / 13+ / 1+)" infoColor=blue}
   - Z-Scald Salazzle
-  ::damage[Brionne's Z-Scald at Level 24 (High Exp)]{source="Popplio" special=true evolution=1 movePower=106 stab=true effectiveness=2 level=24 evs=5 opponentLevel=22 opponentStat=52 opponentcombatStages=1 healthThreshold=69 theme=error}
+  ::damage[Brionne's Z-Scald at Level 24 (High Exp)]{source="Popplio" special=true evolution=1 movePower=160 stab=true effectiveness=2 level=24 evs=5 opponentLevel=22 opponentStat=52 opponentCombatStages=1 healthThreshold=69 theme=error}
   ::variable{name="OHKOSalazzle" type="boolean" title="Did you one shot Salazzle ?" defaultValue="false"}
   :::if{source="Popplio" condition=!$OHKOSalazzle}
   - Aqua Jet Salazzle
@@ -818,6 +822,7 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
   ::damage[Brionne's *Aqua Jet at Level 25 (High Exp)]{source="Popplio" special=false evolution=1 movePower=40 stab=true torrent=true effectiveness=2 level=25 evs=7 opponentLevel=20 opponentStat=24 healthThreshold=52 theme=error}
   - You can assume 1 more Speed IV.
   :::
+  :info[Remember HP !]{color=green}
   ::::
 
   
