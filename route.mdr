@@ -798,8 +798,8 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
   :::if{source="Popplio" condition=!$OHKOSalazzle}
   - Aqua Jet Salazzle
   - *Aqua Jet or Scald Salandit
+  ::damage[Brionne's Aqua Jet at Level 23 (Low Exp)]{source="Popplio" special=false evolution=1 movePower=40 stab=true torrent=true effectiveness=2 level=23 evs=8 opponentLevel=20 opponentStat=24 healthThreshold=52 theme=error}
   :::
-  ::damage[Brionne's Aqua Jet at Level 23 (Low Exp)]{source="Popplio" special=false evolution=1 movePower=40 stab=true torrent=true effectiveness=2 level=23 evs=9 opponentLevel=20 opponentStat=24 healthThreshold=52 theme=error}
   :::if{source="Popplio" condition=$OHKOSalazzle}
   - Do not reapply the Repel and hope for an encounter in the grass on Route 8.
   - Kill this encounter with Scald.
