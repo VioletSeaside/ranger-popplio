@@ -848,10 +848,10 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
   ::::pokemon[Shiinotic]
   - X-Sp. Atk
   - If Hidden Power:
-  -     Hidden Power (x2 if not Poison)
+      - Hidden Power (x2 if not Poison)
   - If Torrent:
-  -     *Z-Scald (range with bad Sp. Atk)
+      - *Z-Scald (range with bad Sp. Atk)
   - Otherwise:
-  -     Scald + Z-Scald (sometimes Scald x2 with High Exp)
+      - Scald + Z-Scald (sometimes Scald x2 with High Exp)
 
 
