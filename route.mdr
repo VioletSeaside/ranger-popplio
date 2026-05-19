@@ -22,7 +22,7 @@
 
 :::
 
-# Pokémon Moonlo
+# Pokémon Moonl
 ### Any% Primarina notes
 
 ----
@@ -798,6 +798,7 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
   ::variable{name="OHKOSalazzle" type="boolean" title="Did you one shot Salazzle ?(With a crit for example)" defaultValue="false"}
   :::if{source="Popplio" condition=!$OHKOSalazzle}
   ::damage[Salandit's Venoshock (LVL 23)]{source="Popplio" evolution=1 offensive=false special=true movePower=65 stab=true level=23 evs=3 opponentLevel=20 opponentStat=39 theme="info"}
+  ::damage[Salandit's Venoshock when POISONED(LVL 23)]{source="Popplio" evolution=1 offensive=false special=true movePower=130 stab=true level=23 evs=3 opponentLevel=20 opponentStat=39 theme="info"}
   - Aqua Jet Salazzle
   - *Aqua Jet or Scald Salandit :info[Range to fix,6/16 is 0-4,5-8 is 11/16,else is right]{color=red}
   ::damage[Brionne's *Aqua Jet at Level 23 (Low Exp)]{source="Popplio" special=false evolution=1 movePower=40 stab=true torrent=true effectiveness=2 level=23 evs=7 opponentLevel=20 opponentStat=24 healthThreshold=52 theme=error}
@@ -819,6 +820,7 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
   ::variable{name="OHKOSalazzle" type="boolean" title="Did you one shot Salazzle ?" defaultValue="false"}
   :::if{source="Popplio" condition=!$OHKOSalazzle}
   ::damage[Salandit's Venoshock (LVL 25)]{source="Popplio" evolution=1 offensive=false special=true movePower=65 stab=true level=25 evs=3 opponentLevel=20 opponentStat=39 theme="warning"}
+  ::damage[Salandit's Venoshock when POISONED (LVL 25)]{source="Popplio" evolution=1 offensive=false special=true movePower=130 stab=true level=25 evs=3 opponentLevel=20 opponentStat=39 theme="warning"}
   - Aqua Jet Salazzle
   - *Aqua Jet or Scald Salandit
   :::
