@@ -846,6 +846,12 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
   ::damage[Shiinotic's Mega Drain (LVL 23)]{source="Popplio" evolution=1 offensive=false special=true movePower=40 stab=true effectiveness=2 level=23 evs=3 opponentLevel=22 opponentStat=56 theme="info"}
   ::::
   ::::pokemon[Shiinotic]
-
+  - X-Sp. Atk
+  - If Hidden Power:
+  -     Hidden Power (x2 if not Poison)
+  - If Torrent:
+  -     *Z-Scald (range with bad Sp. Atk)
+  - Otherwise:
+  -     Scald + Z-Scald (sometimes Scald x2 with High Exp)
 
 
