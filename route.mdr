@@ -22,7 +22,7 @@
 
 :::
 
-# Pokémon Moon
+# Pokémon Moonlol
 ### Any% Primarina notes
 
 ----
@@ -834,10 +834,10 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
 - Super Potion if can’t live Mega Drain.
 
 :::if{source="Popplio" condition=!$isLowExp}
-- ::damage[Shiinotic's Mega Drain (LVL 25)]{source="Popplio" evolution=1 offensive=false special=true movePower=40 stab=true effectiveness=2 level=25 evs=3 opponentLevel=22 opponentStat=56 theme="warning"}
+::damage[Shiinotic's Mega Drain (LVL 25)]{source="Popplio" evolution=1 offensive=false special=true movePower=40 stab=true effectiveness=2 level=25 evs=3 opponentLevel=22 opponentStat=56 theme="warning"}
 :::
 ::::if{source="Popplio" condition=$isLowExp}
-- ::damage[Shiinotic's Mega Drain (LVL 23)]{source="Popplio" evolution=1 offensive=false special=true movePower=40 stab=true effectiveness=2 level=23 evs=3 opponentLevel=22 opponentStat=56 theme="info"}
+::damage[Shiinotic's Mega Drain (LVL 23)]{source="Popplio" evolution=1 offensive=false special=true movePower=40 stab=true effectiveness=2 level=23 evs=3 opponentLevel=22 opponentStat=56 theme="info"}
 
 
 
