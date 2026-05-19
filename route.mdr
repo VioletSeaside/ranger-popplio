@@ -789,7 +789,7 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
   ::::
 
   Any answer is correct
-  
+  TBD, venoshock
   ::::if{source="Popplio" condition=$isLowExp}
   ::::card{theme=info}
   ::::pokemon[Totem Salazzle (Low Exp)]{info="faster than Salandit at 35+ Speed (x / 25+ / 12+)" infoColor=blue}
@@ -822,9 +822,22 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
   :::
   :info[Remember HP !]{color=green}
   ::::
+::::::
 
-  
- 
+- Quick Bind Charizard in Ride Pager.
+- Mash A in Ride Pager to fly to Route 7.
+- Head to the tunnel.
+- Reapply your Repel on Route 8. :info[Don't worry about this if you used the Max Repel]{color=gray}
+- Drop your Repel after the grass. 
+- Charge to Lush Jungle.
+- Use an Antidote if poisoned.
+- Super Potion if can’t live Mega Drain.
+
+:::if{source="Popplio" condition=!$isLowExp}
+- ::damage[Shiinotic's Mega Drain (LVL 25)]{source="Popplio" evolution=1 offensive=false special=false movePower=40 stab=true effectiveness=2 level=25 evs=3 opponentLevel=22 opponentStat=56 theme="warning"}
+:::
+::::if{source="Popplio" condition=$isLowExp}
+- ::damage[Shiinotic's Mega Drain (LVL 23)]{source="Popplio" evolution=1 offensive=false special=false movePower=40 stab=true effectiveness=2 level=23 evs=3 opponentLevel=22 opponentStat=56 theme="info"}
 
 
 
