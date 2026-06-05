@@ -857,7 +857,18 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
   ::::
  - Fight the 2 Fomantis (see pictures).
  ![First Fomantis Location](1st_fomantis.png)
+ - First Fomantis, go up then left into the north west room, and head to the tree to the left. Don't forget to take the hidden Mago Berry !
  ![Second Fomantis Location](2nd_fomantis.png)
+ - Second Fomantis is in the other north room, head to the left and talk to the weird grass patch.
  ![Fomantis Damage Table](grass_damage.png)
+ - All Fomantis:
+      - If Hidden Power:	
+         - Hidden Power (+ Scald)
+      - Otherwise:
+         - Scald x2 / x3 
+         - OR Scald + *Scald
+         - OR Z-Scald (range)
+         - OR *Z-Scald
+
 
 
