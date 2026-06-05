@@ -824,6 +824,7 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
   - Aqua Jet Salazzle
   - *Aqua Jet or Scald Salandit
   :::
+  :info[Assume 4 more Speed EVs, so 1 more speed IV]{color=red}
   :info[Remember HP !]{color=green}
   ::::
 ::::::
@@ -855,6 +856,8 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
       - Scald + Z-Scald (sometimes Scald x2 with High Exp)
   ::::
  - Fight the 2 Fomantis (see pictures).
+ ![First Fomantis Location](1st_fomantis.png)
+ ![Second Fomantis Location](2nd_fomantis.png)
  ![Fomantis Damage Table](grass_damage.png)
 
 
