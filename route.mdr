@@ -871,4 +871,14 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
      - OR *Z-Scald
  ::::
 
+- If you only have ~4 Super Potions left, pickup Hyper Potion in the northern area to the right.
+::::if{source="Popplio" condition="$isLowExp && condition=$OHKOSalazzle"}
+- If not level 24, fight an additional Fomantis (right of entrance of current area).
+- https://i.gyazo.com/00f16582288d806d61962c081f5fd499.png
+::::
+- If you used an X-Defense on Ilima or Totem Raticate, pickup backup X-Defense.
+
+- In the last area, smash rocks in south of area and pickup Miracle Seed in its place.
+
+
 
