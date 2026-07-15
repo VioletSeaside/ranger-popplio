@@ -823,8 +823,8 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
   ::damage[Salandit's Venoshock when POISONED (LVL 25)]{source="Popplio" evolution=1 offensive=false special=true movePower=130 stab=true level=25 evs=3 opponentLevel=20 opponentStat=39 theme="warning"}
   - Aqua Jet Salazzle
   - *Aqua Jet or Scald Salandit
-  :::
   :info[Assume 4 more Speed EVs, so 1 more speed IV]{color=red}
+  :::
   :info[Remember HP !]{color=green}
   ::::
 ::::::
