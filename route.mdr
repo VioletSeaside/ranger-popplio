@@ -870,6 +870,7 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
      - OR Z-Scald (range)
      - OR *Z-Scald
  ::::
+
 (rest of Island 2)
 
 
@@ -877,8 +878,25 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
 ::::pokemon[Raichu]
 - Spam Encore
 :::::
+
 :info[**FREE HEAL**]{color=pink}
+
 - Repel once in Malie Garden.
 - Pick the second option when Hau is talking.
 - Charge to the library.
 - Head to route 10 to the bus stop.
+
+:::::trainer[Team Skull Grunt]
+::::pokemon[Golbat]
+:::if{source="Popplio" condition="spatk=(x / 7-13 / x)" theme=error}
+	- Scald x2 is a 59% Range. 
+:::
+:::if{source="Popplio" condition="spatk=(x / 14-20 / 0)" theme=error}
+	- Scald x2 is a 85.9% Range. 
+:::
+:::if{source="Popplio" condition="spatk=(x / 21-26 / 1-6 )" theme=error}
+	- Scald x2 is a 96.5% Range. 
+:::
+:::if{source="Popplio" condition="spatk=(x / 27+ / 7+)" theme=error}
+	- Scald x2 is a 100% Range. 
+:::
