@@ -902,4 +902,4 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
 :::if{source="Popplio" condition="spatk=(x / 27+ / 7+)" theme=error}
   - Scald x2 is a 100% Range. 
 :::
-::damage[Brionne's Z-Scald at Level 30]{source="Popplio" special=true evolution=1 movePower=160 stab=true effectiveness=2 level=30 opponentLevel=27 opponentStat=49 healthThreshold=81 theme=error}
+::damage[Brionne's Z-Scald at Level 30]{source="Popplio" special=true evolution=1 movePower=160 stab=true effectiveness=1 level=30 opponentLevel=27 opponentStat=49 healthThreshold=81 theme=error}
