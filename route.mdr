@@ -872,7 +872,7 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
  ::::
 
 - If you only have ~4 Super Potions left, pickup Hyper Potion in the northern area to the right.
-::::if{source="Popplio" condition="$isLowExp && condition=$OHKOSalazzle"}
+::::if{source="Popplio" condition="$isLowExp && $OHKOSalazzle"}
 - If not level 24, fight an additional Fomantis (right of entrance of current area).
 - https://i.gyazo.com/00f16582288d806d61962c081f5fd499.png
 ::::
