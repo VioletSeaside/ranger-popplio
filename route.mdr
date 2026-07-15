@@ -889,6 +889,7 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
 
 :::::trainer[Team Skull Grunt]
 ::::pokemon[Golbat]
+- Scald x2
 :::if{source="Popplio" condition="spatk=(x / 7-13 / x)" theme=error}
   - Scald x2 is a 59% Range. 
 :::
