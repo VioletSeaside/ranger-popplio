@@ -862,13 +862,13 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
  - Second Fomantis is in the other north room, head to the left and talk to the weird grass patch.
  ![Fomantis Damage Table](grass_damage.png)
  ::::pokemon[All Fomantis]
-      - If Hidden Power:	
-         - Hidden Power (+ Scald)
-      - Otherwise:
-         - Scald x2 / x3 
-         - OR Scald + *Scald
-         - OR Z-Scald (range)
-         - OR *Z-Scald
+ - If Hidden Power:	
+     - Hidden Power (+ Scald)
+ - Otherwise:
+     - Scald x2 / x3 
+     - OR Scald + *Scald
+     - OR Z-Scald (range)
+     - OR *Z-Scald
  ::::
 
 
