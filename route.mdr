@@ -925,3 +925,6 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
 
 
 ::damage[Dugtrio's Sucker Punch]{source="Popplio" special=false offensive=false evolution=1 movePower=70 stab=false effectiveness=1 level=33 evs=7 opponentLevel=30 opponentStat=93}
+
+:::::trainer[Molayne]
+:::pokemon[Skarmory:]{info="faster at 55+ Speed (x / x / 28+)" infoColor=blue}
