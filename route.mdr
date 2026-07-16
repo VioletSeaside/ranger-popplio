@@ -984,7 +984,7 @@ Primarina's Z-Sparkling Aria at Level 34 is a 14 / 16 range to kill at 94–95 S
 :::if{source="Popplio" condition="spatk=(x/15-20/x)"}
 Primarina's Z-Sparkling Aria at Level 34 is a 15 / 16 range to kill at 96/97 Sp. Attack (x / 15–20 / x)
 :::
-:::if{source="Popplio" condition="spatk=(x/21+/x)"}
+:::if{source="Popplio" condition="spatk=(x/21+/0+)"}
 Primarina's Z-Sparkling Aria at Level 34 is a 16 / 16 range to kill at 98+ Sp. Attack (x / 21+ / 0+)
 :::
 ::::
