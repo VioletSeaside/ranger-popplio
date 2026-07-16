@@ -22,7 +22,7 @@
 
 :::
 
-# Pokémon Moon 10
+# Pokémon Moon 7
 ### Any% Primarina notes
 
 ----
@@ -974,6 +974,7 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
 :::
  ::::pokemon[Totem Vikavolt:]{info="Puzzle 4: Option 3" infoColor=gray}
   - *Z-Sparkling Aria
+::::card{theme=error}
 :::if{source="Popplio" condition="spatk=(x/6-8/x)"}
 Primarina's Z-Sparkling Aria at Level 34 is a 12 / 16 range to kill at 93 Sp. Attack (x / 6–8 / x)
 :::
