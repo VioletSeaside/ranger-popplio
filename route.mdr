@@ -22,7 +22,7 @@
 
 :::
 
-# Pokémon Moon 
+# Pokémon Moon W
 ### Any% Primarina notes
 
 ----
@@ -883,7 +883,7 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
 ![Miracle Seed](miracle_seed.png)
 
 :info[*If high Defense and not insane Sp. Atk, attempt to leave ~5 HP unhealed for Trumbeak Scald in Torrent.*]{color=gray}
--Heal to full 
+- Heal to full 
 :::if{source="Popplio" condition=!$isLowExp}
 :::card{theme=warning}
 - Use 2 **Rare Candies** to level 28
