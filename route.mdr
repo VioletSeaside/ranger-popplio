@@ -22,7 +22,7 @@
 
 :::
 
-# Pokémon Moon 1
+# Pokémon Moon 0
 ### Any% Primarina notes
 
 ----
@@ -955,6 +955,5 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
 :::pokemon[Grubbin]{info="Encore Bite or Bug Bite if needed (does ~13 - 22 damage, **has Swarm, though**)" infoColor=gray}
   - Encore
   - **If String Shot**: Aqua Jet.
- 
-  - _Otherwise_
+  - _Otherwise:_
     - *Scald 
