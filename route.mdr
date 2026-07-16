@@ -22,7 +22,7 @@
 
 :::
 
-# Pokémon Moon 
+# Pokémon Moon 1
 ### Any% Primarina notes
 
 ----
@@ -916,3 +916,12 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
   - *Scald + *Aqua Jet OR Z-Scald
   - :info[If want to play it risky Scald + Scald also works, but 20% risk of Defense drop
 		→ Raticate does not have a priority move (so doesn’t outspeed Aqua Jet)]{color=gray}
+:::::
+
+  - After taking the bus, go south and pickup the **hidden Rare Candy**.
+  - **Before Molayne, candy twice to level 33**
+
+  :info[**FREE HEAL**]{color=pink}
+
+
+::damage[Dugtrio's Sucker Punch]{source="Popplio" special=false offensive=false evolution=1 movePower=70 stab=true effectiveness=1 level=33 evs=11 opponentLevel=30 opponentStat=93}
