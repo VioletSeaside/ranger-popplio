@@ -22,7 +22,7 @@
 
 :::
 
-# Pokémon Moon 0
+# Pokémon Moon 
 ### Any% Primarina notes
 
 ----
@@ -928,3 +928,11 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
 
 :::::trainer[Molayne]
 :::pokemon[Skarmory:]{info="faster at 55+ Speed (x / x / 28+)" infoColor=blue}
+  - X-Sp. Atk + Water Gun + Scald
+  - :info[With Hidden Power, Aqua Jet + X-Sp. Atk x2 + Scald]{color=gray}
+:::pokemon[Metang:]
+  - Water Gun + Scald
+  - :info[Or *Scald/Scald at +4]{color=gray}
+:::pokemon[Dugtrio:]
+ - Scald
+:::::
