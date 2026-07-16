@@ -22,7 +22,7 @@
 
 :::
 
-# Pokémon Moon 4
+# Pokémon Moon 41
 ### Any% Primarina notes
 
 ----
@@ -950,19 +950,13 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
   - **89 - 91 → 19- HP**
   - **92 - 93 → 20- HP**
 
-  - Puzzle 1: Option 1
-  - Puzzle 2: Option 2
-  - Puzzle 3: Option 2
-  - Puzzle 4: Option 3
-
-
-:::::trainer[Electric Trial]{info="Puzzle 1: Option 1" infoColor=gray}
-:::pokemon[Grubbin:]{info="Encore Bite or Bug Bite if needed (does ~13 - 22 damage, has Swarm, though)" infoColor=gray}
+:::::trainer[Electric Trial]
+:::pokemon[Grubbin:]{info="Encore Bite or Bug Bite if needed (does ~13 - 22 damage, has Swarm, though) Puzzle 1: Option 1" infoColor=gray}
   - Encore
   - **If String Shot**: Aqua Jet.
   - _Otherwise:_
     - *Scald 
-
+:::
   - **Teach Sparkling Aria** over Water Gun / Hidden Power (or Scald if HP Flying) **(SLOT 2)**
 
  :::pokemon[Both Charjabugs:]{info="Puzzle 2 and 3: Option 2" infoColor=gray}
