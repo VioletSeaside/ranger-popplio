@@ -882,5 +882,22 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
 - In the last area, smash rocks in south of area and pickup Miracle Seed in its place.
 ![Miracle Seed](miracle_seed.png)
 
+:info[*If high Defense and not insane Sp. Atk, attempt to leave ~5 HP unhealed for Trumbeak Scald in Torrent.*]{color=gray}
+-Heal to full 
+:::if{source="Popplio" condition=!$isLowExp}
+:::card{theme=warning}
+- Use 2 **Rare Candies** to level 28
+:::
+:::if{source="Popplio" condition=$isLowExp}
+:::card{theme=info}
+- Use 4 **Rare Candies** to level 28
+:::
+- Do not teach Sing at level 28.
+
+- **SAVE**
+
+::::pokemon[Totem Lurantis: (assuming no Razor Leaf, adapt on the fly if it happens)]
+:info[→ Remember if you are in Torrent at the end]{color=green}
+
 
 
