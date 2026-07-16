@@ -974,4 +974,4 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
 :::
  :::pokemon[Totem Vikavolt:]{info="Puzzle 4: Option 3" infoColor=gray}
   - *Z-Sparkling Aria
-::damage[Primarina's Z-Sparkling Aria at Level 34]{source="Popplio" special=true offensive=false evolution=2 movePower=180 torrent=true stab=true level=34 evs=5 opponentLevel=29 opponentStat=75 opponentCombatStages=1 healthThreshold=88 theme=error}
+::damage[Primarina's Z-Sparkling Aria at Level 34]{source="Popplio" special=true evolution=2 movePower=180 torrent=true stab=true level=34 evs=5 opponentLevel=29 opponentStat=75 opponentCombatStages=1 healthThreshold=88 theme=error}
