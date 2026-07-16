@@ -22,7 +22,7 @@
 
 :::
 
-# Pokémon Moon 1
+# Pokémon Moon 
 ### Any% Primarina notes
 
 ----
@@ -924,4 +924,4 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
   :info[**FREE HEAL**]{color=pink}
 
 
-::damage[Dugtrio's Sucker Punch]{source="Popplio" special=false offensive=false evolution=1 movePower=70 stab=true effectiveness=1 level=33 evs=11 opponentLevel=30 opponentStat=93}
+::damage[Dugtrio's Sucker Punch]{source="Popplio" special=false offensive=false evolution=1 movePower=70 stab=false effectiveness=1 level=33 evs=11 opponentLevel=30 opponentStat=93}
