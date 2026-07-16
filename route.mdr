@@ -876,8 +876,7 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
 - If not level 24, fight an additional Fomantis (right of entrance of current area).
 ![Additional Fomantis](additionalfomantis.png)
 ::::
-- :info[If you used an X-Defense on Ilima or Totem Raticate, pickup backup X-Defense.]{color=gray}
-:::dropdown{title=":info[If you used an X-Defense on Ilima or Totem Raticate, pickup backup X-Defense.]{color=gray}" theme="info"}
+:::dropdown{title="If you used an X-Defense on Ilima or Totem Raticate, pickup backup X-Defense." theme="info"}
 ![Backup X-Defense](xdef_backup.png)
 :::
 - In the last area, smash rocks in south of area and pickup Miracle Seed in its place.
