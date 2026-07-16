@@ -963,5 +963,5 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
  :::pokemon[Both Charjabugs:]{info="Puzzle 2 and 3: Option 2" infoColor=gray}
   - *Scald (*Sparkling Aria if taught over Scald)
 :::
- :::pokemon[Totem Vikavolt:]
+ :::pokemon[Totem Vikavolt:]{info="Puzzle 4: Option 3" infoColor=gray}
   - *Z-Sparkling Aria
