@@ -22,7 +22,7 @@
 
 :::
 
-# Pokémon Moon 12
+# Pokémon Moon 1
 ### Any% Primarina notes
 
 ----
@@ -974,7 +974,33 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
 :::
  :::pokemon[Totem Vikavolt:]{info="Puzzle 4: Option 3" infoColor=gray}
   - *Z-Sparkling Aria
-::damage[Primarina's Z-Sparkling Aria at Level 34]{source="Popplio" offensive=true special=true evolution=2 movePower=175 torrent=true stab=true effectiveness=1 level=34 evs=5 opponentLevel=29 opponentStat=75 opponentCombatStages=1 healthThreshold=88 theme=error}
+:::if{source="Popplio" condition="spatk=(x/6-8/x)"}
+Primarina's Z-Sparkling Aria at Level 34 is a 12 / 16 range to kill at 93 Sp. Attack (x / 6–8 / x)
 :::
+:::if{source="Popplio" condition="spatk=(x/9-14/x)"}
+Primarina's Z-Sparkling Aria at Level 34 is a 14 / 16 range to kill at 94–95 Sp. Attack (x / 9–14 / x)
+:::
+:::if{source="Popplio" condition="spatk=(x/15-20/x)"}
+Primarina's Z-Sparkling Aria at Level 34 is a 15 / 16 range to kill at 96/97 Sp. Attack (x / 15–20 / x)
+:::
+:::if{source="Popplio" condition="spatk=(x/21+/x)"}
+Primarina's Z-Sparkling Aria at Level 34 is a 16 / 16 range to kill at 98+ Sp. Attack (x / 21+ / 0+)
+:::
+::::
+:::::
 
 
+  - Fly to garden.
+  - Teach Psychic over Scald if not using Hidden Power Flying (slot 3)
+  - Heal to full
+
+  :::::trainer[Guzma 1:]
+  :::pokemon[Golispod:]
+  - Without Hidden Power Flying:
+  - Psychic
+  - X-Sp. Atk :info[Skip if high rolled Psychic and got Sp. Def drop]{color=gray}
+  - Psychic
+  - With Hidden Power Flying:
+  - X-Sp. Atk
+  - Hidden Power
+  ::damage[Primarina's Hidden Power Flying at Level 34]{source="Popplio" special=true evolution=2 movePower=60 effectiveness=2 level=34 evs=8 opponentLevel=31 opponentStat=65 healthThreshold=97 theme=error}
