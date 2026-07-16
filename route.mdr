@@ -22,7 +22,7 @@
 
 :::
 
-# Pokémon Moon 
+# Pokémon Moon 4
 ### Any% Primarina notes
 
 ----
@@ -914,3 +914,5 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
 :::::trainer[Team Skull Grunt]
 ::::pokemon[Raticate]
   - *Scald + *Aqua Jet OR Z-Scald
+  - :info [If want to play it risky Scald + Scald also works, but 20% risk of Defense drop
+		→ Raticate does not have a priority move (so doesn’t outspeed Aqua Jet)] {color=grey}
