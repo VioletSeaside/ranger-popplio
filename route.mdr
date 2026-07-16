@@ -22,7 +22,7 @@
 
 :::
 
-# Pokémon Moon 11
+# Pokémon Moon 10
 ### Any% Primarina notes
 
 ----
@@ -972,7 +972,7 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
  :::pokemon[Both Charjabugs:]{info="Puzzle 2 and 3: Option 2" infoColor=gray}
   - *Scald (*Sparkling Aria if taught over Scald)
 :::
- :::pokemon[Totem Vikavolt:]{info="Puzzle 4: Option 3" infoColor=gray}
+ ::::pokemon[Totem Vikavolt:]{info="Puzzle 4: Option 3" infoColor=gray}
   - *Z-Sparkling Aria
 :::if{source="Popplio" condition="spatk=(x/6-8/x)"}
 Primarina's Z-Sparkling Aria at Level 34 is a 12 / 16 range to kill at 93 Sp. Attack (x / 6–8 / x)
@@ -1002,6 +1002,6 @@ Primarina's Z-Sparkling Aria at Level 34 is a 16 / 16 range to kill at 98+ Sp. A
   - Psychic
   
   - With Hidden Power Flying:
-  - X-Sp. Atk
-  - Hidden Power 
+     - X-Sp. Atk
+     - Hidden Power 
   ::damage[Primarina's Hidden Power Flying at Level 34]{source="Popplio" special=true evolution=2 movePower=60 effectiveness=2 combatStages=2 level=34 evs=8 opponentLevel=31 opponentStat=65 healthThreshold=97 theme=error} 
