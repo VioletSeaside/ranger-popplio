@@ -952,7 +952,7 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
 
 :info[Puzzle 1: Option 1]{color=gray}
 :::::trainer[Electric Trial]
-:::pokemon[Grubbin:]{info="Encore Bite or Bug Bite if needed (does ~13 - 22 damage, has Swarm, though) Puzzle 1: Option 1" infoColor=gray}
+:::pokemon[Grubbin:]{info="Encore Bite or Bug Bite if needed (does ~13 - 22 damage, has Swarm, though)" infoColor=gray}
   - Encore
   - **If String Shot**: Aqua Jet.
   - _Otherwise:_
@@ -962,3 +962,6 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
 
  :::pokemon[Both Charjabugs:]{info="Puzzle 2 and 3: Option 2" infoColor=gray}
   - *Scald (*Sparkling Aria if taught over Scald)
+:::
+ :::pokemon[Totem Vikavolt:]
+  - *Z-Sparkling Aria
