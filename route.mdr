@@ -898,7 +898,7 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
 
 ::::pokemon[Totem Lurantis: (assuming no Razor Leaf, adapt on the fly if it happens)]
 :info[→ Remember if you are in Torrent at the end]{color=green}
-- Torrent at level 28 is less than:calc[floor(hp / 3)]{source="Popplio" evolution=1 level=28} HP
+- Torrent at level 28 is less than:calc[floor(hp / 3)]{source="Popplio" level=28 evolution=1 } HP
 - X-Defense
 - Scald Trumbeak :info[faster at 41+ speed (x/22+/11+)]{color=blue}
   - :info[Scald is a range out of Torrent]{color=red}
