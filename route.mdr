@@ -950,7 +950,8 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
   - **89 - 91 → 19- HP**
   - **92 - 93 → 20- HP**
 
-:::::trainer[Electric Trial] Puzzle 1: Option 1
+:info[Puzzle 1: Option 1]{color=gray}
+:::::trainer[Electric Trial]
 :::pokemon[Grubbin:]{info="Encore Bite or Bug Bite if needed (does ~13 - 22 damage, has Swarm, though) Puzzle 1: Option 1" infoColor=gray}
   - Encore
   - **If String Shot**: Aqua Jet.
