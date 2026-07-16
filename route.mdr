@@ -936,3 +936,13 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
 :::pokemon[Dugtrio:]
  - Scald
 :::::
+
+  - Get the Comet Shard.
+  - **Do not heal**
+
+:::::trainer[Electric Trial]
+:::pokemon[grubbin]
+  - Encore
+  - **If String Shot**: Aqua Jet.
+  - Encore Bite or Bug Bite if needed (does ~13 - 22 damage, **has Swarm, though**).
+  - *Scald 
