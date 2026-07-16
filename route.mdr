@@ -946,16 +946,16 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
 
   - **Target HP depending on Max HP:**
   
-:::if{source="Popplio" condition="hp=82-85" level=33}
+:::if{source="Popplio" condition="hp=(x/0-8/x)"}
 - **83 - 85 → 17- HP**
 :::
-:::if{source="Popplio" condition="hp=86-88" level=33}
+:::if{source="Popplio" condition="hp=(x/9-17/x)"}
 - **86 - 88 → 18- HP**
 :::
-:::if{source="Popplio" condition="hp=89-91" level=33}
+:::if{source="Popplio" condition="hp=(x/18-26/x)"}
 - **89 - 91 → 19- HP**
 :::
-:::if{source="Popplio" condition="hp=92-93" level=33}
+:::if{source="Popplio" condition="hp=(x/27+/x)"}
 - **92 - 93 → 20- HP**
 :::
 
