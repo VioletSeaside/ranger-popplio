@@ -22,7 +22,7 @@
 
 :::
 
-# Pokémon Moon 2
+# Pokémon Moon 
 ### Any% Primarina notes
 
 ----
@@ -907,3 +907,10 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
   - Scald x2 is a 100% Range. 
 :::
 ::damage[Brionne's Z-Scald at Level 30]{source="Popplio" special=true evolution=1 movePower=160 stab=true effectiveness=1 level=30 evs=5 opponentLevel=27 opponentStat=49 healthThreshold=81 theme=error}
+:::::
+
+::damage[Raticate's Crunch]{source="Popplio" special=false offensive=false evolution=1 movePower=80 stab=true effectiveness=1 level=30 evs=7 opponentLevel=27 opponentStat=47}
+
+:::::trainer[Team Skull Grunt]
+::::pokemon[Raticate]
+  - *Scald + *Aqua Jet OR Z-Scald
