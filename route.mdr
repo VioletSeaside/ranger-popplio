@@ -22,7 +22,7 @@
 
 :::
 
-# Pokémon Moon 
+# Pokémon Moon 3
 ### Any% Primarina notes
 
 ----
@@ -930,9 +930,11 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
 :::pokemon[Skarmory:]{info="faster at 55+ Speed (x / x / 28+)" infoColor=blue}
   - X-Sp. Atk + Water Gun + Scald
   - :info[With Hidden Power, Aqua Jet + X-Sp. Atk x2 + Scald]{color=gray}
+:::
 :::pokemon[Metang:]
   - Water Gun + Scald
   - :info[Or *Scald/Scald at +4]{color=gray}
+:::
 :::pokemon[Dugtrio:]
  - Scald
 :::::
@@ -940,9 +942,19 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
   - Get the Comet Shard.
   - **Do not heal**
 
+  - **You need to take enough damage on Grubbin to still be in Torrent after evolving**
+
+  - **Target HP depending on Max HP:**
+  - **83 - 85 → 17- HP**
+  - **86 - 88 → 18- HP**
+  - **89 - 91 → 19- HP**
+  - **92 - 93 → 20- HP**
+
+
 :::::trainer[Electric Trial]
-:::pokemon[grubbin]
+:::pokemon[Grubbin]{Encore Bite or Bug Bite if needed (does ~13 - 22 damage, **has Swarm, though**) infoColor=gray}
   - Encore
   - **If String Shot**: Aqua Jet.
-  - Encore Bite or Bug Bite if needed (does ~13 - 22 damage, **has Swarm, though**).
-  - *Scald 
+ 
+  - _Otherwise_
+    - *Scald 
