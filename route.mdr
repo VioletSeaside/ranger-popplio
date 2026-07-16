@@ -1,4 +1,4 @@
-:::tracker{species="Popplio" baseStats="[[50,54,54,66,56,40], [60,69,69,91,81,50]]" hiddenPower="true" generation="7"}
+:::tracker{species="Popplio" baseStats="[[50,54,54,66,56,40], [60,69,69,91,81,50], [80,74,74,126,116,60]]" hiddenPower="true" generation="7"}
 5:
 	6 -> 0, 0, 0, 0, 0, 1
 	7 -> 0, 1, 0, 0, 0, 2
@@ -945,10 +945,19 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
   - **You need to take enough damage on Grubbin to still be in Torrent after evolving**
 
   - **Target HP depending on Max HP:**
-  - **83 - 85 → 17- HP**
-  - **86 - 88 → 18- HP**
-  - **89 - 91 → 19- HP**
-  - **92 - 93 → 20- HP**
+  
+:::if{source="Popplio" condition="hp=(x/0-8/x)"}
+- **83 - 85 → 17- HP**
+:::
+:::if{source="Popplio" condition="hp=(x/9-17/x)"}
+- **86 - 88 → 18- HP**
+:::
+:::if{source="Popplio" condition="hp=(x/18-26/x)"}
+- **89 - 91 → 19- HP**
+:::
+:::if{source="Popplio" condition="hp=(x/27+/x)"}
+- **92 - 93 → 20- HP**
+:::
 
 :info[Puzzle 1: Option 1]{color=gray}
 :::::trainer[Electric Trial]
@@ -965,3 +974,7 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
 :::
  :::pokemon[Totem Vikavolt:]{info="Puzzle 4: Option 3" infoColor=gray}
   - *Z-Sparkling Aria
+::damage[Primarina's Z-Sparkling Aria at Level 34]{source="Popplio" offensive=true special=true evolution=2 movePower=175 torrent=true stab=true effectiveness=1 level=34 evs=5 opponentLevel=29 opponentStat=75 opponentCombatStages=1 healthThreshold=88 theme=error}
+:::
+
+
