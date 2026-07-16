@@ -22,7 +22,7 @@
 
 :::
 
-# Pokémon Moon 1
+# Pokémon Moon 
 ### Any% Primarina notes
 
 ----
@@ -1005,6 +1005,7 @@ Primarina's Z-Sparkling Aria at Level 34 is a 16 / 16 range to kill at 98+ Sp. A
   - With Hidden Power Flying:
     - X-Sp. Atk
     - Hidden Power 
+:::
   - ::damage[Primarina's Hidden Power Flying at Level 34]{source="Popplio" special=true evolution=2 movePower=60 effectiveness=2 combatStages=2 level=34 evs=8 opponentLevel=31 opponentStat=65 healthThreshold=97 theme=error} 
   :::pokemon[Ariados:]
   - +2: Hidden Power Flying / Sparkling Aria
