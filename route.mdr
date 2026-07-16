@@ -22,7 +22,7 @@
 
 :::
 
-# Pokémon Moon 67
+# Pokémon Moon
 ### Any% Primarina notes
 
 ----
@@ -889,7 +889,12 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
 
 :::::trainer[Team Skull Grunt]
 ::::pokemon[Golbat]
-- Scald x2 Or Z-Scald
+    - _Safe:_
+      - Z-Scald
+    - _Fast:_
+      - Scald x2
+  :::
+:::::
 :::if{source="Popplio" condition="spatk=(x / 7-13 / x)" theme=error}
   - Scald x2 is a 59% Range. 
 :::
