@@ -22,7 +22,7 @@
 
 :::
 
-# Pokémon Moon 3
+# Pokémon Moon 2
 ### Any% Primarina notes
 
 ----
@@ -1019,7 +1019,15 @@ Primarina's Z-Sparkling Aria at Level 34 is a 16 / 16 range to kill at 98+ Sp. A
     - (Teach Psychic over Hidden Power)
 
   - Quick Bind Mudsdale in the ride pager.
-:::if{source="Popplio" condition="spatk=(#/24-/1+)"} || spatk(x/28+/x)"}
+  :::if{source="Popplio" condition="spatk=(#/24-/1+)"} || spatk=(x/28+/x)"}
   - Fight Ace Trainer Yuki
+
+:::::trainer[Ace Trainer Yuki:]
+:::pokemon[Sandshrew:]
+  - Sparkling Aria
+:::
+:::pokemon[Marowak:]
+  - Sparkling Aria
+:::::
 :::
   
