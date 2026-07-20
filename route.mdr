@@ -1004,7 +1004,7 @@ Poison damage: 10 with 28 - 31 HP IV
 - Stay on the right side after going up the ramp.
 
 :::::trainer[Plumeria 1]
-:::pokemon[Golbat]{info="Has Confuse Ray, Poison Fang and Air Cutter" infocolor=blue}
+:::pokemon[Golbat]{info="Has Confuse Ray, Poison Fang and Air Cutter" infoColor=blue}
 - Scald x2 OR *Scald + *Aqua Jet
 - Can Z-Scald for safety
 ::damage[Brionne's Z-Scald at +2 at Level 29]{source="Popplio" special=true evolution=1 movePower=160 stab=true level=29 evs=5 opponentLevel=25 opponentStat=46 healthThreshold=76 theme=error}
@@ -1014,12 +1014,12 @@ Poison damage: 10 with 28 - 31 HP IV
 :::
 :::::
 
-:::if{source="Popplio" condition="spatk=(x/6-14/x) && atk=(8-/x/x)"}
-- Sparkling Aria + Aqua Jet is a 16% to KO.
-:::
+:info[**FREE HEAL**]{color=pink}
 
-:::if{source="Popplio" condition="spatk=(x/x/9-14) && atk=(8-/x/x) || spatk=(x/21-28/3-) && atk=(x/26+/9-17) || spatk=(x/x/9-14) && atk=(26+/6-14/0)"}
-- Sparkling Aria + Aqua Jet is a 68% to KO.
+:damage[Bolodore's Headbutt (LVL 29)]{source="Popplio" evolution=1 offensive=false special=false movePower=70 level=29 evs=18 opponentLevel=26 opponentStat=63 theme="info"}
+
+:::if{source="Popplio" condition="spatk=(x/x/26+) && atk=(18+/#/#) || spatk=(x/x/21-25) && atk=(26+/6+/x) || spatk=(x/x/15-20) && atk=(x/26+/x) || spatk=(x/x/9-14) && atk=(x/26+/x) || spatk=(x/29+/4-8) && atk=(x/26+/9+) || spatk=(x/21-28/0-3) && atk=(x/x/26+) ||spatk=(x/15-20/x) && atk=(x/x/26+)"}
+- 100%
 :::
 
 
