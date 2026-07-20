@@ -38,7 +38,7 @@
     41 -> 9, 29, 22, 20, 11, 41
 :::
 
-# Pokémon Moon q
+# Pokémon Moon a
 ### Any% Primarina notes
 
 ----
@@ -995,7 +995,7 @@ Poison damage: 10 with 28 - 31 HP IV
 :::if{source="Popplio" condition="speed=43-" level=28}
 - Z-Scald
 :::
-::if{source="Popplio" condition="speed=44+" level=28}
+:::if{source="Popplio" condition="speed=44+" level=28}
 - Scald x2
 :::
 ::::
