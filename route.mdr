@@ -1010,9 +1010,18 @@ Poison damage: 10 with 28 - 31 HP IV
 ::damage[Brionne's Z-Scald at +2 at Level 29]{source="Popplio" special=true evolution=1 movePower=160 stab=true level=29 evs=5 opponentLevel=25 opponentStat=46 healthThreshold=76 theme=error}
 :::
 :::pokemon[Salandit]
--Scald OR *Aqua Jet
+- Scald OR *Aqua Jet
 :::
 :::::
+
+:::if{source="Popplio" condition="spatk=(x/6-14/x) && atk=(8-/x/x)"}
+- Sparkling Aria + Aqua Jet is a 16% to KO.
+:::
+
+:::if{source="Popplio" condition="spatk=(x/x/9-14) && atk=(8-/x/x) || spatk=(x/21-28/3-) && atk=(x/26+/9-17) || spatk=(x/x/9-14) && atk=(26+/6-14/0)"}
+- Sparkling Aria + Aqua Jet is a 68% to KO.
+:::
+
 
 
 
