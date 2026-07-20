@@ -1,4 +1,4 @@
-:::tracker{species="Popplio" baseStats="[[50,54,54,66,56,40], [60,69,69,91,81,50]]" hiddenPower="true" generation="7"}
+:::tracker{species="Popplio" baseStats="[[50,54,54,66,56,40], [60,69,69,91,81,50], [80,74,74,126,116,60]]" hiddenPower="true" generation="7"}
 5:
 	6 -> 0, 0, 0, 0, 0, 1
 	7 -> 0, 1, 0, 0, 0, 2
@@ -38,7 +38,7 @@
     41 -> 9, 29, 22, 20, 11, 41
 :::
 
-# Pokémon Moon 1
+# Pokémon Moon q
 ### Any% Primarina notes
 
 ----
@@ -992,12 +992,13 @@ Poison damage: 10 with 28 - 31 HP IV
 
 ::::::trainer[Team Skull Grunt]
 ::::pokemon[Raticate]
-:::if{source="Popplio" condition="speed=44+" level=28}
-- Scald x2
-:::
 :::if{source="Popplio" condition="speed=43-" level=28}
 - Z-Scald
 :::
+::if{source="Popplio" condition="speed=44+" level=28}
+- Scald x2
+:::
+::::
 ::::::
 
 - Reapply the Repel a last time.
