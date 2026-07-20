@@ -38,7 +38,7 @@
     41 -> 9, 29, 22, 20, 11, 41
 :::
 
-# Pokémon Moon 11
+# Pokémon Moon 9
 ### Any% Primarina notes
 
 ----
@@ -1103,6 +1103,9 @@ Primarina's Z-Sparkling Aria at Level 34 is a 16 / 16 range to kill at 98+ Sp. A
 ::damage[Primarina's *Sparkling Aria at Level 35]{source="Popplio" special=true evolution=2 movePower=90 stab=true torrent=true effectiveness=1 level=35 evs=8 opponentLevel=33 opponentStat=69 healthThreshold=87 theme=error}
 :::if{source="Popplio" condition="spatk=(x/6-14/x) && atk=(8-/x/x)"}
   - Sparkling Aria + Aqua Jet is a 16% chance to kill
+:::if{source="Popplio" condition="spatk=(x/x/9-14) && atk=(8-/x/x) || spatk=(x/21-28/3-) && atk=(x/26+/9-17) || spatk=(x/x/9-14) && atk=(26+/6-14/0)"}
+- Sparkling Aria + Aqua Jet is a 68% to KO.
+:::
 :::
 :::if{source="Popplio" condition="spatk=(x/15-20/x) && atk=(x/x/18-25) || spatk=(x/21-28/3-) && atk=(x/26+/9-17) || spatk=(x/x/9-14) && atk=(26+/6-14/0)"}
   - Sparkling Aria + Aqua Jet is a 95% to KO.
