@@ -968,7 +968,7 @@ Poison damage: 9 with 0 - 27 HP IV
 Poison damage: 10 with 28 - 31 HP IV
 :::
 
-::damage[Fomantis' Razor Leaf (LVL 28)]{source="Popplio" evolution=1 offensive=false special=false movePower=55 stab=true effectiveness=2 level=28 evs=17 opponentLevel=22 opponentStat=32 multiTarget=true theme="info"}
+::damage[Fomantis' Razor Leaf (LVL 28)]{source="Popplio" evolution=1 offensive=false special=false movePower=55 stab=true effectiveness=2 level=28 evs=17 multiTarget=true opponentLevel=22 opponentStat=32 theme="info"}
 ::::::trainer[Team Skull Grunts(double with Hau)]
   - If you're in Torrent or have Hidden Power :
       - *Scald OR Hidden Power Fomantis
@@ -976,6 +976,17 @@ Poison damage: 10 with 28 - 31 HP IV
   - Otherwise :
       - Scald Salandit
 	  - Scald Fomantis
+
+:info[**FREE HEAL**]{color=pink}
+
+- Reapply the Repel at the end of the cave.
+- Do not mount Tauros until reaching Koni Koni.
+- Charge to Olivia’s workshop.
+- Shop at the herb seller next to the Pokémon Centre.
+- Buy 11 Heal Powders and 4 Energy Roots (vv).
+    - Reapply your Repel when entering the cemetery.
+- Pickup Spell Tag.
+
 
 
 
