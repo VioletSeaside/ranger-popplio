@@ -964,6 +964,9 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
 :::if{source="Popplio" condition="hp=(x/0-27/x)"}
 Poison damage: 9 with 0 - 27 HP IV
 :::
+:::if{source="Popplio" condition="hp=(x/28+/x)"}
+Poison damage: 10 with 28 - 31 HP IV
+:::
 
 
 
