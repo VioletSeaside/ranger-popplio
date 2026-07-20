@@ -888,8 +888,49 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
  ::::
 ::::::
 
-(rest of Island 2)
+- :info[If you only have ~4 Super Potions left, pickup Hyper Potion in the northern area to the right.]{color=gray}
+::::if{source="Popplio" condition="$isLowExp && $OHKOSalazzle"}
+- If not level 24, fight an additional Fomantis (right of entrance of current area).
+![Additional Fomantis](additionalfomantis.png)
+::::
+:::dropdown{title="If you used an X-Defense on Ilima or Totem Raticate, pickup backup X-Defense." theme="info"}
+![Backup X-Defense](xdef_backup.png)
+:::
+- In the last area, smash rocks in south of area and pickup Miracle Seed in its place.
+![Miracle Seed](miracle_seed.png)
 
+:info[*If high Defense and not insane Sp. Atk, attempt to leave ~5 HP unhealed for Trumbeak Scald in Torrent.*]{color=gray}
+- Heal to full 
+:::if{source="Popplio" condition=!$isLowExp}
+:::card{theme=warning}
+- Use 2 **Rare Candies** to level 28
+:::
+:::if{source="Popplio" condition=$isLowExp}
+:::card{theme=info}
+- Use 4 **Rare Candies** to level 28
+:::
+- Do not teach Sing at level 28.
+
+- **SAVE**
+
+::::pokemon[Totem Lurantis: (assuming no Razor Leaf, adapt on the fly if it happens)]
+:info[→ Remember if you are in Torrent at the end]{color=green}
+- Torrent at level 28 is less than:calc[floor(hp / 3)]{source="Popplio" level=28 evolution=1 } HP
+- X-Defense
+- Scald Trumbeak :info[faster at 41+ speed (x/22+/11+)]{color=blue}
+  - :info[Scald is a range out of Torrent]{color=red}
+- Super Potion x2 (Aqua Jet Trumbeak if needed)
+- X-Sp. Atk
+- If not in Torrent:
+    - Super Potion + X-Sp. Atk OR Potion x2
+- __+2: *Z-Scald__
+- **+4: Z-Scald / Hidden Power**
+
+::damage[Brionne's *Z-Scald at +2 / Z-Scald at +4 at Level 28]{source="Popplio" special=true evolution=1 movePower=160 torrent=true stab=true effectiveness=0.5 combatStages=2 level=28 evs=5 opponentLevel=24 opponentStat=55 healthThreshold=90 theme=error}
+::damage[Brionne's Hidden Power at +4 at Level 28]{source="Popplio" special=true evolution=1 movePower=60 effectiveness=2 combatStages=4 level=28 evs=5 opponentLevel=24 opponentStat=55 healthThreshold=90 theme=error}
+paste allat after fomantis
+
+(rest of Island 2)
 
 :::::trainer[Hau 5]
 ::::pokemon[Raichu]
@@ -1051,6 +1092,6 @@ Primarina's Z-Sparkling Aria at Level 34 is a 16 / 16 range to kill at 98+ Sp. A
 
 :::::trainer[Preschooler Hunter:]
 :::pokemon[Elekid:]{info="faster at 67 Speed (x / x / 31)" infoColor=blue}
- - Sparkling Aria
+ - Sparkling Aria (+Aqua Jet)
 :::::
  - Do not heal paralysis if paralyzed.
