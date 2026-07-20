@@ -1018,18 +1018,53 @@ Poison damage: 10 with 28 - 31 HP IV
 
 :damage[Bolodore's Headbutt (LVL 29)]{source="Popplio" evolution=1 offensive=false special=false movePower=70 level=29 evs=5 opponentLevel=26 opponentStat=63 theme="info"}
 :::::trainer[Olivia]
-:::pokemon[Nosepass]
+::::pokemon[Nosepass]
 :::if{source="Popplio" condition="spa=(x/x/28+)"}
 - Water Gun
 :::
-
-
-
-
-
-:::if{source="Popplio" condition="spatk=(x/x/26+) && atk=(18+/#/#) || spatk=(x/x/21-25) && atk=(26+/6+/x) || spatk=(x/x/15-20) && atk=(x/26+/x) || spatk=(x/x/9-14) && atk=(x/26+/x) || spatk=(x/29+/4-8) && atk=(x/26+/9+) || spatk=(x/21-28/0-3) && atk=(x/x/26+) ||spatk=(x/15-20/x) && atk=(x/x/26+)"}
-- 100%
+:::if{source="Popplio" condition="spa=(x/x/27-)"}
+- Scald
 :::
+- If paralysed and did not burn Nosepass:
+    - X-Speed
+- If paralysed and burnt Nosepass:
+    - Heal Powder
+- Scald
+::::
+::::pokemon[Boldore]
+- Heal Powder or X-Speed (if didn’t on Nosepass)
+- Aqua Jet
+- If can die from one more Headbutt, Potion / Super Potion
+- Encore to be knocked into Torrent.
+- Scald
+::::
+::::pokemon[Lycanroc]
+- *Scald OR Z-Scald
+::::
+:::::
+
+:::if{source="Popplio" condition=$didCandy}
+- If you used a Rare Candy before fighting Emily:
+- Fly to Route 1.
+- Charge and surf to Melemele Sea.
+- Pickup the Rare Candy.
+![Beach Candy GIF](beach_candy.gif)
+:::
+
+- Fly to Heahea. 
+- Charge far east to the hotel.
+- Drop your Repel.
+- Run from Nihilego.
+
+:info[**FREE HEAL**]{color=pink}
+
+
+
+
+
+
+
+
 
 
 
