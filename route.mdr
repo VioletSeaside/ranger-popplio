@@ -38,7 +38,7 @@
     41 -> 9, 29, 22, 20, 11, 41
 :::
 
-# Pokémon Moon 6
+# Pokémon Moon 3
 ### Any% Primarina notes
 
 ----
@@ -1046,4 +1046,4 @@ Primarina's Z-Sparkling Aria at Level 34 is a 16 / 16 range to kill at 98+ Sp. A
   - Sparkling Aria
 :::::
 
-::damage[Elekid's Thunder Punch]{source="Popplio" special=false offensive=false evolution=2 movePower=75 stab=true effectiveness=2 level=35 evs=20 opponentLevel=30 opponentStat=47}
+::damage[Elekid's Thunder Punch]{source="Popplio" special=false offensive=false evolution=2 movePower=75 stab=true effectiveness=2 level=35 evs=17 opponentLevel=30 opponentStat=47}
