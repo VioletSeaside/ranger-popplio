@@ -38,7 +38,7 @@
     41 -> 9, 29, 22, 20, 11, 41
 :::
 
-# Pokémon Moon 3
+# Pokémon Moon 4
 ### Any% Primarina notes
 
 ----
@@ -927,6 +927,7 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
 - **+4: Z-Scald / Hidden Power**
 
 ::damage[Brionne's *Z-Scald at +2 / Z-Scald at +4 at Level 28]{source="Popplio" special=true evolution=1 movePower=160 torrent=true stab=true effectiveness=0.5 combatStages=2 level=28 evs=5 opponentLevel=24 opponentStat=55 healthThreshold=90 theme=error}
+::damage[Brionne's Hidden Power at +4 at Level 28]{source="Popplio" special=true evolution=1 movePower=60 effectiveness=2 combatStages=4 level=28 evs=5 opponentLevel=24 opponentStat=55 healthThreshold=90 theme=error}
 
 
 
