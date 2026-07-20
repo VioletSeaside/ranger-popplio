@@ -38,7 +38,7 @@
     41 -> 9, 29, 22, 20, 11, 41
 :::
 
-# Pokémon Moon 31
+# Pokémon Moon 
 ### Any% Primarina notes
 
 ----
@@ -1093,4 +1093,12 @@ Primarina's Z-Sparkling Aria at Level 34 is a 16 / 16 range to kill at 98+ Sp. A
 :::pokemon[Elekid:]{info="faster at 67 Speed (x / x / 31)" infoColor=blue}
  - Sparkling Aria (+Aqua Jet)
 :::::
- - Do not heal paralysis if paralyzed.
+ 
+- Do not heal paralysis if paralyzed.
+
+:::::trainer[Team Skull Grunt:]
+:::pokemon[Drowzee::]{info="If paralysed, you are slower than Drowzee" infoColor=blue}
+ - Sparkling Aria + Aqua Jet :info[(Sparkling Aria x2 if doubtful about AJ killing)
+]{color=gray}
+::damage[Primarina's *Sparkling Aria at Level 35]{source="Popplio" special=true evolution=2 movePower=90 stab=true torrent=true effectiveness=1 level=35 evs=8 opponentLevel=33 opponentStat=69 healthThreshold=87 theme=error}
+::::
