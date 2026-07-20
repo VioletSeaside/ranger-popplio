@@ -1003,11 +1003,16 @@ Poison damage: 10 with 28 - 31 HP IV
 - Reapply the Repel a last time.
 - Stay on the right side after going up the ramp.
 
-::::::trainer[Plumeria 1]
-::::pokemon[Golbat]{info="Has Confuse Ray, Poison Fang and Air Cutter" infocolor=blue}
+:::::trainer[Plumeria 1]
+:::pokemon[Golbat]{info="Has Confuse Ray, Poison Fang and Air Cutter" infocolor=blue}
 - Scald x2 OR *Scald + *Aqua Jet
 - Can Z-Scald for safety
 ::damage[Brionne's Z-Scald at +2 at Level 29]{source="Popplio" special=true evolution=1 movePower=160 stab=true level=29 evs=5 opponentLevel=25 opponentStat=46 healthThreshold=76 theme=error}
+:::
+:::pokemon[Salandit]
+-Scald OR *Aqua Jet
+:::
+:::::
 
 
 
