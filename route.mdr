@@ -38,7 +38,7 @@
     41 -> 9, 29, 22, 20, 11, 41
 :::
 
-# Pokémon Moon 
+# Pokémon Moon 2
 ### Any% Primarina notes
 
 ----
@@ -985,9 +985,13 @@ Poison damage: 10 with 28 - 31 HP IV
 - Do not mount Tauros until reaching Koni Koni.
 - Charge to Olivia’s workshop.
 - Shop at the herb seller next to the Pokémon Centre.
-- Buy 11 Heal Powders and 4 Energy Roots (vv).
-    - Reapply your Repel when entering the cemetery.
+    - Buy 11 Heal Powders and 4 Energy Roots (vv).
+- Reapply your Repel when entering the cemetery.
 - Pickup Spell Tag.
+
+::::::trainer[Team Skull Grunt]
+::::pokemon[Raticate]
+  :::if{source="Popplio" condition="speed=44+" level=28}
 
 
 
