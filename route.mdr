@@ -38,7 +38,7 @@
     41 -> 9, 29, 22, 20, 11, 41
 :::
 
-# Pokémon Moon 2
+# Pokémon Moon 1
 ### Any% Primarina notes
 
 ----
@@ -992,12 +992,12 @@ Poison damage: 10 with 28 - 31 HP IV
 
 ::::::trainer[Team Skull Grunt]
 ::::pokemon[Raticate]
-  :::if{source="Popplio" condition="speed=44+" level=28}
-  - Scald x2
-  :::
-   :::if{source="Popplio" condition="speed=43+" level=28}
-  - Z-Scald
-  :::
+:::if{source="Popplio" condition="speed=44+" level=28}
+- Scald x2
+:::
+:::if{source="Popplio" condition="speed=43+" level=28}
+- Z-Scald
+:::
 ::::::
 
 - Reapply the Repel a last time.
