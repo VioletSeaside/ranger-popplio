@@ -1016,7 +1016,16 @@ Poison damage: 10 with 28 - 31 HP IV
 
 :info[**FREE HEAL**]{color=pink}
 
-:damage[Bolodore's Headbutt (LVL 29)]{source="Popplio" evolution=1 offensive=false special=false movePower=70 level=29 evs=18 opponentLevel=26 opponentStat=63 theme="info"}
+:damage[Bolodore's Headbutt (LVL 29)]{source="Popplio" evolution=1 offensive=false special=false movePower=70 level=29 evs=5 opponentLevel=26 opponentStat=63 theme="info"}
+:::::trainer[Olivia]
+:::pokemon[Nosepass]
+:::if{source="Popplio" condition="spa=(x/x/28+)"}
+- Water Gun
+:::
+
+
+
+
 
 :::if{source="Popplio" condition="spatk=(x/x/26+) && atk=(18+/#/#) || spatk=(x/x/21-25) && atk=(26+/6+/x) || spatk=(x/x/15-20) && atk=(x/26+/x) || spatk=(x/x/9-14) && atk=(x/26+/x) || spatk=(x/29+/4-8) && atk=(x/26+/9+) || spatk=(x/21-28/0-3) && atk=(x/x/26+) ||spatk=(x/15-20/x) && atk=(x/x/26+)"}
 - 100%
