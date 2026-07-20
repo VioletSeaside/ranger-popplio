@@ -926,6 +926,8 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
 - __+2: *Z-Scald__
 - **+4: Z-Scald / Hidden Power**
 
+::damage[Brionne's Z-Scald at Level 28]{source="Popplio" special=true evolution=1 movePower=160 stab=true torrent=true effectiveness=0.5 combatstages=2 level=28 evs=5 opponentLevel=24 opponentStat=64 opponentCombatStages=1 healthThreshold=90 theme=error}
+
 
 
 
