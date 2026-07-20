@@ -998,8 +998,7 @@ Poison damage: 10 with 28 - 31 HP IV
    :::if{source="Popplio" condition="speed=43+" level=28}
   - Z-Scald
   :::
-::::
-:::::
+::::::
 
 - Reapply the Repel a last time.
 - Stay on the right side after going up the ramp.
