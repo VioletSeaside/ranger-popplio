@@ -913,6 +913,7 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
 
 - **SAVE**
 
+:::if{source="Popplio" condition=!$isLowExp}
 ::::pokemon[Totem Lurantis: (assuming no Razor Leaf, adapt on the fly if it happens)]
 :info[→ Remember if you are in Torrent at the end]{color=green}
 - Torrent at level 28 is less than:calc[floor(hp / 3)]{source="Popplio" level=28 evolution=1 } HP
@@ -929,6 +930,35 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
 ::damage[Brionne's *Z-Scald at +2 / Z-Scald at +4 at Level 28]{source="Popplio" special=true evolution=1 movePower=160 torrent=true stab=true effectiveness=0.5 combatStages=2 level=28 evs=5 opponentLevel=24 opponentStat=55 healthThreshold=90 theme=error}
 ::damage[Brionne's Hidden Power at +4 at Level 28]{source="Popplio" special=true evolution=1 movePower=60 effectiveness=2 combatStages=4 level=28 evs=5 opponentLevel=24 opponentStat=55 healthThreshold=90 theme=error}
 ::::::
+
+:::if{source="Popplio" condition=$isLowExp}
+::::pokemon[Totem Lurantis: (assuming no Razor Leaf, adapt on the fly if it happens)]
+:info[→ Remember if you are in Torrent at the end]{color=green}
+- Torrent at level 28 is less than:calc[floor(hp / 3)]{source="Popplio" level=28 evolution=1 } HP
+- X-Defense
+- Scald Trumbeak :info[faster at 41+ speed (x/23+/12+)]{color=blue}
+  - :info[Scald is a range out of Torrent]{color=red}
+- Super Potion x2 (Aqua Jet Trumbeak if needed)
+- X-Sp. Atk
+- If not in Torrent:
+	- Super Potion + X-Sp. Atk OR Potion x2
+- __+2: *Z-Scald__
+- **+4: Z-Scald / Hidden Power**
+
+::damage[Brionne's *Z-Scald at +2 / Z-Scald at +4 at Level 28]{source="Popplio" special=true evolution=1 movePower=160 torrent=true stab=true effectiveness=0.5 combatStages=2 level=28 evs=5 opponentLevel=24 opponentStat=55 healthThreshold=90 theme=error}
+::damage[Brionne's Hidden Power at +4 at Level 28]{source="Popplio" special=true evolution=1 movePower=60 effectiveness=2 combatStages=4 level=28 evs=5 opponentLevel=24 opponentStat=55 healthThreshold=90 theme=error}
+::::::
+
+
+- Fly to Heahea City.
+- Charge east to the Research Lab.
+- Talk to Lillie.
+- Head to Diglett’s Tunnel.
+- Repel (reapply this Repel 3 more times).
+- Potion if:
+	- You have Hidden Power, but can die to Smog.
+	- In Torrent, but can die to Smog.
+	- Not in Torrent, but can die to Razor Leaf (+ Smog if slower than Salandit)
 
 
 
