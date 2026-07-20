@@ -38,7 +38,7 @@
     41 -> 9, 29, 22, 20, 11, 41
 :::
 
-# Pokémon Moon 
+# Pokémon Moon 67
 ### Any% Primarina notes
 
 ----
@@ -992,10 +992,10 @@ Poison damage: 10 with 28 - 31 HP IV
 
 ::::::trainer[Team Skull Grunt]
 ::::pokemon[Raticate]
-:::if{source="Popplio" condition="speed=43-" level=28}
+:::if{source="Popplio" condition="speed=43-" level=28 evolution=1}
 - Z-Scald
 :::
-:::if{source="Popplio" condition="speed=44+" level=28}
+:::if{source="Popplio" condition="speed=44+" level=28 evolution=1}
 - Scald x2
 :::
 ::::
@@ -1266,7 +1266,7 @@ Primarina's Z-Sparkling Aria at Level 34 is a 16 / 16 range to kill at 98+ Sp. A
  - Sparkling Aria + Aqua Jet is a 67% chance to kill
 :::
 :::if{source="Popplio" condition="spatk=(x/x/9-14) && atk=(8-/x/x) || spatk=(x/21-28/3-) && atk=(x/26+/9-17) || spatk=(x/x/9-14) && atk=(26+/6-14/0)"}
-- Sparkling Aria + Aqua Jet is a 68% to KO.
+- Sparkling Aria + Aqua Jet is a 68% to kill.
 :::
 :::if{source="Popplio" condition="spatk=(x/x/15-20) && atk=(8-/x/x)"}
  - Sparkling Aria + Aqua Jet is a 78% chance to kill
@@ -1274,10 +1274,46 @@ Primarina's Z-Sparkling Aria at Level 34 is a 16 / 16 range to kill at 98+ Sp. A
 :::if{source="Popplio" condition="spatk=(x/15-20/x) && atk=(x/15-25/1-8) || spatk=(x/21-28/3-) && atk=(26+/6-14/0) || spatk=(x/x/9-14) && atk=(9-17/x/x)"}
  - Sparkling Aria + Aqua Jet is a 79% chance to kill
 :::
+:::if{source="Popplio" condition="spatk=(x/6-14/x) && atk=(x/26+/9-17)"}
+ - Sparkling Aria + Aqua Jet is a 80% chance to kill
+:::
+:::if{source="Popplio" condition="spatk=(x/29+/4-8) && atk=(18-25/0-5/x)"}
+ - Sparkling Aria + Aqua Jet is a 81% chance to kill
+:::
+:::if{source="Popplio" condition="spatk=(x/x/15-20) && atk=(9-17/x/x)"}
+ - Sparkling Aria + Aqua Jet is a 86% chance to kill
+:::
+:::if{source="Popplio" condition="spatk=(x/21-28/3-) && atk=(x/15-25/1-8) || spatk=(x/x/21-25) && atk=(8-/x/x)"}
+ - Sparkling Aria + Aqua Jet is a 88% chance to kill
+:::
+:::if{source="Popplio" condition="spatk=(x/15-20/x) && atk=(x/26+/9-17) || spatk=(x/x/9-14) && atk=(18-25/5-/x) 
+  - Sparkling Aria + Aqua Jet is a 89% to kill.
+:::
+:::if{source="Popplio" condition="spatk=(x/x/6-14) && atk=(x/x/18-25)"}
+ - Sparkling Aria + Aqua Jet is a 90% chance to kill
+:::
+:::if{source="Popplio" condition="spatk=(x/29+/4-8) && atk=(26+/6-14/0)"}
+ - Sparkling Aria + Aqua Jet is a 91% chance to kill
+:::
+:::if{source="Popplio" condition="spatk=(x/15-20/x) && atk=(18-25/5-/x) || spatk=(x/x/21-25) && atk=(9-17/x/x)"}
+ - Sparkling Aria + Aqua Jet is a 94% chance to kill
+:::
 :::if{source="Popplio" condition="spatk=(x/15-20/x) && atk=(x/x/18-25) || spatk=(x/21-28/3-) && atk=(x/26+/9-17) || spatk=(x/x/9-14) && atk=(26+/6-14/0)"}
-  - Sparkling Aria + Aqua Jet is a 95% to KO.
+  - Sparkling Aria + Aqua Jet is a 95% to kill.
+:::
+:::if{source="Popplio" condition="spatk=(x/x/26+) && atk=(8-/x/x)"}
+ - Sparkling Aria + Aqua Jet is a 96% chance to kill
+:::
+:::if{source="Popplio" condition="spatk=(x/6-14/x) && atk=(x/x/26+) || spatk=(x/29+/4-8) && atk=(x/15-25/1-8)"}
+ - Sparkling Aria + Aqua Jet is a 97% chance to kill
+:::
+:::if{source="Popplio" condition="spatk=(x/21-28/3-) && atk=(x/x/18-25) || spatk=(x/x/9-14) && atk=(x/15-25/1-8) || spatk=(x/x/15-20) && atk=(26+/6-14/0) || spatk=(x/x/26+) && atk=(9-17/x/x)"}
+  - Sparkling Aria + Aqua Jet is a 98% to kill.
+:::
+:::if{source="Popplio" condition="spatk=(x/x/15-20) && atk=(x/15-25/x) || spatk=(x/x/21-25) && atk=(18-25/0/x)"}
+ - Sparkling Aria + Aqua Jet is a 99% chance to kill
 :::
 :::if{source="Popplio" condition="spatk=(x/x/26+) && atk=(18+/#/#) || spatk=(x/x/21-25) && atk=(26+/6+/x) || spatk=(x/x/15-20) && atk=(x/26+/x) || spatk=(x/x/9-14) && atk=(x/26+/x) || spatk=(x/29+/4-8) && atk=(x/26+/9+) || spatk=(x/21-28/3-) && atk=(x/x/26+) ||spatk=(x/15-20/x) && atk=(x/x/26+)"}
-  -  Sparkling Aria + Aqua Jet is a 100% to KO.
+  -  Sparkling Aria + Aqua Jet is a 100% to kill.
 :::
 :::::
