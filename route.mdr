@@ -961,7 +961,7 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
 	- Not in Torrent, but can die to Razor Leaf (+ Smog if slower than Salandit)
 
 ::damage[Salandit's Smog (LVL 28)]{source="Popplio" evolution=1 offensive=false special=true movePower=30 stab=true effectiveness=1 level=28 evs=5 opponentLevel=22 opponentStat=39 theme="info"}
-:::if{source="Popplio" condition="hp=0-27"}
+:::if{source="Popplio" condition="hp=(x/0-27/x)"}
 Poison damage: 9 with 0 - 27 HP IV
 :::
 
