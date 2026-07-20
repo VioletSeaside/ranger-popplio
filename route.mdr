@@ -968,6 +968,11 @@ Poison damage: 9 with 0 - 27 HP IV
 Poison damage: 10 with 28 - 31 HP IV
 :::
 
-::damage[Fomantis' Razor Leaf (LVL 28)]{source="Popplio" evolution=1 offensive=false special=false movePower=55 stab=true effectiveness=2 level=28 evs=17 opponentLevel=22 opponentStat=32 theme="info"}
+::damage[Fomantis' Razor Leaf (LVL 28)]{source="Popplio" evolution=1 offensive=false special=false multiTarget=true movePower=55 stab=true effectiveness=2 level=28 evs=17 opponentLevel=22 opponentStat=32 theme="info"}
+::::::trainer[Team Skull Grunts(double with Hau)]
+  - If you're in Torrent or have Hidden Power :
+	- *Scald OR Hidden Power Fomantis
+	- *Aqua Jet OR Scald Salandit
+
 
 
