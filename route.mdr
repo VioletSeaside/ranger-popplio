@@ -38,7 +38,7 @@
     41 -> 9, 29, 22, 20, 11, 41
 :::
 
-# Pokémon Moon 6
+# Pokémon Moon 2
 ### Any% Primarina notes
 
 ----
@@ -1109,6 +1109,7 @@ Primarina's Z-Sparkling Aria at Level 34 is a 16 / 16 range to kill at 98+ Sp. A
 :::
 :::if{source="Popplio" condition="spatk=(x/15-20/x) && atk=(x/x/18-25) || spatk=(x/21-28/3-) && atk=(x/26+/9-17) || spatk=(x/x/9-14) && atk=(26+/6-14/0)"}
   - Sparkling Aria + Aqua Jet is a 95% to KO.
+:::
 :::if{source="Popplio" condition="spatk=(x/x/26+) && atk=(18+/#/#) || spatk=(x/x/21-25) && atk=(26+/6+/x) || spatk=(x/x/15-20) && atk=(x/26+/x) || spatk=(x/x/9-14) && atk=(x/26+/x) || spatk=(x/29+/4-8) && atk=(x/26+/9+) || spatk=(x/21-28/0-3) && atk=(x/x/26+) ||spatk=(x/15-20/x) && atk=(x/x/26+)"}
   -  Sparkling Aria + Aqua Jet is a 100% to KO.
 :::
