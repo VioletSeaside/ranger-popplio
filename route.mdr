@@ -618,7 +618,21 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
 - After the Miltank cutscene, head south.
 - Reapply the Repel.
 - Avoid getting stuck behind the sign. ![Gentleman](gentleman.gif)
-- *Pickup Hidden Power (read section below) (TBD)*.
+
+- *Pickup Hidden Power if : (read section below)*.
+:::dropdown{title="Click here if Hidden Power Poison, Ice, Fire or Flying" theme="error"}
+![Hidden Power TM](hp.png)
+- If you are not tracking your IVs accurately, skip this Hidden Power section.
+- If you know that your Hidden Power type is Poison pickup the Hidden Power TM.
+- Also pickup Hidden Power if your Defense stat is mid/good and if your Hidden Power is any of
+  - **Flying**
+  - **Fire**
+  - **Ice**
+- ::variable{name="hiddenpower" type="select" title="What Hidden Power do you have ?" options='["Poison", "Flying", "Fire", "Ice"]'}
+:::
+
+
+
 - Charge right around the Gentleman.
 - The double battles on Route 5 cannot see you, because you only have Brionne in your party.
 
