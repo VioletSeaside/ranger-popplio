@@ -38,7 +38,7 @@
     41 -> 9, 29, 22, 20, 11, 41
 :::
 
-# Pokémon Moon 1
+# Pokémon Moon 6
 ### Any% Primarina notes
 
 ----
@@ -1388,7 +1388,7 @@ Primarina's Z-Sparkling Aria at Level 34 is a 16 / 16 range to kill at 98+ Sp. A
   - Max Repel (reapply it once).
   - Heal to full.
 
-:::if{source="Popplio" condition="spatk=(#/25-27/0)"}
+::::if{source="Popplio" condition="spatk=(#/25-27/0)"}
 :::::trainer[Ace Trainer Yuki:]
 :::pokemon[Sandshrew:]
   - Sparkling Aria
