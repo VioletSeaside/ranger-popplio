@@ -43,7 +43,7 @@
 56 -> 0,0,0,0,0,0
 :::
 
-# Pokémon Moon 4
+# Pokémon Moon W
 ### Any% Primarina notes
 
 ----
@@ -693,7 +693,7 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
 - Pickup TM55 Scald.
 - Heal to full-ish with Potions.
 
-:::if{source="Popplio" condition="!$hiddenpower == 'Poison' && !$hiddenpower == 'Fire' && !$hiddenpower == 'Ice' && !$hiddenpower == 'Flying' "}
+:::if{source="Popplio" condition="$hiddenpower != 'Poison' && $hiddenpower != 'Fire' && $hiddenpower != 'Ice' && !$hiddenpower != 'Flying' "}
 - If you did not pickup Hidden Power:
    - Teach Scald over Growl (Slot 3).
 :::
