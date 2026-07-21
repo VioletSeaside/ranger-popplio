@@ -38,7 +38,7 @@
     41 -> 9, 29, 22, 20, 11, 41
 :::
 
-# Pokémon Moon 1
+# Pokémon Moon 
 ### Any% Primarina notes
 
 ----
@@ -1326,7 +1326,26 @@ Primarina's Z-Sparkling Aria at Level 34 is a 16 / 16 range to kill at 98+ Sp. A
 
 :info[High EXP speed IV is to the left. Low EXP is to the right.]{color=gray}
 :::::trainer[Ghost Trial:]
-:::pokemon[Gastly:]{info="faster at 64 Speed (36: x/x/18+) || (35: x/x/25+) || (36: x/x/19+) || 35: x/x/26+)" infoColor=blue}
-
+:::pokemon[Gastly:]{info="faster at 64 Speed (36: x/x/18+) (35: x/x/25+) (36: x/x/19+) (35: x/x/26+)" infoColor=blue}
   - *Aqua Jet/Sparkling Aria/Psychic  
-  → :info[*Aqua Jet is 15 / 16 at 67 Attack (L36: x / 19 - 20 / 2 - 4) (L35: x / 24 - 25 / 6 - 8)]{color=gray}
+  → :info[*Aqua Jet is 15 / 16 at 67 Attack (36: x / 19 - 20 / 2 - 4) (35: x / 24 - 25 / 6 - 8)]{color=gray}
+:::
+:info[Haunter's Night Shade does 30]{color=gray}
+:::pokemon[Haunter:]{info="faster at 67 Speed (36: x/x/26+) (36: x/x/27+) (35: x/x/30+) (35: x/x/31+)" infoColor=blue}
+  - Sparkling Aria/Psychic
+:::
+(Gengar SB Damage Rolls)
+:::pokemon[Gengar:] :info[also has Night Shade (30)]{color=gray}
+  - Psychic :info[Sparkling Aria (+ AJ) if didn’t teach Psychic yet]{color=gray}
+:::
+  - Cure Poison or Paralysis
+  - **Heal to full**.
+  - *Teach Psychic over Hidden Power Flying if didn’t yet.*
+  - **Consider saving before the fight**
+:::pokemon[Totem Mimikyu:]{info="faster than Haunter at 67 Speed (x/x/26+) (x/x/27+)" infoColor=blue}
+  - X-Defense
+  - Sparkling Aria (to kill Haunter and break Disguise)
+:info[If one X-Defense left, can use it if can’t get out of healing loop]{color=gray}
+
+  - Gambling on Play Rough being used is possible:
+
