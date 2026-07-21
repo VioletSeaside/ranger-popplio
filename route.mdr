@@ -38,7 +38,7 @@
     41 -> 9, 29, 22, 20, 11, 41
 :::
 
-# Pokémon Moon 
+# Pokémon Moon 5
 ### Any% Primarina notes
 
 ----
@@ -1467,13 +1467,27 @@ Primarina's Sparkling Aria in the Rain in Doubles at Drowzee at Level 37 is a 14
 
 ::damage[Ariados’s Shadow Sneak does:]{source="Popplio" special=false offensive=false evolution=2 movePower=40 stab=false effectiveness=1 level=38 evs=20 opponentLevel=36 opponentStat=113 combatStages=0--4}
 :::::trainer[Team Skull Guzma 2]
- :::pokemon[Golisopod]
+::::pokemon[Golisopod]
   - Psychic + X-Sp. Atk + Psychic
 
-  - (Ranges here)
-
+:::if{source="Popplio" condition="spatk=(x/7-8/x)" theme=error}
+Psychic + X-Sp. Atk + Psychic is a 84% range to kill at 105 Sp. Attack (x / 7-8 / x)
 :::
-:::pokemon[Ariados]
+:::if{source="Popplio" condition="spatk=(x/9-11/x)" theme=error}
+Psychic + X-Sp. Atk + Psychic is a 93% range to kill at 106 Sp. Attack (x / 9-11 / x)
+:::
+:::if{source="Popplio" condition="spatk=(x/12-16/x)" theme=error}
+Psychic + X-Sp. Atk + Psychic is a 95.3% range to kill at 107/108 Sp. Attack (x / 12-16 / x)
+:::
+:::if{source="Popplio" condition="spatk=(x/17-19/x)" theme=error}
+Psychic + X-Sp. Atk + Psychic is a 99.2% range to kill at 109 Sp. Attack (x / 17-19 / x)
+:::
+:::if{source="Popplio" condition="spatk=(x/20+/0+)" theme=error}
+Psychic + X-Sp. Atk + Psychic is a 100% range to kill at 110 Sp. Attack (x / 20+ / 0+)
+:::
+
+::::
+::::pokemon[Ariados]
   - Sparkling Aria
 :::::
 
