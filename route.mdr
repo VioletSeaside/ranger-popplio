@@ -43,7 +43,7 @@
 56 -> 0,0,0,0,0,0
 :::
 
-# Pokémon Moon 4
+# Pokémon Moon 5
 ### Any% Primarina notes
 
 ----
@@ -1390,7 +1390,7 @@ Primarina's Z-Sparkling Aria at Level 34 is a 16 / 16 range to kill at 98+ Sp. A
 :::
 :::::
 
-::damage[+0 Primarina's Sparkling Aria in Rain]{source="Popplio" special=true evolution=2 movePower=90 level=37 evs=18 stab=true torrent=false weatherBoosted=true effectiveness=1 otherPowerModifier=1.2 opponentLevel=34 opponentStat=71 healthThreshold=89 theme=error}
+::damage[+0 Primarina's Sparkling Aria in Rain]{source="Popplio" special=true evolution=2 movePower=90 level=37 evs=18 stab=true torrent=false multiTarget=true weatherBoosted=true effectiveness=1 otherPowerModifier=1.2 opponentLevel=34 opponentStat=71 healthThreshold=89 theme=error}
 
 
 
