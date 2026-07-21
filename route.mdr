@@ -38,7 +38,7 @@
     41 -> 9, 29, 22, 20, 11, 41
 :::
 
-# Pokémon Moon 3
+# Pokémon Moon 
 ### Any% Primarina notes
 
 ----
@@ -1365,3 +1365,6 @@ Primarina's Z-Sparkling Aria at Level 34 is a 16 / 16 range to kill at 98+ Sp. A
 > - 11 Max Potions (>^)
 > - 1 Escape Rope (>v)
 > - 11 Max Repels (vvv)
+
+::damage[Salazzle’s Flame Burst does:]{source="Popplio" special=true offensive=false evolution=2 movePower=70 stab=true effectiveness=0.5 level=36 evs=10 opponentLevel=35 opponentStat=87}
+::damage[Salazzle’s Flame Burst does:]{source="Popplio" special=true offensive=false evolution=2 movePower=70 stab=true effectiveness=0.5 level=37 evs=10 opponentLevel=35 opponentStat=87}
