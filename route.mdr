@@ -967,7 +967,9 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
 - **+4: Z-Scald / Hidden Power**
 
 ::damage[Brionne's *Z-Scald at +2 / Z-Scald at +4 at Level 28]{source="Popplio" special=true evolution=1 movePower=160 torrent=true stab=true effectiveness=0.5 combatStages=2 level=28 evs=5 opponentLevel=24 opponentStat=55 healthThreshold=90 theme=error}
+:::if{source="Popplio" condition="$hiddenpower == 'Poison' || $hiddenpower == 'Fire' || $hiddenpower == 'Ice' || $hiddenpower == 'Flying' "}
 ::damage[Brionne's Hidden Power at +4 at Level 28]{source="Popplio" special=true evolution=1 movePower=60 effectiveness=2 combatStages=4 level=28 evs=5 opponentLevel=24 opponentStat=55 healthThreshold=90 theme=error}
+:::
 ::::::
 
 :::if{source="Popplio" condition=$isLowExp}
@@ -1243,10 +1245,10 @@ Primarina's Z-Sparkling Aria at Level 34 is a 16 / 16 range to kill at 98+ Sp. A
 :::if{source="Popplio" condition="$hiddenpower == 'Flying' "}  
 - With Hidden Power Flying:
   - X-Sp. Atk
-  - Hidden Power 
+  - Hidden Power
+- ::damage[Primarina's Hidden Power Flying at Level 34]{source="Popplio" special=true evolution=2 movePower=60 effectiveness=2 combatStages=2 level=34 evs=8 opponentLevel=31 opponentStat=65 healthThreshold=97 theme=error}
 :::
-::::
-- ::damage[Primarina's Hidden Power Flying at Level 34]{source="Popplio" special=true evolution=2 movePower=60 effectiveness=2 combatStages=2 level=34 evs=8 opponentLevel=31 opponentStat=65 healthThreshold=97 theme=error} 
+:::: 
 :::pokemon[Ariados:]
 - +2: Hidden Power Flying / Sparkling Aria
 - +0: Psychic
