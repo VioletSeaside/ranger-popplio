@@ -1333,7 +1333,7 @@ Primarina's Z-Sparkling Aria at Level 34 is a 16 / 16 range to kill at 98+ Sp. A
 :::pokemon[Haunter:]{info="faster at 67+ Speed (36: x/x/26+) (36: x/x/27+) (35: x/x/30+) (35: x/x/31+)" infoColor=blue}
   - Sparkling Aria/Psychic
 :::
-::damage[Gengar's Shadow Ball]{source="Popplio" special=true offensive=false evolution=2 movePower=80 stab=true level=36 evs=6 opponentLevel=30 opponentStat=95}
+::damage[Gengar's Shadow Ball]{source="Popplio" special=true offensive=false evolution=2 movePower=80 stab=true level=37 evs=6 opponentLevel=30 opponentStat=95}
 :::pokemon[Gengar:]{info="also has Night Shade (30)" infoColor=blue}
   - Psychic :info[Sparkling Aria (+ AJ) if didn’t teach Psychic yet]{color=gray}
 :::
