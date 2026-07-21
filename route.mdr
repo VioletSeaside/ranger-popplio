@@ -38,7 +38,7 @@
     41 -> 9, 29, 22, 20, 11, 41
 :::
 
-# Pokémon Moon 
+# Pokémon Moon 2
 ### Any% Primarina notes
 
 ----
@@ -1283,7 +1283,7 @@ Primarina's Z-Sparkling Aria at Level 34 is a 16 / 16 range to kill at 98+ Sp. A
  - Sparkling Aria + Aqua Jet is a 67% chance to kill
 :::
 :::if{source="Popplio" condition="spatk=(x/x/9-14) && atk=(8-/x/x) || spatk=(x/21-28/3-) && atk=(x/26+/9-17) || spatk=(x/x/9-14) && atk=(26+/6-14/0)" theme=error}
-- Sparkling Aria + Aqua Jet is a 68% to KO.
+- Sparkling Aria + Aqua Jet is a 68% to kill.
 :::
 :::if{source="Popplio" condition="spatk=(x/x/15-20) && atk=(8-/x/x)" theme=error}
  - Sparkling Aria + Aqua Jet is a 78% chance to kill
@@ -1318,7 +1318,7 @@ Primarina's Z-Sparkling Aria at Level 34 is a 16 / 16 range to kill at 98+ Sp. A
 :::if{source="Popplio" condition="spatk=(x/15-20/x) && atk=(x/x/18-25) || spatk=(x/21-28/3-) && atk=(x/26+/9-17) || spatk=(x/x/9-14) && atk=(26+/6-14/0)" theme=error}
   - Sparkling Aria + Aqua Jet is a 95% to kill.
 :::
-:::if{source="Popplio" condition="spatk=(x/x/26+) && atk=(8-/x/x)"}
+:::if{source="Popplio" condition="spatk=(x/x/26+) && atk=(8-/x/x)" theme=error}
  - Sparkling Aria + Aqua Jet is a 96% chance to kill
 :::
 :::if{source="Popplio" condition="spatk=(x/6-14/x) && atk=(x/x/26+) || spatk=(x/29+/4-8) && atk=(x/15-25/1-8)" theme=error}
@@ -1465,11 +1465,13 @@ Primarina's Sparkling Aria in the Rain in doubles Battle at Level 37 is a 14 / 1
 
   - Heal to full if taken significant damage.
 
-::damage[Ariados’s Shadow Sneak does:]{source="Popplio" special=true offensive=false evolution=2 movePower=40 stab=false effectiveness=1 level=38 evs=20 combatStages=0-3 opponentLevel=36 opponentStat=113}
+::damage[Ariados’s Shadow Sneak does:]{source="Popplio" special=false offensive=false evolution=2 movePower=40 stab=false effectiveness=1 level=38 evs=20 combatStages=0--2 opponentLevel=36 opponentStat=113}
 :::::trainer[Team Skull Guzma 2]
  :::pokemon[Golisopod]
- Psychic + X-Sp. Atk + Psychic
-(Ranges here)
+  - Psychic + X-Sp. Atk + Psychic
+
+  - (Ranges here)
+
 :::
 :::pokemon[Ariados]
   - Sparkling Aria
