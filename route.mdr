@@ -38,7 +38,7 @@
     41 -> 9, 29, 22, 20, 11, 41
 :::
 
-# Pokémon Moon G
+# Pokémon Moon 1
 ### Any% Primarina notes
 
 ----
@@ -1369,9 +1369,30 @@ Primarina's Z-Sparkling Aria at Level 34 is a 16 / 16 range to kill at 98+ Sp. A
 ::damage[Salazzle’s Flame Burst does (At Lv37):]{source="Popplio" special=true offensive=false evolution=2 movePower=70 stab=true effectiveness=0.5 level=37 evs=10 opponentLevel=35 opponentStat=87}
 
 :::::trainer[Plumaria 2:]
-:::pokemon[Golbat:]
+::::pokemon[Golbat:]
   -  Psychic (+ Aqua Jet) (OR Z-Sparkling Aria if bad Psychic range) 
-          - :info[at really bad Defense and HP can gamble on *Sparkling Aria]{color=gray}
-  		    - → Swap with Pikipek if confused hit, Revive Pikipek after battle
-::damage[Primarina's Psychic at Level 36-37]{source="Popplio" special=true evolution=2 movePower=90 stab=false torrent=false effectiveness=2 level=36 evs=18 opponentLevel=34 opponentStat=61 healthThreshold=100 theme=error}
+    - :info[at really bad Defense and HP can gamble on *Sparkling Aria]{color=gray}
+  	  - → Swap with Pikipek if confused hit, Revive Pikipek after battle
+:::if{source="Popplio" condition="spatk=(#/25-27/0)"}
+::damage[Primarina's Psychic at Level 36]{source="Popplio" special=true evolution=2 movePower=90 stab=false torrent=false effectiveness=2 level=36 evs=18 opponentLevel=34 opponentStat=61 healthThreshold=100 theme=error}
+:::
+:::if{source="Popplio" condition="spatk=(#/24-/1+) || spatk=(x/28+/x)"}
 ::damage[Primarina's Psychic at Level 37]{source="Popplio" special=true evolution=2 movePower=90 stab=false torrent=false effectiveness=2 level=37 evs=18 opponentLevel=34 opponentStat=61 healthThreshold=100 theme=error}
+:::
+::::
+::::pokemon[Salazzle:]
+  - Psychic
+::::::
+
+  - Equip Mystic Water.
+  - Max Repel (reapply it once).
+  - Heal to full.
+
+:::if{source="Popplio" condition="spatk=(#/25-27/0)"}
+:::::trainer[Ace Trainer Yuki:]
+:::pokemon[Sandshrew:]
+  - Sparkling Aria
+:::
+:::pokemon[Marowak:]
+  - Sparkling Aria
+:::::
