@@ -38,7 +38,7 @@
     41 -> 9, 29, 22, 20, 11, 41
 :::
 
-# Pokémon Moon 2
+# Pokémon Moon 
 ### Any% Primarina notes
 
 ----
@@ -1330,7 +1330,7 @@ Primarina's Z-Sparkling Aria at Level 34 is a 16 / 16 range to kill at 98+ Sp. A
   - *Aqua Jet/Sparkling Aria/Psychic  
   → :info[*Aqua Jet is 15 / 16 at 67 Attack (36: x / 19 - 20 / 2 - 4) (35: x / 24 - 25 / 6 - 8)]{color=gray}
 :::
-:::pokemon[Haunter:]{info="faster at 67+ Speed (36: x/x/26+) (36: x/x/27+) (35: x/x/30+) (35: x/x/31+)" infoColor=blue}
+:::pokemon[Haunter:]{info="faster at 67+ Speed (36: x/x/26+) (36: x/x/27+) (35: x/x/30+) (35: x/x/31)" infoColor=blue}
   :info[Haunter has Night Shade (30)]{color=gray}
   - Sparkling Aria/Psychic
 :::
@@ -1345,10 +1345,23 @@ Primarina's Z-Sparkling Aria at Level 34 is a 16 / 16 range to kill at 98+ Sp. A
 :::pokemon[Totem Mimikyu:]{info="faster than Haunter at 67+ Speed (x/x/26+) (x/x/27+)" infoColor=blue}
   - X-Defense
   - Sparkling Aria (to kill Haunter and break Disguise)
-:info[If one X-Defense left, can use it if can’t get out of healing loop]{color=gray}
+
+  - :info[If one X-Defense left, can use it if can’t get out of healing loop]{color=gray}
 
   - Gambling on Play Rough being used is possible:
-  → +0 *Z-Sparkling Aria kills Mimikyu
-  - Otherwise:
+  - +0 *Z-Sparkling Aria kills Mimikyu
+ 
+  - *Otherwise*:
     - X-Sp. Atk
-	→ +2 *Sparkling Aria OR Z-Sparkling Aria
+	- +2 *Sparkling Aria OR Z-Sparkling Aria
+:::::
+
+  - Charge to Pokémon Center: 
+  - PC heal.
+  - Withdraw Pikipek.
+
+### Shopping 
+> #### Buy (Left Vendor)
+> - 11 Max Potions (>^)
+> - 1 Escape Rope (>v)
+> - 11 Max Repels (vvv)
