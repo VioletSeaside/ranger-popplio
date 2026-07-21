@@ -43,7 +43,7 @@
 56 -> 0,0,0,0,0,0
 :::
 
-# Pokémon Moon a
+# Pokémon Moon e
 ### Any% Primarina notes
 
 ----
@@ -886,8 +886,10 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
   ::::
   ::::pokemon[Shiinotic]
   - X-Sp. Atk
-  - If Hidden Power:
+  :::if{source="Popplio" condition="$hiddenpower == 'Poison' || $hiddenpower == 'Fire' || $hiddenpower == 'Ice' || $hiddenpower == 'Flying' "}
+  - **If Hidden Power**:
       - Hidden Power (x2 if not Poison)
+  :::
   - If Torrent:
       - *Z-Scald (range with bad Sp. Atk)
   - Otherwise:
@@ -914,13 +916,15 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
 ::::
 
  ::::pokemon[All Fomantis]
- - If Hidden Power:	
+ :::if{source="Popplio" condition="$hiddenpower == 'Poison' || $hiddenpower == 'Fire' || $hiddenpower == 'Ice' || $hiddenpower == 'Flying' "}
+ - **If Hidden Power**:	
      - Hidden Power (+ Scald)
  - Otherwise:
-     - Scald x2 / x3 
-     - OR Scald + *Scald
-     - OR Z-Scald (range)
-     - OR *Z-Scald
+ :::
+- Scald x2 / x3 
+- OR Scald + *Scald
+- OR Z-Scald (range)
+- OR *Z-Scald
  ::::
 
 - :info[If you only have ~4 Super Potions left, pickup Hyper Potion in the northern area to the right.]{color=gray}
@@ -981,7 +985,9 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
 - **+4: Z-Scald / Hidden Power**
 
 ::damage[Brionne's *Z-Scald at +2 / Z-Scald at +4 at Level 28]{source="Popplio" special=true evolution=1 movePower=160 torrent=true stab=true effectiveness=0.5 combatStages=2 level=28 evs=5 opponentLevel=24 opponentStat=55 healthThreshold=90 theme=error}
+:::if{source="Popplio" condition="$hiddenpower == 'Poison' || $hiddenpower == 'Fire' || $hiddenpower == 'Ice' || $hiddenpower == 'Flying' "}
 ::damage[Brionne's Hidden Power at +4 at Level 28]{source="Popplio" special=true evolution=1 movePower=60 effectiveness=2 combatStages=4 level=28 evs=5 opponentLevel=24 opponentStat=55 healthThreshold=90 theme=error}
+:::
 ::::::
 
 
@@ -991,7 +997,9 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
 - Head to Diglett’s Tunnel.
 - Repel (reapply this Repel 3 more times).
 - Potion if:
-	- You have Hidden Power, but can die to Smog.
+	:::if{source="Popplio" condition="$hiddenpower == 'Poison' || $hiddenpower == 'Fire' || $hiddenpower == 'Ice' || $hiddenpower == 'Flying' "}
+    - You have Hidden Power, but can die to Smog.
+    :::
 	- In Torrent, but can die to Smog.
 	- Not in Torrent, but can die to Razor Leaf (+ Smog if slower than Salandit)
 
@@ -1006,7 +1014,12 @@ Poison damage: 10 with 28 - 31 HP IV
 ::damage[Fomantis' Razor Leaf (LVL 28)]{source="Popplio" evolution=1 offensive=false special=false multiTarget=true movePower=55 stab=true effectiveness=2 level=28 evs=17 opponentLevel=22 opponentStat=32 theme="info"}
 
 ::::::trainer[Team Skull Grunts(double with Hau)]
-  - If you're in Torrent or have Hidden Power :
+  :::if{source="Popplio" condition="$hiddenpower == 'Poison' || $hiddenpower == 'Fire' || $hiddenpower == 'Ice' || $hiddenpower == 'Flying' "}
+  - If you have Hidden Power :
+	  - Hidden Power Fomantis
+      - *Aqua Jet OR Scald Salandit
+  :::
+  - If you're in Torrent :
       - *Scald OR Hidden Power Fomantis
 	  - *Aqua Jet OR Scald Salandit
   - Otherwise :
@@ -1053,7 +1066,7 @@ Poison damage: 10 with 28 - 31 HP IV
 :info[**FREE HEAL**]{color=pink}
 
 :damage[Bolodore's Headbutt (LVL 29)]{source="Popplio" evolution=1 offensive=false special=false movePower=70 level=29 evs=5 opponentLevel=26 opponentStat=63 theme="info"}
-:::::trainer[Island Kahuna Olivia]
+:::::trainer[**Island Kahuna Olivia**]
 ::::pokemon[Nosepass]
 :::if{source="Popplio" condition="spa=(x/x/28+)"}
 - Water Gun
@@ -1146,15 +1159,17 @@ Poison damage: 10 with 28 - 31 HP IV
 ::damage[Dugtrio's Sucker Punch]{source="Popplio" special=false offensive=false evolution=1 movePower=70 stab=false effectiveness=1 level=33 evs=7 opponentLevel=30 opponentStat=93}
 
 :::::trainer[Molayne]
-:::pokemon[Skarmory:]{info="faster at 55+ Speed (x / x / 28+)" infoColor=blue}
+::::pokemon[Skarmory:]{info="faster at 55+ Speed (x / x / 28+)" infoColor=blue}
   - X-Sp. Atk + Water Gun + Scald
-  - :info[With Hidden Power, Aqua Jet + X-Sp. Atk x2 + Scald]{color=gray}
-:::
-:::pokemon[Metang]
+  :::if{source="Popplio" condition="$hiddenpower == 'Poison' || $hiddenpower == 'Fire' || $hiddenpower == 'Ice' || $hiddenpower == 'Flying' "}
+  - Aqua Jet + X-Sp. Atk x2 + Scald
+  :::
+::::
+::::pokemon[Metang]
   - Water Gun + Scald
-  - :info[Or *Scald/Scald at +4]{color=gray}
-:::
-:::pokemon[Dugtrio]
+  - :info[Or *Scald/Scald at +4 if Hidden Power]{color=gray}
+::::
+::::pokemon[Dugtrio]
  - Scald
 :::::
 
@@ -1211,20 +1226,26 @@ Primarina's Z-Sparkling Aria at Level 34 is a 16 / 16 range to kill at 98+ Sp. A
 
 
 - Fly to garden.
-- Teach Psychic over Scald if not using Hidden Power Flying (slot 3)
+:::if{source="Popplio" condition="$hiddenpower != 'Flying' "}
+- Teach Psychic over Scald
+:::
 - Heal to full
 
+
 :::::trainer[Guzma 1]
-:::pokemon[Golispod]
+::::pokemon[Golispod]
+:::if{source="Popplio" condition="$hiddenpower != 'Flying' "} 
 - Without Hidden Power Flying:
   - Psychic
   - X-Sp. Atk :info[Skip if high rolled Psychic and got Sp. Def drop]{color=gray}
   - Psychic
-  
+:::
+:::if{source="Popplio" condition="$hiddenpower == 'Flying' "}  
 - With Hidden Power Flying:
   - X-Sp. Atk
   - Hidden Power 
 :::
+::::
 - ::damage[Primarina's Hidden Power Flying at Level 34]{source="Popplio" special=true evolution=2 movePower=60 effectiveness=2 combatStages=2 level=34 evs=8 opponentLevel=31 opponentStat=65 healthThreshold=97 theme=error} 
 :::pokemon[Ariados:]
 - +2: Hidden Power Flying / Sparkling Aria
@@ -1235,7 +1256,9 @@ Primarina's Z-Sparkling Aria at Level 34 is a 16 / 16 range to kill at 98+ Sp. A
 - **At the grass**:
   - Repel (use all your remaining ones)
   - Super Potion if cannot live Elekid’s Thunder Punch.
+  :::if{source="Popplio" condition="$hiddenpower == 'Flying' "} 
   - (Teach Psychic over Hidden Power)
+  :::
 
 - Quick Bind Mudsdale in the ride pager.
 ::::if{source="Popplio" condition="spatk=(#/24-/1+) || spatk=(x/28+/x)"}
@@ -1375,7 +1398,9 @@ Primarina's Z-Sparkling Aria at Level 34 is a 16 / 16 range to kill at 98+ Sp. A
 :::
   - Cure Poison or Paralysis
   - **Heal to full**.
+  :::if{source="Popplio" condition="$hiddenpower == 'Flying' "} 
   - *Teach Psychic over Hidden Power Flying if didn’t yet.*
+  :::
   - **Consider saving before the fight**
 :::pokemon[Totem Mimikyu]{info="faster than Haunter at 67+ Speed (x/x/26+) (x/x/27+)" infoColor=blue}
 - X-Defense
