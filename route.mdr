@@ -695,7 +695,7 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
 
 - If you did not pickup Hidden Power:
    - Teach Scald over Growl (Slot 3).
-
+- 
 :::if{source="Popplio" condition="$hiddenpower == 'Poison' || $hiddenpower == 'Fire' || $hiddenpower == 'Ice' "}
 - If you picked up Hidden Power Ice, Fire, Poison.
    - Teach Scald over Growl (Slot 3).
