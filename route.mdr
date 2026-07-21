@@ -38,7 +38,7 @@
     41 -> 9, 29, 22, 20, 11, 41
 :::
 
-# Pokémon Moon 
+# Pokémon Moon 6
 ### Any% Primarina notes
 
 ----
@@ -1021,7 +1021,7 @@ Poison damage: 10 with 28 - 31 HP IV
 - Reapply the Repel a last time.
 - Stay on the right side after going up the ramp.
 
-:::::trainer[Plumeria 1]
+:::::trainer[Team Skull Admin Plumeria 1]
 :::pokemon[Golbat]{info="Has Confuse Ray, Poison Fang and Air Cutter" infoColor=blue}
 - Scald x2 OR *Scald + *Aqua Jet
 - Can Z-Scald for safety
@@ -1035,7 +1035,7 @@ Poison damage: 10 with 28 - 31 HP IV
 :info[**FREE HEAL**]{color=pink}
 
 :damage[Bolodore's Headbutt (LVL 29)]{source="Popplio" evolution=1 offensive=false special=false movePower=70 level=29 evs=5 opponentLevel=26 opponentStat=63 theme="info"}
-:::::trainer[Olivia]
+:::::trainer[Island Kahuna Olivia]
 ::::pokemon[Nosepass]
 :::if{source="Popplio" condition="spa=(x/x/28+)"}
 - Water Gun
@@ -1378,14 +1378,14 @@ Primarina's Z-Sparkling Aria at Level 34 is a 16 / 16 range to kill at 98+ Sp. A
   - Withdraw Pikipek.
 
 ### Shopping 
-> #### Buy (Left Vendor)
+> #### Buy
 > - 11 Max Potions (>^)
 > - 1 Escape Rope (>v)
 > - 11 Max Repels (vvv)
 
 ::damage[Salazzle’s Flame Burst does (At Lv37):]{source="Popplio" special=true offensive=false evolution=2 movePower=70 stab=true effectiveness=0.5 level=37 evs=10 opponentLevel=35 opponentStat=87}
 
-:::::trainer[Plumaria 2]
+:::::trainer[Team Skull Admin Plumaria 2]
 ::::pokemon[Golbat]
   -  Psychic (+ Aqua Jet) (**OR Z-Sparkling Aria if bad Psychic range**) 
   - :info[at really bad Defense and HP can gamble on *Sparkling Aria]{color=gray}
@@ -1476,3 +1476,40 @@ Primarina's Sparkling Aria in the Rain in Doubles at Drowzee at Level 37 is a 14
 :::pokemon[Ariados]
   - Sparkling Aria
 :::::
+
+:info[**FREE HEAL**]{color=pink}
+
+  - Feed both Rare Candies.
+  - Use Max Repel (reapply Max Repels until the end of the game).
+  - Use the Escape Rope.
+  - Go south to trigger the cutscene.
+  - Fly to Hau’Oli City.
+  - Enter Pokémon Centre.
+  - Deposit Pikipek in the PC.
+
+### Shopping
+> #### Buy (Right Vendor)
+> - 1 X-Sp. Def (^^)
+> - 24 X-Sp. Atk (^) (>^^^>)
+> - MAX X-Speed (>v) (<)
+:::dropdown{title="If used all X-Defenses"}
+> - 1 X-Defense (>)
+> - 1 X-Sp. Def (>^)
+> - 24 X-Sp. Atk (^) (>^^^>)
+> - MAX X-Speed (>v) (<)
+:::
+
+ - Fly to Tapu Village.
+ - Head to the Aether House.
+
+:::::trainer[Team Skull Gladion]
+::::pokemon[Golbat]
+- Spam Encore
+:::::
+
+  - Say **YES** after the battle to get teleported to Malie City.
+
+:info[**FREE HEAL**]{color=pink}
+
+:::::trainer[Island Kahuna Nanu]
+::::pokemon[Sableye]
