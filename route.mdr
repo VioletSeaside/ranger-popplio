@@ -1414,7 +1414,7 @@ Primarina's Sparkling Aria in the Rain in Doubles against Drowzee at Level 37 is
 :::
 
 
-::damage[Ariados’s Shadow Sneak does:]{source="Popplio" special=false offensive=false evolution=2 movePower=40 stab=false effectiveness=1 level=38 evs=20 combatStages=0--2 opponentLevel=36 opponentStat=113}
+::damage[Ariados’s Shadow Sneak does:]{source="Popplio" special=false offensive=false evolution=2 movePower=40 stab=false effectiveness=1 level=38 evs=20 combatStages=0 -2 opponentLevel=36 opponentStat=113}
 
 
 
