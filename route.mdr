@@ -1424,25 +1424,25 @@ Primarina's Z-Sparkling Aria at Level 34 is a 16 / 16 range to kill at 98+ Sp. A
 ::::pokemon[Haunter + Drowzee]
   - Sparkling Aria | X-Sp. Atk :info[(skip X-Sp. Atk if only 1 left)]{color=gray}
 :::if{source="Popplio" condition="spatk=(x/15-25/0)" theme=error}
-Primarina's Sparkling Aria in the Rain in doubles Battle at Level 37 is a 1 / 16 range to kill at 105-108 Sp. Attack (x / 15-25 / 0)
+Primarina's Sparkling Aria in the Rain in Doubles at Drowzee at Level 37 is a 1 / 16 range to kill at 105-108 Sp. Attack (x / 15-25 / 0)
 :::
 :::if{source="Popplio" condition="spatk=(x/26-30/1-3)" theme=error}
-Primarina's Sparkling Aria in the Rain in doubles Battle at Level 37 is a 2 / 16 range to kill at 109 / 110 Sp. Attack (x / 26-30 / 1-3)
+Primarina's Sparkling Aria in the Rain in Doubles at Drowzee at Level 37 is a 2 / 16 range to kill at 109 / 110 Sp. Attack (x / 26-30 / 1-3)
 :::
 :::if{source="Popplio" condition="spatk=(x/31/4-8)" theme=error}
-Primarina's Sparkling Aria in the Rain in doubles Battle at Level 37 is a 5 / 16 range to kill at 111 / 112 Sp. Attack (x / 31 / 4-8)
+Primarina's Sparkling Aria in the Rain in Doubles at Drowzee at Level 37 is a 5 / 16 range to kill at 111 / 112 Sp. Attack (x / 31 / 4-8)
 :::
 :::if{source="Popplio" condition="spatk=(x/x/9-22)" theme=error}
-Primarina's Sparkling Aria in the Rain in doubles Battle at Level 37 is a 7 / 16 range to kill at 113-117 Sp. Attack (x / x / 9-22)
+Primarina's Sparkling Aria in the Rain in Doubles at Drowzee at Level 37 is a 7 / 16 range to kill at 113-117 Sp. Attack (x / x / 9-22)
 :::
 :::if{source="Popplio" condition="spatk=(x/x/23-27)" theme=error}
-Primarina's Sparkling Aria in the Rain in doubles Battle at Level 37 is a 10 / 16 range to kill at 118 / 119 Sp. Attack (x / x / 23-27)
+Primarina's Sparkling Aria in the Rain in Doubles at Drowzee at Level 37 is a 10 / 16 range to kill at 118 / 119 Sp. Attack (x / x / 23-27)
 :::
 :::if{source="Popplio" condition="spatk=(x/x/28-30)" theme=error}
-Primarina's Sparkling Aria in the Rain in doubles Battle at Level 37 is a 11 / 16 range to kill at 121 Sp. Attack (x / x / 28-30)
+Primarina's Sparkling Aria in the Rain in Doubles at Drowzee at Level 37 is a 11 / 16 range to kill at 121 Sp. Attack (x / x / 28-30)
 :::
 :::if{source="Popplio" condition="spatk=(x/x/31)" theme=error}
-Primarina's Sparkling Aria in the Rain in doubles Battle at Level 37 is a 14 / 16 range to kill at 122 Sp. Attack (x / x / 31)
+Primarina's Sparkling Aria in the Rain in Doubles at Drowzee at Level 37 is a 14 / 16 range to kill at 122 Sp. Attack (x / x / 31)
 :::
   - → Do not teach Hyper Voice.
 :::::
