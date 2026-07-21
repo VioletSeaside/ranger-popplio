@@ -38,7 +38,7 @@
     41 -> 9, 29, 22, 20, 11, 41
 :::
 
-# Pokémon Moon 4
+# Pokémon Moon 1
 ### Any% Primarina notes
 
 ----
@@ -1334,7 +1334,7 @@ Primarina's Z-Sparkling Aria at Level 34 is a 16 / 16 range to kill at 98+ Sp. A
    :info[Has Night Shade that does 30]{color=red}
    - Sparkling Aria/Psychic
 :::
-::damage[Gengar's Shadow Ball]{source="Popplio" special=true offensive=false evolution=2 movePower=80 stab=true level=36 evs=6 opponentLevel=30 opponentStat=87}
+::damage[Gengar's Shadow Ball(Quiet Nature)]{source="Popplio" special=true offensive=false evolution=2 movePower=80 stab=true level=36 evs=6 opponentLevel=30 opponentStat=95}
 :::pokemon[Gengar:]{info="also has Night Shade (30)" infoColor=blue}
   - Psychic :info[Sparkling Aria (+ AJ) if didn’t teach Psychic yet]{color=gray}
 :::
