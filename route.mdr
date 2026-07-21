@@ -628,7 +628,7 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
   - **Flying**
   - **Fire**
   - **Ice**
-- ::variable{name="hiddenpower" type="select" title="What Hidden Power do you have ?" options='["Poison", "Flying", "Fire", "Ice"]'}
+- ::variable{name="hiddenpower" type="select" title="What Hidden Power do you have ?" options='["Poison", "Flying", "Fire", "Ice", "None"]' defaultValue= 'None'}
 :::
 
 
@@ -692,10 +692,12 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
 - Run from second Wishiwashi.
 - Pickup TM55 Scald.
 - Heal to full-ish with Potions.
-
+:::if{source="Popplio" condition="$hiddenpower == 'None' "}
 - If you did not pickup Hidden Power:
    - Teach Scald over Growl (Slot 3).
 - 
+:::
+
 :::if{source="Popplio" condition="$hiddenpower == 'Poison' || $hiddenpower == 'Fire' || $hiddenpower == 'Ice' "}
 - If you picked up Hidden Power Ice, Fire, Poison.
    - Teach Scald over Growl (Slot 3).
@@ -838,7 +840,7 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
   ::damage[Salandit's Venoshock (LVL 23)]{source="Popplio" evolution=1 offensive=false special=true movePower=65 stab=true level=23 evs=3 opponentLevel=20 opponentStat=39 theme="info"}
   ::damage[Salandit's Venoshock when POISONED(LVL 23)]{source="Popplio" evolution=1 offensive=false special=true movePower=130 stab=true level=23 evs=3 opponentLevel=20 opponentStat=39 theme="info"}
   - Aqua Jet Salazzle
-  - *Aqua Jet or Scald Salandit :info[Range to fix,6/16 is 0-4,5-8 is 11/16,else is right]{color=red}
+  - *Aqua Jet or Scald Salandit :info[Range to fix, 6/16 is 0-4,5-8 is 11/16,else is right]{color=red}
   ::damage[Brionne's *Aqua Jet at Level 23 (Low Exp)]{source="Popplio" special=false evolution=1 movePower=40 stab=true torrent=true effectiveness=2 level=23 evs=7 opponentLevel=20 opponentStat=24 healthThreshold=52 theme=error}
   :::
   :::if{source="Popplio" condition=$OHKOSalazzle}
@@ -890,10 +892,12 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
   - **If Hidden Power**:
       - Hidden Power (x2 if not Poison)
   :::
+  :::if{source="Popplio" condition="$hiddenpower == 'None' "}
   - If Torrent:
       - *Z-Scald (range with bad Sp. Atk)
   - Otherwise:
       - Scald + Z-Scald (sometimes Scald x2 with High Exp)
+  :::
   ::::
  - Fight the 2 Fomantis (see pictures).
  ![First Fomantis Location](1st_fomantis.png)
@@ -919,12 +923,14 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
  :::if{source="Popplio" condition="$hiddenpower == 'Poison' || $hiddenpower == 'Fire' || $hiddenpower == 'Ice' || $hiddenpower == 'Flying' "}
  - **If Hidden Power**:	
      - Hidden Power (+ Scald)
- - Otherwise:
  :::
+ :::if{source="Popplio" condition="$hiddenpower == 'None' "}
+- Otherwise:
 - Scald x2 / x3 
 - OR Scald + *Scald
 - OR Z-Scald (range)
 - OR *Z-Scald
+ :::
  ::::
 
 - :info[If you only have ~4 Super Potions left, pickup Hyper Potion in the northern area to the right.]{color=gray}
@@ -1024,9 +1030,11 @@ Poison damage: 10 with 28 - 31 HP IV
   - If you're in Torrent :
       - *Scald OR Hidden Power Fomantis
 	  - *Aqua Jet OR Scald Salandit
+  :::if{source="Popplio" condition="$hiddenpower == 'None' "}
   - Otherwise :
       - Scald Salandit
 	  - Scald Fomantis
+  :::
 ::::::
 
 :info[**FREE HEAL**]{color=pink}
@@ -1162,7 +1170,9 @@ Poison damage: 10 with 28 - 31 HP IV
 
 :::::trainer[Molayne]
 ::::pokemon[Skarmory:]{info="faster at 55+ Speed (x / x / 28+)" infoColor=blue}
+  :::if{source="Popplio" condition="$hiddenpower == 'None' "}
   - X-Sp. Atk + Water Gun + Scald
+  :::
   :::if{source="Popplio" condition="$hiddenpower == 'Poison' || $hiddenpower == 'Fire' || $hiddenpower == 'Ice' || $hiddenpower == 'Flying' "}
   - Aqua Jet + X-Sp. Atk x2 + Scald
   :::
@@ -1197,17 +1207,24 @@ Poison damage: 10 with 28 - 31 HP IV
 
 :info[Puzzle 1: Option 1]{color=gray}
 :::::trainer[Electric Trial]
-:::pokemon[Grubbin:]{info="Encore Bite or Bug Bite if needed (does ~13 - 22 damage, has Swarm, though)" infoColor=gray}
+::::pokemon[Grubbin:]{info="Encore Bite or Bug Bite if needed (does ~13 - 22 damage, has Swarm, though)" infoColor=gray}
   - Encore
   - **If String Shot**: Aqua Jet.
   - _Otherwise:_
     - *Scald 
-:::
-  - **Teach Sparkling Aria** over Water Gun / Hidden Power (or Scald if HP Flying) **(SLOT 2)**
-
- :::pokemon[Both Charjabugs]{info="Puzzle 2 and 3: Option 2" infoColor=gray}
+::::
+  :::if{source="Popplio" condition="$hiddenpower == 'None' "}
+  - **Teach Sparkling Aria** over Water Gun
+  :::
+  :::if{source="Popplio" condition="$hiddenpower == 'Poison' || $hiddenpower == 'Fire' || $hiddenpower == 'Ice' "}
+  - **Teach Sparkling Aria** over Hidden Power **(SLOT 2)**
+  :::
+  :::if{source="Popplio" condition=" $hiddenpower == 'Flying' "}
+  - **Teach Sparkling Aria** over Scald if HP Flying **(SLOT 2)**
+  :::
+ ::::pokemon[Both Charjabugs]{info="Puzzle 2 and 3: Option 2" infoColor=gray}
   - *Scald (*Sparkling Aria if taught over Scald)
-:::
+::::
  ::::pokemon[Totem Vikavolt]{info="Puzzle 4: Option 3" infoColor=gray}
   - *Z-Sparkling Aria
 ::::card{theme=error}
