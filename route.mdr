@@ -883,6 +883,10 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
  ![Second Fomantis Location](2nd_fomantis.png)
  - Second Fomantis is in the other north room, head to the left and talk to the weird grass patch.
  ![Fomantis Damage Table](grass_damage.png)
+- info[Fomantis have random Attacks IVs(average is 15, max is 31)
+::damage[Fomantis' Razor Leaf Avg (LVL 23)]{source="Popplio" evolution=1 offensive=false special=true movePower=40 stab=true effectiveness=2 level=23 evs=3 opponentLevel=22 opponentStat=56 theme="info"}
+
+
  ::::pokemon[All Fomantis]
  - If Hidden Power:	
      - Hidden Power (+ Scald)
@@ -1361,9 +1365,6 @@ Primarina's Z-Sparkling Aria at Level 34 is a 16 / 16 range to kill at 98+ Sp. A
   - → +2 *Sparkling Aria kills Mimikyu
 :::
 :::::
-
-::damage[Weavile's Ice Shard at lvl 55]{source="Lunala" special=false offensive=false movePower=40 stab=true level=55 opponentLevel=52 opponentStat=178}
-::damage[Weavile's Ice Shard at lvl 56]{source="Lunala" special=false offensive=false movePower=40 stab=true level=56 opponentLevel=52 opponentStat=178}
 
 
 
