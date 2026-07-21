@@ -38,7 +38,7 @@
     41 -> 9, 29, 22, 20, 11, 41
 :::
 
-# Pokémon Moon 6
+# Pokémon Moon 
 ### Any% Primarina notes
 
 ----
@@ -970,7 +970,7 @@ Poison damage: 10 with 28 - 31 HP IV
 
 ::damage[Fomantis' Razor Leaf (LVL 28)]{source="Popplio" evolution=1 offensive=false special=false multiTarget=true movePower=55 stab=true effectiveness=2 level=28 evs=17 opponentLevel=22 opponentStat=32 theme="info"}
 
-::::::trainer[Team Skull Grunts(double with Hau)]
+::::::trainer[Team Skull Grunts Double]
   - If you're in Torrent or have Hidden Power :
       - *Scald OR Hidden Power Fomantis
 	  - *Aqua Jet OR Scald Salandit
@@ -1008,7 +1008,7 @@ Poison damage: 10 with 28 - 31 HP IV
 :::pokemon[Golbat]{info="Has Confuse Ray, Poison Fang and Air Cutter" infoColor=blue}
 - Scald x2 OR *Scald + *Aqua Jet
 - Can Z-Scald for safety
-::damage[Brionne's Z-Scald at +2 at Level 29]{source="Popplio" special=true evolution=1 movePower=160 stab=true level=29 evs=5 opponentLevel=25 opponentStat=46 healthThreshold=76 theme=error}
+::damage[Brionne's Z-Scald at Level 29]{source="Popplio" special=true evolution=1 movePower=160 stab=true level=29 evs=5 opponentLevel=25 opponentStat=46 healthThreshold=76 theme=error}
 :::
 :::pokemon[Salandit]
 - Scald OR *Aqua Jet
