@@ -38,7 +38,7 @@
     41 -> 9, 29, 22, 20, 11, 41
 :::
 
-# Pokémon Moon 3
+# Pokémon Moon 
 ### Any% Primarina notes
 
 ----
@@ -1465,7 +1465,7 @@ Primarina's Sparkling Aria in the Rain in Doubles at Drowzee at Level 37 is a 14
 
   - Heal to full if taken significant damage.
 
-::damage[Ariados’s Shadow Sneak does:]{source="Popplio" special=false offensive=false evolution=2 movePower=40 stab=false effectiveness=1 level=38 evs=20 opponentLevel=36 opponentStat=113 combatStages=0--2}
+::damage[Ariados’s Shadow Sneak does:]{source="Popplio" special=false offensive=false evolution=2 movePower=40 stab=false effectiveness=1 level=38 evs=20 opponentLevel=36 opponentStat=113 combatStages=0--4}
 :::::trainer[Team Skull Guzma 2]
  :::pokemon[Golisopod]
   - Psychic + X-Sp. Atk + Psychic
