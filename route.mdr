@@ -38,7 +38,7 @@
     41 -> 9, 29, 22, 20, 11, 41
 :::
 
-# Pokémon Moon 6
+# Pokémon Moon 
 ### Any% Primarina notes
 
 ----
@@ -1035,7 +1035,7 @@ Poison damage: 10 with 28 - 31 HP IV
 :info[**FREE HEAL**]{color=pink}
 
 :damage[Bolodore's Headbutt (LVL 29)]{source="Popplio" evolution=1 offensive=false special=false movePower=70 level=29 evs=5 opponentLevel=26 opponentStat=63 theme="info"}
-:::::trainer[Island Kahuna Olivia]
+:::::trainer[**Island Kahuna Olivia**]
 ::::pokemon[Nosepass]
 :::if{source="Popplio" condition="spa=(x/x/28+)"}
 - Water Gun
@@ -1484,7 +1484,7 @@ Primarina's Sparkling Aria in the Rain in Doubles at Drowzee at Level 37 is a 14
   - Use the Escape Rope.
   - Go south to trigger the cutscene.
   - Fly to Hau’Oli City.
-  - Enter Pokémon Centre.
+  - Enter Pokémon Center.
   - Deposit Pikipek in the PC.
 
 ### Shopping
@@ -1511,5 +1511,21 @@ Primarina's Sparkling Aria in the Rain in Doubles at Drowzee at Level 37 is a 14
 
 :info[**FREE HEAL**]{color=pink}
 
-:::::trainer[Island Kahuna Nanu]
+:::::trainer[**Island Kahuna Nanu**]
 ::::pokemon[Sableye]
+  - X-Sp. Atk + X-Speed
+  - Sparkling Aria
+::::
+::::pokemon[Krokorok]
+  - Sparkling Aria
+::::
+::::pokemon[Persian]{info="faster at 73+ at +2 Speed (x/x/21+) (x/x/22+)" infoColor=blue}
+:::if{source="Popplio" condition="speed=72-" level=41 evolution=2}
+- X-Speed + Sparkling Aria
+:::
+:::if{source="Popplio" condition="speed=73+" level=41 evolution=2}
+- Sparkling Aria
+:::
+::::: 
+
+:info[**FREE HEAL**]{color=pink}
