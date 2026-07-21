@@ -38,7 +38,7 @@
     41 -> 9, 29, 22, 20, 11, 41
 :::
 
-# Pokémon Moon 22
+# Pokémon Moon 
 ### Any% Primarina notes
 
 ----
@@ -1128,15 +1128,15 @@ Poison damage: 10 with 28 - 31 HP IV
 ::damage[Dugtrio's Sucker Punch]{source="Popplio" special=false offensive=false evolution=1 movePower=70 stab=false effectiveness=1 level=33 evs=7 opponentLevel=30 opponentStat=93}
 
 :::::trainer[Molayne]
-:::pokemon[Skarmory:]{info="faster at 55+ Speed (x / x / 28+)" infoColor=blue}
+:::pokemon[Skarmory]{info="faster at 55+ Speed (x / x / 28+)" infoColor=blue}
   - X-Sp. Atk + Water Gun + Scald
   - :info[With Hidden Power, Aqua Jet + X-Sp. Atk x2 + Scald]{color=gray}
 :::
-:::pokemon[Metang:]
+:::pokemon[Metang]
   - Water Gun + Scald
   - :info[Or *Scald/Scald at +4]{color=gray}
 :::
-:::pokemon[Dugtrio:]
+:::pokemon[Dugtrio]
  - Scald
 :::::
 
@@ -1162,7 +1162,7 @@ Poison damage: 10 with 28 - 31 HP IV
 
 :info[Puzzle 1: Option 1]{color=gray}
 :::::trainer[Electric Trial]
-:::pokemon[Grubbin:]{info="Encore Bite or Bug Bite if needed (does ~13 - 22 damage, has Swarm, though)" infoColor=gray}
+:::pokemon[Grubbin]{info="Encore Bite or Bug Bite if needed (does ~13 - 22 damage, has Swarm, though)" infoColor=gray}
   - Encore
   - **If String Shot**: Aqua Jet.
   - _Otherwise:_
@@ -1170,10 +1170,10 @@ Poison damage: 10 with 28 - 31 HP IV
 :::
   - **Teach Sparkling Aria** over Water Gun / Hidden Power (or Scald if HP Flying) **(SLOT 2)**
 
- :::pokemon[Both Charjabugs:]{info="Puzzle 2 and 3: Option 2" infoColor=gray}
+ :::pokemon[Both Charjabugs]{info="Puzzle 2 and 3: Option 2" infoColor=gray}
   - *Scald (*Sparkling Aria if taught over Scald)
 :::
- ::::pokemon[Totem Vikavolt:]{info="Puzzle 4: Option 3" infoColor=gray}
+ ::::pokemon[Totem Vikavolt]{info="Puzzle 4: Option 3" infoColor=gray}
   - *Z-Sparkling Aria
 ::::card{theme=error}
 :::if{source="Popplio" condition="spatk=(x/6-8/x)"}
@@ -1196,8 +1196,8 @@ Primarina's Z-Sparkling Aria at Level 34 is a 16 / 16 range to kill at 98+ Sp. A
   - Teach Psychic over Scald if not using Hidden Power Flying (slot 3)
   - Heal to full
 
-  :::::trainer[Guzma 1:]
-  :::pokemon[Golispod:]
+  :::::trainer[Team Skull Guzma 1]
+  :::pokemon[Golispod]
   - Without Hidden Power Flying:
     - Psychic
     - X-Sp. Atk :info[Skip if high rolled Psychic and got Sp. Def drop]{color=gray}
@@ -1208,7 +1208,7 @@ Primarina's Z-Sparkling Aria at Level 34 is a 16 / 16 range to kill at 98+ Sp. A
     - Hidden Power 
 :::
   - ::damage[Primarina's Hidden Power Flying at Level 34]{source="Popplio" special=true evolution=2 movePower=60 effectiveness=2 combatStages=2 level=34 evs=8 opponentLevel=31 opponentStat=65 healthThreshold=97 theme=error} 
-  :::pokemon[Ariados:]
+  :::pokemon[Ariados]
   - +2: Hidden Power Flying / Sparkling Aria
   - +0: Psychic
  :::::
@@ -1223,114 +1223,114 @@ Primarina's Z-Sparkling Aria at Level 34 is a 16 / 16 range to kill at 98+ Sp. A
  ::::if{source="Popplio" condition="spatk=(#/24-/1+) || spatk=(x/28+/x)"}
   - Fight Ace Trainer Yuki
 
-:::::trainer[Ace Trainer Yuki:]
-:::pokemon[Sandshrew:]
+:::::trainer[Ace Trainer Yuki]
+:::pokemon[Sandshrew]
   - Sparkling Aria
 :::
-:::pokemon[Marowak:]
+:::pokemon[Marowak]
   - Sparkling Aria
 :::::
 
 :info[Assume 1 def IV higher if you already fought Yuki]{color=gray}
 ::damage[Elekid's Thunder Punch]{source="Popplio" special=false offensive=false evolution=2 movePower=75 stab=true effectiveness=2 level=35 evs=17 opponentLevel=30 opponentStat=47}
 
-:::::trainer[Preschooler Hunter:]
-:::pokemon[Elekid:]{info="faster at 67 Speed (x / x / 31)" infoColor=blue}
+:::::trainer[Preschooler Hunter]
+:::pokemon[Elekid]{info="faster at 67 Speed (x / x / 31)" infoColor=blue}
  - Sparkling Aria (+Aqua Jet)
 :::::
  
 - Do not heal paralysis if paralyzed.
 
 :::::trainer[Team Skull Grunt:]
-::::pokemon[Drowzee::]{info="If paralysed, you are slower than Drowzee" infoColor=blue}
+::::pokemon[Drowzee]{info="If paralysed, you are slower than Drowzee" infoColor=blue}
  - Sparkling Aria + Aqua Jet :info[(Sparkling Aria x2 if doubtful about AJ killing)
 ]{color=gray}
 ::damage[Primarina's *Sparkling Aria at Level 35]{source="Popplio" special=true evolution=2 movePower=90 stab=true torrent=true effectiveness=1 level=35 evs=8 opponentLevel=33 opponentStat=69 healthThreshold=87 theme=error}
-:::if{source="Popplio" condition="spatk=(x/6-14/x) && atk=(8-/x/x)"}
+:::if{source="Popplio" condition="spatk=(x/6-14/x) && atk=(8-/x/x)" theme=error}
   - Sparkling Aria + Aqua Jet is a 16% chance to kill
 :::
-:::if{source="Popplio" condition="spatk=(x/6-14/x) && atk=(9-17/x/x)"}
+:::if{source="Popplio" condition="spatk=(x/6-14/x) && atk=(9-17/x/x)" theme=error}
  - Sparkling Aria + Aqua Jet is a 25% chance to kill
 :::
-:::if{source="Popplio" condition="spatk=(x/15-20/x) && atk=(8-/x/x)"}
+:::if{source="Popplio" condition="spatk=(x/15-20/x) && atk=(8-/x/x)" theme=error}
  - Sparkling Aria + Aqua Jet is a 28% chance to kill
 :::
-:::if{source="Popplio" condition="spatk=(x/15-20/x) && atk=(9-17/x/x)"}
+:::if{source="Popplio" condition="spatk=(x/15-20/x) && atk=(9-17/x/x)" theme=error}
  - Sparkling Aria + Aqua Jet is a 38% chance to kill
 :::
-:::if{source="Popplio" condition="spatk=(x/6-14/x) && atk=(18-25/0-5/x)"}
+:::if{source="Popplio" condition="spatk=(x/6-14/x) && atk=(18-25/0-5/x)" theme=error}
  - Sparkling Aria + Aqua Jet is a 39% chance to kill
 :::
-:::if{source="Popplio" condition="spatk=(x/21-28/3-) && atk=(8-/x/x)"}
+:::if{source="Popplio" condition="spatk=(x/21-28/3-) && atk=(8-/x/x)" theme=error}
  - Sparkling Aria + Aqua Jet is a 43% chance to kill
 :::
-:::if{source="Popplio" condition="spatk=(x/15-20/x) && atk=(18-25/0/x)"}
+:::if{source="Popplio" condition="spatk=(x/15-20/x) && atk=(18-25/0/x)" theme=error}
  - Sparkling Aria + Aqua Jet is a 52% chance to kill
 :::
-:::if{source="Popplio" condition="spatk=(x/6-14/x) && atk=(26+/6-14/0)"}
+:::if{source="Popplio" condition="spatk=(x/6-14/x) && atk=(26+/6-14/0)" theme=error}
  - Sparkling Aria + Aqua Jet is a 53% chance to kill
 :::
-:::if{source="Popplio" condition="spatk=(x/21-28/3-) && atk=(9-17/x/x)"}
+:::if{source="Popplio" condition="spatk=(x/21-28/3-) && atk=(9-17/x/x)" theme=error}
  - Sparkling Aria + Aqua Jet is a 54% chance to kill
 :::
-:::if{source="Popplio" condition="spatk=(x/29+/4-8) && atk=(8-/x/x)"}
+:::if{source="Popplio" condition="spatk=(x/29+/4-8) && atk=(8-/x/x)" theme=error}
  - Sparkling Aria + Aqua Jet is a 55% chance to kill
 :::
-:::if{source="Popplio" condition="spatk=(x/15-20/x) && atk=(26+/6-14/0)"}
+:::if{source="Popplio" condition="spatk=(x/15-20/x) && atk=(26+/6-14/0)" theme=error}
  - Sparkling Aria + Aqua Jet is a 65%% chance to kill
 :::
-:::if{source="Popplio" condition="spatk=(x/29+/4-8) && atk=(9-17/x/x)"}
+:::if{source="Popplio" condition="spatk=(x/29+/4-8) && atk=(9-17/x/x)" theme=error}
  - Sparkling Aria + Aqua Jet is a 67% chance to kill
 :::
-:::if{source="Popplio" condition="spatk=(x/x/9-14) && atk=(8-/x/x) || spatk=(x/21-28/3-) && atk=(x/26+/9-17) || spatk=(x/x/9-14) && atk=(26+/6-14/0)"}
-- Sparkling Aria + Aqua Jet is a 68% to kill.
+:::if{source="Popplio" condition="spatk=(x/x/9-14) && atk=(8-/x/x) || spatk=(x/21-28/3-) && atk=(x/26+/9-17) || spatk=(x/x/9-14) && atk=(26+/6-14/0)" theme=error}
+- Sparkling Aria + Aqua Jet is a 68% to KO.
 :::
-:::if{source="Popplio" condition="spatk=(x/x/15-20) && atk=(8-/x/x)"}
+:::if{source="Popplio" condition="spatk=(x/x/15-20) && atk=(8-/x/x)" theme=error}
  - Sparkling Aria + Aqua Jet is a 78% chance to kill
 :::
-:::if{source="Popplio" condition="spatk=(x/15-20/x) && atk=(x/15-25/1-8) || spatk=(x/21-28/3-) && atk=(26+/6-14/0) || spatk=(x/x/9-14) && atk=(9-17/x/x)"}
+:::if{source="Popplio" condition="spatk=(x/15-20/x) && atk=(x/15-25/1-8) || spatk=(x/21-28/3-) && atk=(26+/6-14/0) || spatk=(x/x/9-14) && atk=(9-17/x/x)" theme=error}
  - Sparkling Aria + Aqua Jet is a 79% chance to kill
 :::
-:::if{source="Popplio" condition="spatk=(x/6-14/x) && atk=(x/26+/9-17)"}
+:::if{source="Popplio" condition="spatk=(x/6-14/x) && atk=(x/26+/9-17)" theme=error}
  - Sparkling Aria + Aqua Jet is a 80% chance to kill
 :::
-:::if{source="Popplio" condition="spatk=(x/29+/4-8) && atk=(18-25/0-5/x)"}
+:::if{source="Popplio" condition="spatk=(x/29+/4-8) && atk=(18-25/5-/x)" theme=error}
  - Sparkling Aria + Aqua Jet is a 81% chance to kill
 :::
-:::if{source="Popplio" condition="spatk=(x/x/15-20) && atk=(9-17/x/x)"}
+:::if{source="Popplio" condition="spatk=(x/x/15-20) && atk=(9-17/x/x)" theme=error}
  - Sparkling Aria + Aqua Jet is a 86% chance to kill
 :::
-:::if{source="Popplio" condition="spatk=(x/21-28/3-) && atk=(x/15-25/1-8) || spatk=(x/x/21-25) && atk=(8-/x/x)"}
+:::if{source="Popplio" condition="spatk=(x/21-28/3-) && atk=(x/15-25/1-8) || spatk=(x/x/21-25) && atk=(8-/x/x)" theme=error}
  - Sparkling Aria + Aqua Jet is a 88% chance to kill
 :::
-:::if{source="Popplio" condition="spatk=(x/15-20/x) && atk=(x/26+/9-17) || spatk=(x/x/9-14) && atk=(18-25/5-/x)"}
+:::if{source="Popplio" condition="spatk=(x/15-20/x) && atk=(x/26+/9-17) || spatk=(x/x/9-14) && atk=(18-25/5-/x)" theme=error} 
   - Sparkling Aria + Aqua Jet is a 89% to kill.
 :::
-:::if{source="Popplio" condition="spatk=(x/x/6-14) && atk=(x/x/18-25)"}
+:::if{source="Popplio" condition="spatk=(x/x/6-14) && atk=(x/x/18-25)" theme=error}
  - Sparkling Aria + Aqua Jet is a 90% chance to kill
 :::
-:::if{source="Popplio" condition="spatk=(x/29+/4-8) && atk=(26+/6-14/0)"}
+:::if{source="Popplio" condition="spatk=(x/29+/4-8) && atk=(26+/6-14/0)" theme=error}
  - Sparkling Aria + Aqua Jet is a 91% chance to kill
 :::
-:::if{source="Popplio" condition="spatk=(x/15-20/x) && atk=(18-25/5-/x) || spatk=(x/x/21-25) && atk=(9-17/x/x)"}
+:::if{source="Popplio" condition="spatk=(x/15-20/x) && atk=(18-25/5-/x) || spatk=(x/x/21-25) && atk=(9-17/x/x)" theme=error}
  - Sparkling Aria + Aqua Jet is a 94% chance to kill
 :::
-:::if{source="Popplio" condition="spatk=(x/15-20/x) && atk=(x/x/18-25) || spatk=(x/21-28/3-) && atk=(x/26+/9-17) || spatk=(x/x/9-14) && atk=(26+/6-14/0)"}
+:::if{source="Popplio" condition="spatk=(x/15-20/x) && atk=(x/x/18-25) || spatk=(x/21-28/3-) && atk=(x/26+/9-17) || spatk=(x/x/9-14) && atk=(26+/6-14/0)" theme=error}
   - Sparkling Aria + Aqua Jet is a 95% to kill.
 :::
 :::if{source="Popplio" condition="spatk=(x/x/26+) && atk=(8-/x/x)"}
  - Sparkling Aria + Aqua Jet is a 96% chance to kill
 :::
-:::if{source="Popplio" condition="spatk=(x/6-14/x) && atk=(x/x/26+) || spatk=(x/29+/4-8) && atk=(x/15-25/1-8)"}
+:::if{source="Popplio" condition="spatk=(x/6-14/x) && atk=(x/x/26+) || spatk=(x/29+/4-8) && atk=(x/15-25/1-8)" theme=error}
  - Sparkling Aria + Aqua Jet is a 97% chance to kill
 :::
-:::if{source="Popplio" condition="spatk=(x/21-28/3-) && atk=(x/x/18-25) || spatk=(x/x/9-14) && atk=(x/15-25/1-8) || spatk=(x/x/15-20) && atk=(26+/6-14/0) || spatk=(x/x/26+) && atk=(9-17/x/x)"}
+:::if{source="Popplio" condition="spatk=(x/21-28/3-) && atk=(x/x/18-25) || spatk=(x/x/9-14) && atk=(x/15-25/1-8) || spatk=(x/x/15-20) && atk=(26+/6-14/0) || spatk=(x/x/26+) && atk=(9-17/x/x)" theme=error}
   - Sparkling Aria + Aqua Jet is a 98% to kill.
 :::
-:::if{source="Popplio" condition="spatk=(x/x/15-20) && atk=(x/15-25/x) || spatk=(x/x/21-25) && atk=(18-25/0/x)"}
+:::if{source="Popplio" condition="spatk=(x/x/15-20) && atk=(x/15-25/x) || spatk=(x/x/21-25) && atk=(18-25/0/x)" theme=error}
  - Sparkling Aria + Aqua Jet is a 99% chance to kill
 :::
-:::if{source="Popplio" condition="spatk=(x/x/26+) && atk=(18+/#/#) || spatk=(x/x/21-25) && atk=(26+/6+/x) || spatk=(x/x/15-20) && atk=(x/26+/x) || spatk=(x/x/9-14) && atk=(x/26+/x) || spatk=(x/29+/4-8) && atk=(x/26+/9+) || spatk=(x/21-28/3-) && atk=(x/x/26+) ||spatk=(x/15-20/x) && atk=(x/x/26+)"}
+:::if{source="Popplio" condition="spatk=(x/x/26+) && atk=(18+/#/#) || spatk=(x/x/21-25) && atk=(26+/6+/x) || spatk=(x/x/15-20) && atk=(x/26+/x) || spatk=(x/x/9-14) && atk=(x/26+/x) || spatk=(x/29+/4-8) && atk=(x/26+/9+) || spatk=(x/21-28/3-) && atk=(x/x/26+) ||spatk=(x/15-20/x) && atk=(x/x/26+)" theme=error}
   -  Sparkling Aria + Aqua Jet is a 100% to kill.
 :::
 :::::
@@ -1342,24 +1342,24 @@ Primarina's Z-Sparkling Aria at Level 34 is a 16 / 16 range to kill at 98+ Sp. A
   - **Try to conserve Sparkling Arias by using Psychic, such that you will have 2 left for Mimikyu.**
 
 :info[High EXP speed IV is to the left. Low EXP is to the right.]{color=gray}
-:::::trainer[Ghost Trial:]
-:::pokemon[Gastly:]{info="faster at 64+ Speed (36: x/x/18+) (35: x/x/25+) (36: x/x/19+) (35: x/x/26+)" infoColor=blue}
+:::::trainer[Ghost Trial]
+:::pokemon[Gastly]{info="faster at 64+ Speed (36: x/x/18+) (35: x/x/25+) (36: x/x/19+) (35: x/x/26+)" infoColor=blue}
   - *Aqua Jet/Sparkling Aria/Psychic  
   → :info[*Aqua Jet is 15 / 16 at 67 Attack (36: x / 19 - 20 / 2 - 4) (35: x / 24 - 25 / 6 - 8)]{color=gray}
 :::
-:::pokemon[Haunter:]{info="faster at 67+ Speed (36: x/x/26+) (36: x/x/27+) (35: x/x/30+) (35: x/x/31)" infoColor=blue}
+:::pokemon[Haunter]{info="faster at 67+ Speed (36: x/x/26+) (36: x/x/27+) (35: x/x/30+) (35: x/x/31)" infoColor=blue}
   :info[Haunter has Night Shade (30)]{color=gray}
   - Sparkling Aria/Psychic
 :::
 ::damage[Gengar's Shadow Ball usually does:]{source="Popplio" special=true offensive=false evolution=2 movePower=80 stab=true level=36 evs=6 opponentLevel=30 opponentStat=95}
-:::pokemon[Gengar:]{info="also has Night Shade (30)" infoColor=blue}
+:::pokemon[Gengar]{info="also has Night Shade (30)" infoColor=blue}
   - Psychic :info[Sparkling Aria (+ AJ) if didn’t teach Psychic yet]{color=gray}
 :::
   - Cure Poison or Paralysis
   - **Heal to full**.
   - *Teach Psychic over Hidden Power Flying if didn’t yet.*
   - **Consider saving before the fight**
-:::pokemon[Totem Mimikyu:]{info="faster than Haunter at 67+ Speed (x/x/26+) (x/x/27+)" infoColor=blue}
+:::pokemon[Totem Mimikyu]{info="faster than Haunter at 67+ Speed (x/x/26+) (x/x/27+)" infoColor=blue}
   - X-Defense
   - Sparkling Aria (to kill Haunter and break Disguise)
 
@@ -1385,8 +1385,8 @@ Primarina's Z-Sparkling Aria at Level 34 is a 16 / 16 range to kill at 98+ Sp. A
 
 ::damage[Salazzle’s Flame Burst does (At Lv37):]{source="Popplio" special=true offensive=false evolution=2 movePower=70 stab=true effectiveness=0.5 level=37 evs=10 opponentLevel=35 opponentStat=87}
 
-:::::trainer[Plumaria 2:]
-::::pokemon[Golbat:]
+:::::trainer[Plumaria 2]
+::::pokemon[Golbat]
   -  Psychic (+ Aqua Jet) (**OR Z-Sparkling Aria if bad Psychic range**) 
   - :info[at really bad Defense and HP can gamble on *Sparkling Aria]{color=gray}
   - → Swap with Pikipek if confused hit, Revive Pikipek after battle
@@ -1397,7 +1397,7 @@ Primarina's Z-Sparkling Aria at Level 34 is a 16 / 16 range to kill at 98+ Sp. A
 ::damage[Primarina's Psychic at Level 37]{source="Popplio" special=true evolution=2 movePower=90 stab=false torrent=false effectiveness=2 level=37 evs=18 opponentLevel=34 opponentStat=61 healthThreshold=100 theme=error}
 :::
 ::::
-::::pokemon[Salazzle:]
+::::pokemon[Salazzle]
   - Psychic
 :::::
 
@@ -1406,7 +1406,7 @@ Primarina's Z-Sparkling Aria at Level 34 is a 16 / 16 range to kill at 98+ Sp. A
   - Heal to full.
 
 ::::if{source="Popplio" condition="spatk=(#/25-27/0)"}
-:::::trainer[Ace Trainer Yuki:]
+:::::trainer[Ace Trainer Yuki]
 :::pokemon[Sandshrew:]
   - Sparkling Aria
 :::
@@ -1420,8 +1420,57 @@ Primarina's Z-Sparkling Aria at Level 34 is a 16 / 16 range to kill at 98+ Sp. A
 
 ::damage[Haunter's Shadow Ball does:]{source="Popplio" special=true offensive=false evolution=2 movePower=80 stab=true level=37 evs=10 opponentLevel=34 opponentStat=88}
 
-:::::trainer[Team Skull Grunt Doubles:]
-:::pokemon[Haunter + Drowzee:]
+:::::trainer[Team Skull Grunt Doubles]
+::::pokemon[Haunter + Drowzee]
   - Sparkling Aria | X-Sp. Atk :info[(skip X-Sp. Atk if only 1 left)]{color=gray}
-::damage[+0 Primarina's Sparkling Aria in Rain]{source="Popplio" special=true evolution=2 movePower=90 level=37 evs=18 stab=true torrent=false weatherBoosted=true effectiveness=1 opponentLevel=34 opponentStat=71 healthThreshold=89 theme=error}
+:::if{source="Popplio" condition="spatk=(x/15-25/0)" theme=error}
+Primarina's Sparkling Aria in the Rain in doubles Battle at Level 37 is a 1 / 16 range to kill at 105-108 Sp. Attack (x / 15-25 / 0)
+:::
+:::if{source="Popplio" condition="spatk=(x/26-30/1-3)" theme=error}
+Primarina's Sparkling Aria in the Rain in doubles Battle at Level 37 is a 2 / 16 range to kill at 109 / 110 Sp. Attack (x / 26-30 / 1-3)
+:::
+:::if{source="Popplio" condition="spatk=(x/31/4-8)" theme=error}
+Primarina's Sparkling Aria in the Rain in doubles Battle at Level 37 is a 5 / 16 range to kill at 111 / 112 Sp. Attack (x / 31 / 4-8)
+:::
+:::if{source="Popplio" condition="spatk=(x/x/9-22)" theme=error}
+Primarina's Sparkling Aria in the Rain in doubles Battle at Level 37 is a 7 / 16 range to kill at 113-117 Sp. Attack (x / x / 9-22)
+:::
+:::if{source="Popplio" condition="spatk=(x/x/23-27)" theme=error}
+Primarina's Sparkling Aria in the Rain in doubles Battle at Level 37 is a 10 / 16 range to kill at 118 / 119 Sp. Attack (x / x / 23-27)
+:::
+:::if{source="Popplio" condition="spatk=(x/x/28-30)" theme=error}
+Primarina's Sparkling Aria in the Rain in doubles Battle at Level 37 is a 11 / 16 range to kill at 121 Sp. Attack (x / x / 28-30)
+:::
+:::if{source="Popplio" condition="spatk=(x/x/31)" theme=error}
+Primarina's Sparkling Aria in the Rain in doubles Battle at Level 37 is a 14 / 16 range to kill at 122 Sp. Attack (x / x / 31)
+:::
+  - → Do not teach Hyper Voice.
+:::::
+:::::trainer[Team Skull Grunt]
+:::pokemon[Spinarak]
+  -  *Aqua Jet / Sparkling Aria
+:::::
+:::::trainer[Team Skull Grunt]
+:::pokemon[Grimer]
+  - Sparkling Aria
+:::::
+
+  - Charge to gap in hedge and pickup Rare Candy.
+
+  - Get past Grunt by going by the car on the right side. Once past the broken fence, charge to Shady House entrance by going behind walking Grunt.
+
+  - Upstairs, wait a split second for Grunt and pass him hugging the railing.
+
+  - **Passwords: 3 - 2 - 1 - No!** (There’s a text box after Grunt has moved)
+
+  - Heal to full if taken significant damage.
+
+::damage[Ariados’s Shadow Sneak does:]{source="Popplio" special=true offensive=false evolution=2 movePower=40 stab=false effectiveness=1 level=38 evs=20 combatStages=0-3 opponentLevel=36 opponentStat=113}
+:::::trainer[Team Skull Guzma 2]
+ :::pokemon[Golisopod]
+ Psychic + X-Sp. Atk + Psychic
+(Ranges here)
+:::
+:::pokemon[Ariados]
+  - Sparkling Aria
 :::::
