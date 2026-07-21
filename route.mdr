@@ -1370,7 +1370,7 @@ Primarina's Z-Sparkling Aria at Level 34 is a 16 / 16 range to kill at 98+ Sp. A
 
 :::::trainer[Plumaria 2:]
 ::::pokemon[Golbat:]
-  -  Psychic (+ Aqua Jet) (OR Z-Sparkling Aria if bad Psychic range) 
+  -  Psychic (+ Aqua Jet) (**OR Z-Sparkling Aria if bad Psychic range**) 
   - :info[at really bad Defense and HP can gamble on *Sparkling Aria]{color=gray}
   - → Swap with Pikipek if confused hit, Revive Pikipek after battle
 :::if{source="Popplio" condition="spatk=(#/25-27/0)"}
