@@ -882,10 +882,20 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
  - First Fomantis, go up then left into the north west room, and head to the tree to the left. Don't forget to take the hidden Mago Berry !
  ![Second Fomantis Location](2nd_fomantis.png)
  - Second Fomantis is in the other north room, head to the left and talk to the weird grass patch.
- ![Fomantis Damage Table](grass_damage.png)
-- info[Fomantis have random Attacks IVs(average is 15, max is 31)
-::damage[Fomantis' Razor Leaf Avg (LVL 23)]{source="Popplio" evolution=1 offensive=false special=true movePower=40 stab=true effectiveness=2 level=23 evs=3 opponentLevel=22 opponentStat=56 theme="info"}
 
+- info[Fomantis have random Attacks IVs(average is 15, max is 31)
+::::if{source="Popplio" condition=$isLowExp}
+::damage[Fomantis' Razor Leaf AVG (LVL 23)]{source="Popplio" evolution=1 offensive=false special=false movePower=55 stab=true effectiveness=2 level=23 evs=5 opponentLevel=23 opponentStat=33 theme="info"}
+::damage[Fomantis' Razor Leaf MAX (LVL 23)]{source="Popplio" evolution=1 offensive=false special=false movePower=55 stab=true effectiveness=2 level=23 evs=5 opponentLevel=23 opponentStat=40 theme="info"}
+::damage[Fomantis' Leafage AVG (LVL 23)]{source="Popplio" evolution=1 offensive=false special=false movePower=40 stab=true effectiveness=2 level=23 evs=5 opponentLevel=23 opponentStat=33 theme="info"}
+::damage[Fomantis' Leafage MAX (LVL 23)]{source="Popplio" evolution=1 offensive=false special=false movePower=40 stab=true effectiveness=2 level=23 evs=5 opponentLevel=23 opponentStat=40 theme="info"}
+::::
+::::if{source="Popplio" condition=!$isLowExp}
+::damage[Fomantis' Razor Leaf AVG (LVL 25)]{source="Popplio" evolution=1 offensive=false special=false movePower=55 stab=true effectiveness=2 level=25 evs=5 opponentLevel=23 opponentStat=33 theme="warning"}
+::damage[Fomantis' Razor Leaf MAX (LVL 25)]{source="Popplio" evolution=1 offensive=false special=false movePower=55 stab=true effectiveness=2 level=25 evs=5 opponentLevel=23 opponentStat=40 theme="warning"}
+::damage[Fomantis' Leafage AVG (LVL 25)]{source="Popplio" evolution=1 offensive=false special=false movePower=40 stab=true effectiveness=2 level=25 evs=5 opponentLevel=23 opponentStat=33 theme="warning"}
+::damage[Fomantis' Leafage MAX (LVL 25)]{source="Popplio" evolution=1 offensive=false special=false movePower=40 stab=true effectiveness=2 level=25 evs=5 opponentLevel=23 opponentStat=40 theme="warning"}
+::::
 
  ::::pokemon[All Fomantis]
  - If Hidden Power:	
