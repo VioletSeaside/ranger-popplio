@@ -1393,7 +1393,7 @@ Primarina's Z-Sparkling Aria at Level 34 is a 16 / 16 range to kill at 98+ Sp. A
 
 :::if{source="Popplio" condition="spatk=(x/15-25/0)" theme=error}
 Primarina's Sparkling Aria in the Rain in Doubles against Drowzee at Level 37 is a 1 / 16 range to kill at 105-108 Sp. Attack (x / 15-25 / 0)
-:::Doubles
+:::
 :::if{source="Popplio" condition="spatk=(x/26-30/1-3)" theme=error}
 Primarina's Sparkling Aria in the Rain in Doubles against Drowzee at Level 37 is a 2 / 16 range to kill at 109 / 110 Sp. Attack (x / 26-30 / 1-3)
 :::
