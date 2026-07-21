@@ -38,7 +38,7 @@
     41 -> 9, 29, 22, 20, 11, 41
 :::
 
-# Pokémon Moon 10
+# Pokémon Moon 1
 ### Any% Primarina notes
 
 ----
@@ -1331,7 +1331,8 @@ Primarina's Z-Sparkling Aria at Level 34 is a 16 / 16 range to kill at 98+ Sp. A
   → :info[*Aqua Jet is 15 / 16 at 67 Attack (36: x / 19 - 20 / 2 - 4) (35: x / 24 - 25 / 6 - 8)]{color=gray}
 :::
 :::pokemon[Haunter:]{info="faster at 67+ Speed (36: x/x/26+) (36: x/x/27+) (35: x/x/30+) (35: x/x/31+)" infoColor=blue}
-  - Sparkling Aria/Psychic
+   :info[Has Night Shade that does 30]{color=red}
+   - Sparkling Aria/Psychic
 :::
 ::damage[Gengar's Shadow Ball]{source="Popplio" special=true offensive=false evolution=2 movePower=80 stab=true level=37 evs=6 opponentLevel=30 opponentStat=95}
 :::pokemon[Gengar:]{info="also has Night Shade (30)" infoColor=blue}
@@ -1342,11 +1343,18 @@ Primarina's Z-Sparkling Aria at Level 34 is a 16 / 16 range to kill at 98+ Sp. A
   - *Teach Psychic over Hidden Power Flying if didn’t yet.*
   - **Consider saving before the fight**
 :::pokemon[Totem Mimikyu:]{info="faster than Haunter at 67+ Speed (x/x/26+) (x/x/27+)" infoColor=blue}
-  - X-Defense
-  - Sparkling Aria (to kill Haunter and break Disguise)
+- X-Defense
+- Sparkling Aria (to kill Haunter and break Disguise)
 :info[If one X-Defense left, can use it if can’t get out of healing loop]{color=gray}
 
-  - Gambling on Play Rough being used is possible:
+- X-Sp. Atk
+- Z-Sparkling Aria
+
+- Gambling on Play Rough being used is possible:
+  - → +0 *Z-Sparkling Aria kills Mimikyu
+  - → +2 *Sparkling Aria kills Mimikyu
+:::
+:::::
 
 
 
