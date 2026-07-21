@@ -693,10 +693,8 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
 - Pickup TM55 Scald.
 - Heal to full-ish with Potions.
 
-:::if{source="Popplio" condition="$hiddenpower != 'Poison' && $hiddenpower != 'Fire' && $hiddenpower != 'Ice' && !$hiddenpower != 'Flying' "}
 - If you did not pickup Hidden Power:
    - Teach Scald over Growl (Slot 3).
-:::
 
 :::if{source="Popplio" condition="$hiddenpower == 'Poison' || $hiddenpower == 'Fire' || $hiddenpower == 'Ice' "}
 - If you picked up Hidden Power Ice, Fire, Poison.
@@ -1055,7 +1053,7 @@ Poison damage: 10 with 28 - 31 HP IV
 :info[**FREE HEAL**]{color=pink}
 
 :damage[Bolodore's Headbutt (LVL 29)]{source="Popplio" evolution=1 offensive=false special=false movePower=70 level=29 evs=5 opponentLevel=26 opponentStat=63 theme="info"}
-:::::trainer[Olivia]
+:::::trainer[Island Kahuna Olivia]
 ::::pokemon[Nosepass]
 :::if{source="Popplio" condition="spa=(x/x/28+)"}
 - Water Gun
