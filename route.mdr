@@ -43,7 +43,7 @@
 56 -> 0,0,0,0,0,0
 :::
 
-# Pokémon Moon 
+# Pokémon Moon 1
 ### Any% Primarina notes
 
 ----
@@ -696,11 +696,12 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
 - If you did not pickup Hidden Power:
    - Teach Scald over Growl (Slot 3).
 
-:::dropdown{theme=info}
+:::if{source="Popplio" condition="$hiddenpower == 'Poison' || $hiddenpower == 'Fire' || $hiddenpower == 'Ice' "}
 - If you picked up Hidden Power Ice, Fire, Poison.
    - Teach Scald over Growl (Slot 3).
    - Teach Hidden Power over Water Gun (Slot 2).
-
+:::
+:::if{source="Popplio" condition="$hiddenpower == 'Flying' "}
 - If you picked up Hidden Power Flying:
   - Teach Scald over Water Gun (Slot 2).
   - Teach Hidden Power over Growl (Slot 3).
