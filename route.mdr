@@ -1175,36 +1175,36 @@ Primarina's Z-Sparkling Aria at Level 34 is a 16 / 16 range to kill at 98+ Sp. A
 :::::
 
 
-  - Fly to garden.
-  - Teach Psychic over Scald if not using Hidden Power Flying (slot 3)
-  - Heal to full
+- Fly to garden.
+- Teach Psychic over Scald if not using Hidden Power Flying (slot 3)
+- Heal to full
 
-  :::::trainer[Guzma 1:]
-  :::pokemon[Golispod:]
-  - Without Hidden Power Flying:
-    - Psychic
-    - X-Sp. Atk :info[Skip if high rolled Psychic and got Sp. Def drop]{color=gray}
-    - Psychic
+:::::trainer[Guzma 1:]
+:::pokemon[Golispod:]
+- Without Hidden Power Flying:
+  - Psychic
+  - X-Sp. Atk :info[Skip if high rolled Psychic and got Sp. Def drop]{color=gray}
+  - Psychic
   
-  - With Hidden Power Flying:
-    - X-Sp. Atk
-    - Hidden Power 
+- With Hidden Power Flying:
+  - X-Sp. Atk
+  - Hidden Power 
 :::
-  - ::damage[Primarina's Hidden Power Flying at Level 34]{source="Popplio" special=true evolution=2 movePower=60 effectiveness=2 combatStages=2 level=34 evs=8 opponentLevel=31 opponentStat=65 healthThreshold=97 theme=error} 
-  :::pokemon[Ariados:]
-  - +2: Hidden Power Flying / Sparkling Aria
-  - +0: Psychic
- :::::
+- ::damage[Primarina's Hidden Power Flying at Level 34]{source="Popplio" special=true evolution=2 movePower=60 effectiveness=2 combatStages=2 level=34 evs=8 opponentLevel=31 opponentStat=65 healthThreshold=97 theme=error} 
+:::pokemon[Ariados:]
+- +2: Hidden Power Flying / Sparkling Aria
+- +0: Psychic
+:::::
 
-  - Head to Route 11.
-  - **At the grass**:
-    - Repel (use all your remaining ones)
-    - Super Potion if cannot live Elekid’s Thunder Punch.
-    - (Teach Psychic over Hidden Power)
+- Head to Route 11.
+- **At the grass**:
+  - Repel (use all your remaining ones)
+  - Super Potion if cannot live Elekid’s Thunder Punch.
+  - (Teach Psychic over Hidden Power)
 
-  - Quick Bind Mudsdale in the ride pager.
- ::::if{source="Popplio" condition="spatk=(#/24-/1+) || spatk=(x/28+/x)"}
-  - Fight Ace Trainer Yuki
+- Quick Bind Mudsdale in the ride pager.
+::::if{source="Popplio" condition="spatk=(#/24-/1+) || spatk=(x/28+/x)"}
+- Fight Ace Trainer Yuki
 
 :::::trainer[Ace Trainer Yuki:]
 :::pokemon[Sandshrew:]
@@ -1318,6 +1318,35 @@ Primarina's Z-Sparkling Aria at Level 34 is a 16 / 16 range to kill at 98+ Sp. A
 :::
 :::::
 
+- Do not heal Poison or Paralysis.
+- Head to the ghost trial.
+- Use 3DS motion controls to take pictures faster.
+
+- **Try to conserve Sparkling Arias by using Psychic, such that you will have 2 left for Mimikyu.**
+
+:info[High EXP speed IV is to the left. Low EXP is to the right.]{color=gray}
+:::::trainer[Ghost Trial:]
+:::pokemon[Gastly:]{info="faster at 64+ Speed (36: x/x/18+) (35: x/x/25+) (36: x/x/19+) (35: x/x/26+)" infoColor=blue}
+  - *Aqua Jet/Sparkling Aria/Psychic  
+  → :info[*Aqua Jet is 15 / 16 at 67 Attack (36: x / 19 - 20 / 2 - 4) (35: x / 24 - 25 / 6 - 8)]{color=gray}
+:::
+:::pokemon[Haunter:]{info="faster at 67+ Speed (36: x/x/26+) (36: x/x/27+) (35: x/x/30+) (35: x/x/31+)" infoColor=blue} :info[Has Night Shade (30)]{color=gray}
+  - Sparkling Aria/Psychic
+:::
+::damage[Gengar's Shadow Ball]{source="Popplio" special=true offensive=false evolution=2 movePower=80 stab=true level=36 evs=6 opponentLevel=30 opponentStat=95}
+:::pokemon[Gengar:]{info="also has Night Shade (30)" infoColor=blue}
+  - Psychic :info[Sparkling Aria (+ AJ) if didn’t teach Psychic yet]{color=gray}
+:::
+  - Cure Poison or Paralysis
+  - **Heal to full**.
+  - *Teach Psychic over Hidden Power Flying if didn’t yet.*
+  - **Consider saving before the fight**
+:::pokemon[Totem Mimikyu:]{info="faster than Haunter at 67+ Speed (x/x/26+) (x/x/27+)" infoColor=blue}
+  - X-Defense
+  - Sparkling Aria (to kill Haunter and break Disguise)
+:info[If one X-Defense left, can use it if can’t get out of healing loop]{color=gray}
+
+  - Gambling on Play Rough being used is possible:
 
 
 
