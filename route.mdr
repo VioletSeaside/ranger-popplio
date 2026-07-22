@@ -1440,39 +1440,173 @@ Primarina's Z-Sparkling Aria at Level 34 is a 16 / 16 range to kill at 98+ Sp. A
 :::
 :::::
 
+- Charge to Pokémon Center: 
+- PC heal.
+- Withdraw Pikipek.
 
+### Shopping 
+> #### Buy
+> - 11 Max Potions (>^)
+> - 1 Escape Rope (>v)
+> - 11 Max Repels (vvv)
+
+::damage[Salazzle’s Flame Burst does (At Lv37):]{source="Popplio" special=true offensive=false evolution=2 movePower=70 stab=true effectiveness=0.5 level=37 evs=10 opponentLevel=35 opponentStat=87}
+
+:::::trainer[Team Skull Admin Plumaria 2]
+::::pokemon[Golbat]
+  -  Psychic (+ Aqua Jet) (**OR Z-Sparkling Aria if bad Psychic range**) 
+  - :info[at really bad Defense and HP can gamble on *Sparkling Aria]{color=gray}
+  - → Swap with Pikipek if confused hit, Revive Pikipek after battle
+:::if{source="Popplio" condition="spatk=(#/25-27/0)"}
+::damage[Primarina's Psychic at Level 36]{source="Popplio" special=true evolution=2 movePower=90 stab=false torrent=false effectiveness=2 level=36 evs=18 opponentLevel=34 opponentStat=61 healthThreshold=100 theme=error}
+:::
+:::if{source="Popplio" condition="spatk=(#/24-/1+) || spatk=(x/28+/x)"}
+::damage[Primarina's Psychic at Level 37]{source="Popplio" special=true evolution=2 movePower=90 stab=false torrent=false effectiveness=2 level=37 evs=18 opponentLevel=34 opponentStat=61 healthThreshold=100 theme=error}
+:::
+::::
+::::pokemon[Salazzle]
+  - Psychic
+:::::
+
+  - Equip Mystic Water.
+  - Max Repel (reapply it once).
+  - Heal to full.
+
+::::if{source="Popplio" condition="spatk=(#/25-27/0)"}
+:::::trainer[Ace Trainer Yuki]
+:::pokemon[Sandshrew:]
+  - Sparkling Aria
+:::
+:::pokemon[Marowak:]
+  - Sparkling Aria
+:::::
+
+  - Use Sharpedo to smash water rocks.
+  - On Route 17, go to the right on top of the hills.
+  - Head to Po Town.
+
+::damage[Haunter's Shadow Ball does:]{source="Popplio" special=true offensive=false evolution=2 movePower=80 stab=true level=37 evs=10 opponentLevel=34 opponentStat=88}
+
+:::::trainer[Team Skull Grunt Doubles]
+::::pokemon[Haunter + Drowzee]
+  - Sparkling Aria | X-Sp. Atk :info[(skip X-Sp. Atk if only 1 left)]{color=gray}
 :::if{source="Popplio" condition="spatk=(x/15-25/0)" theme=error}
-Primarina's Sparkling Aria in the Rain in Doubles against Drowzee at Level 37 is a 1 / 16 range to kill at 105-108 Sp. Attack (x / 15-25 / 0)
+Primarina's Sparkling Aria in the Rain in Doubles at Drowzee at Level 37 is a 1 / 16 range to kill at 105-108 Sp. Attack (x / 15-25 / 0)
 :::
 :::if{source="Popplio" condition="spatk=(x/26-30/1-3)" theme=error}
-Primarina's Sparkling Aria in the Rain in Doubles against Drowzee at Level 37 is a 2 / 16 range to kill at 109 / 110 Sp. Attack (x / 26-30 / 1-3)
+Primarina's Sparkling Aria in the Rain in Doubles at Drowzee at Level 37 is a 2 / 16 range to kill at 109 / 110 Sp. Attack (x / 26-30 / 1-3)
 :::
 :::if{source="Popplio" condition="spatk=(x/31/4-8)" theme=error}
-Primarina's Sparkling Aria in the Rain in Doubles against Drowzee at Level 37 is a 5 / 16 range to kill at 111 / 112 Sp. Attack (x / 31 / 4-8)
+Primarina's Sparkling Aria in the Rain in Doubles at Drowzee at Level 37 is a 5 / 16 range to kill at 111 / 112 Sp. Attack (x / 31 / 4-8)
 :::
 :::if{source="Popplio" condition="spatk=(x/x/9-22)" theme=error}
-Primarina's Sparkling Aria in the Rain in Doubles against Drowzee at Level 37 is a 7 / 16 range to kill at 113-117 Sp. Attack (x / x / 9-22)
+Primarina's Sparkling Aria in the Rain in Doubles at Drowzee at Level 37 is a 7 / 16 range to kill at 113-117 Sp. Attack (x / x / 9-22)
 :::
 :::if{source="Popplio" condition="spatk=(x/x/23-27)" theme=error}
-Primarina's Sparkling Aria in the Rain in Doubles against Drowzee at Level 37 is a 10 / 16 range to kill at 118 / 119 Sp. Attack (x / x / 23-27)
+Primarina's Sparkling Aria in the Rain in Doubles at Drowzee at Level 37 is a 10 / 16 range to kill at 118 / 119 Sp. Attack (x / x / 23-27)
 :::
 :::if{source="Popplio" condition="spatk=(x/x/28-30)" theme=error}
-Primarina's Sparkling Aria in the Rain in Doubles against Drowzee at Level 37 is a 11 / 16 range to kill at 121 Sp. Attack (x / x / 28-30)
+Primarina's Sparkling Aria in the Rain in Doubles at Drowzee at Level 37 is a 11 / 16 range to kill at 121 Sp. Attack (x / x / 28-30)
 :::
 :::if{source="Popplio" condition="spatk=(x/x/31)" theme=error}
-Primarina's Sparkling Aria in the Rain in Doubles against Drowzee at Level 37 is a 14 / 16 range to kill at 122 Sp. Attack (x / x / 31)
+Primarina's Sparkling Aria in the Rain in Doubles at Drowzee at Level 37 is a 14 / 16 range to kill at 122 Sp. Attack (x / x / 31)
 :::
+  - → Do not teach Hyper Voice.
+:::::
+:::::trainer[Team Skull Grunt]
+:::pokemon[Spinarak]
+  -  *Aqua Jet / Sparkling Aria
+:::::
+:::::trainer[Team Skull Grunt]
+:::pokemon[Grimer]
+  - Sparkling Aria
+:::::
 
+  - Charge to gap in hedge and pickup Rare Candy.
+
+  - Get past Grunt by going by the car on the right side. Once past the broken fence, charge to Shady House entrance by going behind walking Grunt.
+
+  - Upstairs, wait a split second for Grunt and pass him hugging the railing.
+
+  - **Passwords: 3 - 2 - 1 - No!** (There’s a text box after Grunt has moved)
+
+  - Heal to full if taken significant damage.
 
 ::damage[Ariados’s Shadow Sneak does:]{source="Popplio" special=false offensive=false evolution=2 movePower=40 stab=false effectiveness=1 level=38 evs=20 opponentLevel=36 opponentStat=113 combatStages=0--4}
+:::::trainer[Team Skull Guzma 2]
+::::pokemon[Golisopod]
+  - Psychic + X-Sp. Atk + Psychic
 
+:::if{source="Popplio" condition="spatk=(x/7-8/x)" theme=error}
+Psychic + X-Sp. Atk + Psychic is a 84% range to kill at 105 Sp. Attack (x / 7-8 / x)
+:::
+:::if{source="Popplio" condition="spatk=(x/9-11/x)" theme=error}
+Psychic + X-Sp. Atk + Psychic is a 93% range to kill at 106 Sp. Attack (x / 9-11 / x)
+:::
+:::if{source="Popplio" condition="spatk=(x/12-16/x)" theme=error}
+Psychic + X-Sp. Atk + Psychic is a 95.3% range to kill at 107/108 Sp. Attack (x / 12-16 / x)
+:::
+:::if{source="Popplio" condition="spatk=(x/17-19/x)" theme=error}
+Psychic + X-Sp. Atk + Psychic is a 99.2% range to kill at 109 Sp. Attack (x / 17-19 / x)
+:::
+:::if{source="Popplio" condition="spatk=(x/20+/0+)" theme=error}
+Psychic + X-Sp. Atk + Psychic is a 100% range to kill at 110 Sp. Attack (x / 20+ / 0+)
+:::
 
+::::
+::::pokemon[Ariados]
+  - Sparkling Aria
+:::::
 
+:info[**FREE HEAL**]{color=pink}
 
+  - Feed both Rare Candies.
+  - Use Max Repel (reapply Max Repels until the end of the game).
+  - Use the Escape Rope.
+  - Go south to trigger the cutscene.
+  - Fly to Hau’Oli City.
+  - Enter Pokémon Center.
+  - Deposit Pikipek in the PC.
 
+### Shopping
+> #### Buy (Right Vendor)
+> - 1 X-Sp. Def (^^)
+> - 24 X-Sp. Atk (^) (>^^^>)
+> - MAX X-Speed (>v) (<)
+:::dropdown{title="If used all X-Defenses"}
+> - 1 X-Defense (>)
+> - 1 X-Sp. Def (>^)
+> - 24 X-Sp. Atk (^) (>^^^>)
+> - MAX X-Speed (>v) (<)
+:::
 
+ - Fly to Tapu Village.
+ - Head to the Aether House.
 
+:::::trainer[Team Skull Gladion]
+::::pokemon[Golbat]
+- Spam Encore
+:::::
 
+  - Say **YES** after the battle to get teleported to Malie City.
 
+:info[**FREE HEAL**]{color=pink}
 
+:::::trainer[**Island Kahuna Nanu**]
+::::pokemon[Sableye]
+  - X-Sp. Atk + X-Speed
+  - Sparkling Aria
+::::
+::::pokemon[Krokorok]
+  - Sparkling Aria
+::::
+::::pokemon[Persian]{info="faster at 73+ at +2 Speed (x/x/21+) (x/x/22+)" infoColor=blue}
+:::if{source="Popplio" condition="speed=72-" level=41 evolution=2}
+- X-Speed + Sparkling Aria
+:::
+:::if{source="Popplio" condition="speed=73+" level=41 evolution=2}
+- Sparkling Aria
+:::
+::::: 
 
+:info[**FREE HEAL**]{color=pink}
