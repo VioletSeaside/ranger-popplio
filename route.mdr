@@ -43,7 +43,7 @@
 56 -> 0,0,0,0,0,0
 :::
 
-# Pokémon Moon A
+# Pokémon Moon e
 ### Any% Primarina notes
 
 ----
@@ -692,12 +692,12 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
 - Run from second Wishiwashi.
 - Pickup TM55 Scald.
 - Heal to full-ish with Potions.
+
 :::if{source="Popplio" condition="$hiddenpower == 'None' "}
 - If you did not pickup Hidden Power:
    - Teach Scald over Growl (Slot 3).
-- 
 :::
-
+- 
 :::if{source="Popplio" condition="$hiddenpower == 'Poison' || $hiddenpower == 'Fire' || $hiddenpower == 'Ice' "}
 - If you picked up Hidden Power Ice, Fire, Poison.
    - Teach Scald over Growl (Slot 3).
@@ -840,7 +840,7 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
   ::damage[Salandit's Venoshock (LVL 23)]{source="Popplio" evolution=1 offensive=false special=true movePower=65 stab=true level=23 evs=3 opponentLevel=20 opponentStat=39 theme="info"}
   ::damage[Salandit's Venoshock when POISONED(LVL 23)]{source="Popplio" evolution=1 offensive=false special=true movePower=130 stab=true level=23 evs=3 opponentLevel=20 opponentStat=39 theme="info"}
   - Aqua Jet Salazzle
-  - *Aqua Jet or Scald Salandit :info[Range to fix, 6/16 is 0-4,5-8 is 11/16,else is right]{color=red}
+  - *Aqua Jet or Scald Salandit :info[Range to fix,6/16 is 0-4,5-8 is 11/16,else is right]{color=red}
   ::damage[Brionne's *Aqua Jet at Level 23 (Low Exp)]{source="Popplio" special=false evolution=1 movePower=40 stab=true torrent=true effectiveness=2 level=23 evs=7 opponentLevel=20 opponentStat=24 healthThreshold=52 theme=error}
   :::
   :::if{source="Popplio" condition=$OHKOSalazzle}
@@ -892,12 +892,10 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
   - **If Hidden Power**:
       - Hidden Power (x2 if not Poison)
   :::
-  :::if{source="Popplio" condition="$hiddenpower == 'None' "}
   - If Torrent:
       - *Z-Scald (range with bad Sp. Atk)
   - Otherwise:
       - Scald + Z-Scald (sometimes Scald x2 with High Exp)
-  :::
   ::::
  - Fight the 2 Fomantis (see pictures).
  ![First Fomantis Location](1st_fomantis.png)
@@ -925,7 +923,6 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
      - Hidden Power (+ Scald)
  :::
  :::if{source="Popplio" condition="$hiddenpower == 'None' "}
-- Otherwise:
 - Scald x2 / x3 
 - OR Scald + *Scald
 - OR Z-Scald (range)
@@ -976,7 +973,6 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
 :::if{source="Popplio" condition="$hiddenpower == 'Poison' || $hiddenpower == 'Fire' || $hiddenpower == 'Ice' || $hiddenpower == 'Flying' "}
 ::damage[Brionne's Hidden Power at +4 at Level 28]{source="Popplio" special=true evolution=1 movePower=60 effectiveness=2 combatStages=4 level=28 evs=5 opponentLevel=24 opponentStat=55 healthThreshold=90 theme=error}
 :::
-::::::
 
 :::if{source="Popplio" condition=$isLowExp}
 ::::pokemon[Totem Lurantis: (assuming no Razor Leaf, adapt on the fly if it happens)]
@@ -1021,7 +1017,7 @@ Poison damage: 10 with 28 - 31 HP IV
 
 ::damage[Fomantis' Razor Leaf (LVL 28)]{source="Popplio" evolution=1 offensive=false special=false multiTarget=true movePower=55 stab=true effectiveness=2 level=28 evs=17 opponentLevel=22 opponentStat=32 theme="info"}
 
-::::::trainer[Team Skull Grunts(double with Hau)]
+:::::trainer[Team Skull Grunts(double with Hau)]
   :::if{source="Popplio" condition="$hiddenpower == 'Poison' || $hiddenpower == 'Fire' || $hiddenpower == 'Ice' || $hiddenpower == 'Flying' "}
   - If you have Hidden Power :
 	  - Hidden Power Fomantis
@@ -1030,12 +1026,13 @@ Poison damage: 10 with 28 - 31 HP IV
   - If you're in Torrent :
       - *Scald OR Hidden Power Fomantis
 	  - *Aqua Jet OR Scald Salandit
+  - 
   :::if{source="Popplio" condition="$hiddenpower == 'None' "}
   - Otherwise :
       - Scald Salandit
 	  - Scald Fomantis
   :::
-::::::
+:::::
 
 :info[**FREE HEAL**]{color=pink}
 
@@ -1207,12 +1204,12 @@ Poison damage: 10 with 28 - 31 HP IV
 
 :info[Puzzle 1: Option 1]{color=gray}
 :::::trainer[Electric Trial]
-::::pokemon[Grubbin:]{info="Encore Bite or Bug Bite if needed (does ~13 - 22 damage, has Swarm, though)" infoColor=gray}
+:::pokemon[Grubbin:]{info="Encore Bite or Bug Bite if needed (does ~13 - 22 damage, has Swarm, though)" infoColor=gray}
   - Encore
   - **If String Shot**: Aqua Jet.
   - _Otherwise:_
     - *Scald 
-::::
+:::
   :::if{source="Popplio" condition="$hiddenpower == 'None' "}
   - **Teach Sparkling Aria** over Water Gun
   :::
@@ -1222,8 +1219,15 @@ Poison damage: 10 with 28 - 31 HP IV
   :::if{source="Popplio" condition=" $hiddenpower == 'Flying' "}
   - **Teach Sparkling Aria** over Scald if HP Flying **(SLOT 2)**
   :::
+
  ::::pokemon[Both Charjabugs]{info="Puzzle 2 and 3: Option 2" infoColor=gray}
-  - *Scald (*Sparkling Aria if taught over Scald)
+  :::if{source="Popplio" condition=" $hiddenpower != 'Flying' "}
+  - *Scald
+  :::
+  :::if{source="Popplio" condition=" $hiddenpower == 'Flying' "}
+  - *Sparkling Aria if taught over Scald
+  :::
+  
 ::::
  ::::pokemon[Totem Vikavolt]{info="Puzzle 4: Option 3" infoColor=gray}
   - *Z-Sparkling Aria
@@ -1461,7 +1465,6 @@ Primarina's Sparkling Aria in the Rain in Doubles against Drowzee at Level 37 is
 
 
 ::damage[Ariados’s Shadow Sneak does:]{source="Popplio" special=false offensive=false evolution=2 movePower=40 stab=false effectiveness=1 level=38 evs=20 opponentLevel=36 opponentStat=113 combatStages=0--4}
-
 
 
 
