@@ -43,7 +43,7 @@
 56 -> 0,0,0,0,0,0
 :::
 
-# Pokémon Moon a
+# Pokémon Moon b
 ### Any% Primarina notes
 
 ----
@@ -1626,7 +1626,7 @@ Psychic + X-Sp. Atk + Psychic is a 100% range to kill at 110 Sp. Attack (x / 20+
 
 ::::::if{source="Popplio" condition=$isLowExp}
 :::::trainer[Faba]
-::::pokemon[Hypno]]{info="faster at 76+ speed (x/x/29+)" infoColor=blue}
+::::pokemon[Hypno]{info="faster at 76+ speed (x/x/29+)" infoColor=blue}
 :::if{source="Popplio" condition="speed=(#/#/28-}
 - X-Speed
 :::
@@ -1651,7 +1651,7 @@ Sparkling Aria x2 is a 100% range to kill at 121 Sp. Attack (x / 26+ / 0+)
 
 ::::::if{source="Popplio" condition=!$isLowExp}
 :::::trainer[Faba]
-::::pokemon[Hypno]]{info="faster at 76+ speed (x/x/28+)" infoColor=blue}
+::::pokemon[Hypno]{info="faster at 76+ speed (x/x/28+)" infoColor=blue}
 :::if{source="Popplio" condition="speed=(#/#/27-}
 - X-Speed
 :::
