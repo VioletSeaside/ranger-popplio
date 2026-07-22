@@ -1125,7 +1125,7 @@ Poison damage: 10 with 28 - 31 HP IV
 - Pick the second option when Hau is talking.
 - Charge to the library.
 - Head to route 10 to the bus stop.
-
+![Route 10](bus.gif)
 :::::trainer[Team Skull Grunt]
 ::::pokemon[Golbat]
 - _Safe:_
@@ -1157,6 +1157,7 @@ Poison damage: 10 with 28 - 31 HP IV
 		→ Raticate does not have a priority move (so doesn’t outspeed Aqua Jet)]{color=gray}
 :::::
 
+  ![Hidden Rare Candy](molayne_candy.png)
   - After taking the bus, go south and pickup the **hidden Rare Candy**.
   - **Before Molayne, candy twice to level 33**
 
@@ -1182,6 +1183,7 @@ Poison damage: 10 with 28 - 31 HP IV
  - Scald
 :::::
 
+  ![Comet Shard](comet_shard.png)
   - Get the Comet Shard.
   - **Do not heal**
 
@@ -1402,6 +1404,7 @@ Primarina's Z-Sparkling Aria at Level 34 is a 16 / 16 range to kill at 98+ Sp. A
 - Do not heal Poison or Paralysis.
 - Head to the ghost trial.
 - Use 3DS motion controls to take pictures faster.
+![Fisher movement 1 Ghost Tiral](fisherman_ghost.gif)
 
 - **Try to conserve Sparkling Arias by using Psychic, such that you will have 2 left for Mimikyu.**
 
@@ -1440,6 +1443,7 @@ Primarina's Z-Sparkling Aria at Level 34 is a 16 / 16 range to kill at 98+ Sp. A
 :::
 :::::
 
+![Fisher movement 2 Ghost Tiral](fisherman_ghost_2.gif)
 - Charge to Pokémon Center: 
 - PC heal.
 - Withdraw Pikipek.
@@ -1484,6 +1488,7 @@ Primarina's Z-Sparkling Aria at Level 34 is a 16 / 16 range to kill at 98+ Sp. A
   - Use Sharpedo to smash water rocks.
   - On Route 17, go to the right on top of the hills.
   - Head to Po Town.
+![Route 17 Hill Movement](route_17.gif)
 
 ::damage[Haunter's Shadow Ball does:]{source="Popplio" special=true offensive=false evolution=2 movePower=80 stab=true level=37 evs=10 opponentLevel=34 opponentStat=88}
 
