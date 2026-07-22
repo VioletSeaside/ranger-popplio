@@ -43,7 +43,7 @@
 56 -> 0,0,0,0,0,0
 :::
 
-# Pokémon Moon b
+# Pokémon Moon c
 ### Any% Primarina notes
 
 ----
@@ -1647,6 +1647,8 @@ Sparkling Aria x2 is a 99.5% range to kill at 119 / 120 Sp. Attack (x / 22-25 / 
 :::if{source="Popplio" condition="spatk=(x/26+/#)" theme=error}
 Sparkling Aria x2 is a 100% range to kill at 121 Sp. Attack (x / 26+ / 0+)
 :::
+::::
+:::::
 ::::::
 
 ::::::if{source="Popplio" condition=!$isLowExp}
@@ -1672,4 +1674,6 @@ Sparkling Aria x2 is a 99.5% range to kill at 119 / 120 Sp. Attack (x / 22-25 / 
 :::if{source="Popplio" condition="spatk=(x/26+/#)" theme=error}
 Sparkling Aria x2 is a 100% range to kill at 121 Sp. Attack (x / 26+ / 0+)
 :::
+::::
+:::::
 ::::::
