@@ -38,7 +38,12 @@
     41 -> 9, 29, 22, 20, 11, 41
 :::
 
-# Pokémon Moon 5
+:::tracker{species="Lunala" baseStats="[[137,113,89,137,107,97]]"}
+55:
+56 -> 0,0,0,0,0,0
+:::
+
+# Pokémon Moon e
 ### Any% Primarina notes
 
 ----
@@ -613,7 +618,21 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
 - After the Miltank cutscene, head south.
 - Reapply the Repel.
 - Avoid getting stuck behind the sign. ![Gentleman](gentleman.gif)
-- *Pickup Hidden Power (read section below) (TBD)*.
+
+- *Pickup Hidden Power if : (read section below)*.
+:::dropdown{title="Click here if Hidden Power Poison, Ice, Fire or Flying" theme="error"}
+![Hidden Power TM](hp.png)
+- If you are not tracking your IVs accurately, skip this Hidden Power section.
+- If you know that your Hidden Power type is Poison pickup the Hidden Power TM.
+- Also pickup Hidden Power if your Defense stat is mid/good and if your Hidden Power is any of
+  - **Flying**
+  - **Fire**
+  - **Ice**
+- ::variable{name="hiddenpower" type="select" title="What Hidden Power do you have ?" options='["Poison", "Flying", "Fire", "Ice", "None"]' defaultValue= 'None'}
+:::
+
+
+
 - Charge right around the Gentleman.
 - The double battles on Route 5 cannot see you, because you only have Brionne in your party.
 
@@ -674,14 +693,18 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
 - Pickup TM55 Scald.
 - Heal to full-ish with Potions.
 
+:::if{source="Popplio" condition="$hiddenpower == 'None' "}
 - If you did not pickup Hidden Power:
    - Teach Scald over Growl (Slot 3).
-
-:::dropdown{theme=info}
+:::
+- 
+:::if{source="Popplio" condition="$hiddenpower == 'Poison' || $hiddenpower == 'Fire' || $hiddenpower == 'Ice' "}
 - If you picked up Hidden Power Ice, Fire, Poison.
    - Teach Scald over Growl (Slot 3).
    - Teach Hidden Power over Water Gun (Slot 2).
+:::
 
+:::if{source="Popplio" condition="$hiddenpower == 'Flying' "}
 - If you picked up Hidden Power Flying:
   - Teach Scald over Water Gun (Slot 2).
   - Teach Hidden Power over Growl (Slot 3).
@@ -865,8 +888,10 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
   ::::
   ::::pokemon[Shiinotic]
   - X-Sp. Atk
-  - If Hidden Power:
+  :::if{source="Popplio" condition="$hiddenpower == 'Poison' || $hiddenpower == 'Fire' || $hiddenpower == 'Ice' || $hiddenpower == 'Flying' "}
+  - **If Hidden Power**:
       - Hidden Power (x2 if not Poison)
+  :::
   - If Torrent:
       - *Z-Scald (range with bad Sp. Atk)
   - Otherwise:
@@ -877,32 +902,32 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
  - First Fomantis, go up then left into the north west room, and head to the tree to the left. Don't forget to take the hidden Mago Berry !
  ![Second Fomantis Location](2nd_fomantis.png)
  - Second Fomantis is in the other north room, head to the left and talk to the weird grass patch.
- - :info[Fomantis have random Attacks IVs(average is 15, max is 31)]{color=red}
+
+- :info[Fomantis have random Attacks IVs(average is 15, max is 31)]{color=red}
 ::::if{source="Popplio" condition=$isLowExp}
 ::damage[Fomantis' Razor Leaf AVG (LVL 23)]{source="Popplio" evolution=1 offensive=false special=false movePower=55 stab=true effectiveness=2 level=23 evs=5 opponentLevel=23 opponentStat=33 theme="info"}
-::damage[Fomantis' Razor Leaf AVG Crit (LVL 23)]{source="Popplio" evolution=1 offensive=false special=false movePower=55 stab=true criticalHit=true effectiveness=2 level=23 evs=5 opponentLevel=23 opponentStat=33 theme="info"}
 ::damage[Fomantis' Razor Leaf MAX (LVL 23)]{source="Popplio" evolution=1 offensive=false special=false movePower=55 stab=true effectiveness=2 level=23 evs=5 opponentLevel=23 opponentStat=40 theme="info"}
-::damage[Fomantis' Razor Leaf MAX Crit (LVL 23)]{source="Popplio" evolution=1 offensive=false special=false movePower=55 stab=true criticalHit=true effectiveness=2 level=23 evs=5 opponentLevel=23 opponentStat=40 theme="info"}
 ::damage[Fomantis' Leafage AVG (LVL 23)]{source="Popplio" evolution=1 offensive=false special=false movePower=40 stab=true effectiveness=2 level=23 evs=5 opponentLevel=23 opponentStat=33 theme="info"}
 ::damage[Fomantis' Leafage MAX (LVL 23)]{source="Popplio" evolution=1 offensive=false special=false movePower=40 stab=true effectiveness=2 level=23 evs=5 opponentLevel=23 opponentStat=40 theme="info"}
 ::::
 ::::if{source="Popplio" condition=!$isLowExp}
 ::damage[Fomantis' Razor Leaf AVG (LVL 25)]{source="Popplio" evolution=1 offensive=false special=false movePower=55 stab=true effectiveness=2 level=25 evs=5 opponentLevel=23 opponentStat=33 theme="warning"}
-::damage[Fomantis' Razor Leaf AVG Crit (LVL 25)]{source="Popplio" evolution=1 offensive=false special=false movePower=55 stab=true criticalHit=true effectiveness=2 level=25 evs=5 opponentLevel=23 opponentStat=33 theme="warning"}
 ::damage[Fomantis' Razor Leaf MAX (LVL 25)]{source="Popplio" evolution=1 offensive=false special=false movePower=55 stab=true effectiveness=2 level=25 evs=5 opponentLevel=23 opponentStat=40 theme="warning"}
-::damage[Fomantis' Razor Leaf MAX Crit (LVL 25)]{source="Popplio" evolution=1 offensive=false special=false movePower=55 stab=true criticalHit=true effectiveness=2 level=25 evs=5 opponentLevel=23 opponentStat=40 theme="warning"}
 ::damage[Fomantis' Leafage AVG (LVL 25)]{source="Popplio" evolution=1 offensive=false special=false movePower=40 stab=true effectiveness=2 level=25 evs=5 opponentLevel=23 opponentStat=33 theme="warning"}
 ::damage[Fomantis' Leafage MAX (LVL 25)]{source="Popplio" evolution=1 offensive=false special=false movePower=40 stab=true effectiveness=2 level=25 evs=5 opponentLevel=23 opponentStat=40 theme="warning"}
 ::::
 
  ::::pokemon[All Fomantis]
- - If Hidden Power:	
+ :::if{source="Popplio" condition="$hiddenpower == 'Poison' || $hiddenpower == 'Fire' || $hiddenpower == 'Ice' || $hiddenpower == 'Flying' "}
+ - **If Hidden Power**:	
      - Hidden Power (+ Scald)
- - Otherwise:
-     - Scald x2 / x3 
-     - OR Scald + *Scald
-     - OR Z-Scald (range)
-     - OR *Z-Scald
+ :::
+ :::if{source="Popplio" condition="$hiddenpower == 'None' "}
+- Scald x2 / x3 
+- OR Scald + *Scald
+- OR Z-Scald (range)
+- OR *Z-Scald
+ :::
  ::::
 
 - :info[If you only have ~4 Super Potions left, pickup Hyper Potion in the northern area to the right.]{color=gray}
@@ -945,8 +970,9 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
 - **+4: Z-Scald / Hidden Power**
 
 ::damage[Brionne's *Z-Scald at +2 / Z-Scald at +4 at Level 28]{source="Popplio" special=true evolution=1 movePower=160 torrent=true stab=true effectiveness=0.5 combatStages=2 level=28 evs=5 opponentLevel=24 opponentStat=55 healthThreshold=90 theme=error}
+:::if{source="Popplio" condition="$hiddenpower == 'Poison' || $hiddenpower == 'Fire' || $hiddenpower == 'Ice' || $hiddenpower == 'Flying' "}
 ::damage[Brionne's Hidden Power at +4 at Level 28]{source="Popplio" special=true evolution=1 movePower=60 effectiveness=2 combatStages=4 level=28 evs=5 opponentLevel=24 opponentStat=55 healthThreshold=90 theme=error}
-::::::
+:::
 
 :::if{source="Popplio" condition=$isLowExp}
 ::::pokemon[Totem Lurantis: (assuming no Razor Leaf, adapt on the fly if it happens)]
@@ -963,7 +989,9 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
 - **+4: Z-Scald / Hidden Power**
 
 ::damage[Brionne's *Z-Scald at +2 / Z-Scald at +4 at Level 28]{source="Popplio" special=true evolution=1 movePower=160 torrent=true stab=true effectiveness=0.5 combatStages=2 level=28 evs=5 opponentLevel=24 opponentStat=55 healthThreshold=90 theme=error}
+:::if{source="Popplio" condition="$hiddenpower == 'Poison' || $hiddenpower == 'Fire' || $hiddenpower == 'Ice' || $hiddenpower == 'Flying' "}
 ::damage[Brionne's Hidden Power at +4 at Level 28]{source="Popplio" special=true evolution=1 movePower=60 effectiveness=2 combatStages=4 level=28 evs=5 opponentLevel=24 opponentStat=55 healthThreshold=90 theme=error}
+:::
 ::::::
 
 
@@ -973,7 +1001,9 @@ Decide whether to go for:info[High Exp]{color=yellow} or :info[Low Exp]{color=bl
 - Head to Diglett’s Tunnel.
 - Repel (reapply this Repel 3 more times).
 - Potion if:
-	- You have Hidden Power, but can die to Smog.
+	:::if{source="Popplio" condition="$hiddenpower == 'Poison' || $hiddenpower == 'Fire' || $hiddenpower == 'Ice' || $hiddenpower == 'Flying' "}
+    - You have Hidden Power, but can die to Smog.
+    :::
 	- In Torrent, but can die to Smog.
 	- Not in Torrent, but can die to Razor Leaf (+ Smog if slower than Salandit)
 
@@ -987,14 +1017,22 @@ Poison damage: 10 with 28 - 31 HP IV
 
 ::damage[Fomantis' Razor Leaf (LVL 28)]{source="Popplio" evolution=1 offensive=false special=false multiTarget=true movePower=55 stab=true effectiveness=2 level=28 evs=17 opponentLevel=22 opponentStat=32 theme="info"}
 
-::::::trainer[Team Skull Grunts Double]
-  - If you're in Torrent or have Hidden Power :
+:::::trainer[Team Skull Grunts(double with Hau)]
+  :::if{source="Popplio" condition="$hiddenpower == 'Poison' || $hiddenpower == 'Fire' || $hiddenpower == 'Ice' || $hiddenpower == 'Flying' "}
+  - If you have Hidden Power :
+	  - Hidden Power Fomantis
+      - *Aqua Jet OR Scald Salandit
+  :::
+  - If you're in Torrent :
       - *Scald OR Hidden Power Fomantis
 	  - *Aqua Jet OR Scald Salandit
+  - 
+  :::if{source="Popplio" condition="$hiddenpower == 'None' "}
   - Otherwise :
       - Scald Salandit
 	  - Scald Fomantis
-::::::
+  :::
+:::::
 
 :info[**FREE HEAL**]{color=pink}
 
@@ -1021,11 +1059,11 @@ Poison damage: 10 with 28 - 31 HP IV
 - Reapply the Repel a last time.
 - Stay on the right side after going up the ramp.
 
-:::::trainer[Team Skull Admin Plumeria 1]
+:::::trainer[Plumeria 1]
 :::pokemon[Golbat]{info="Has Confuse Ray, Poison Fang and Air Cutter" infoColor=blue}
 - Scald x2 OR *Scald + *Aqua Jet
 - Can Z-Scald for safety
-::damage[Brionne's Z-Scald at Level 29]{source="Popplio" special=true evolution=1 movePower=160 stab=true level=29 evs=5 opponentLevel=25 opponentStat=46 healthThreshold=76 theme=error}
+::damage[Brionne's Z-Scald at +2 at Level 29]{source="Popplio" special=true evolution=1 movePower=160 stab=true level=29 evs=5 opponentLevel=25 opponentStat=46 healthThreshold=76 theme=error}
 :::
 :::pokemon[Salandit]
 - Scald OR *Aqua Jet
@@ -1087,7 +1125,7 @@ Poison damage: 10 with 28 - 31 HP IV
 - Pick the second option when Hau is talking.
 - Charge to the library.
 - Head to route 10 to the bus stop.
-
+![Route 10](bus.gif)
 :::::trainer[Team Skull Grunt]
 ::::pokemon[Golbat]
 - _Safe:_
@@ -1119,6 +1157,7 @@ Poison damage: 10 with 28 - 31 HP IV
 		→ Raticate does not have a priority move (so doesn’t outspeed Aqua Jet)]{color=gray}
 :::::
 
+  ![Hidden Rare Candy](molayne_candy.png)
   - After taking the bus, go south and pickup the **hidden Rare Candy**.
   - **Before Molayne, candy twice to level 33**
 
@@ -1128,18 +1167,23 @@ Poison damage: 10 with 28 - 31 HP IV
 ::damage[Dugtrio's Sucker Punch]{source="Popplio" special=false offensive=false evolution=1 movePower=70 stab=false effectiveness=1 level=33 evs=7 opponentLevel=30 opponentStat=93}
 
 :::::trainer[Molayne]
-:::pokemon[Skarmory]{info="faster at 55+ Speed (x / x / 28+)" infoColor=blue}
+::::pokemon[Skarmory:]{info="faster at 55+ Speed (x / x / 28+)" infoColor=blue}
+  :::if{source="Popplio" condition="$hiddenpower == 'None' "}
   - X-Sp. Atk + Water Gun + Scald
-  - :info[With Hidden Power, Aqua Jet + X-Sp. Atk x2 + Scald]{color=gray}
-:::
-:::pokemon[Metang]
+  :::
+  :::if{source="Popplio" condition="$hiddenpower == 'Poison' || $hiddenpower == 'Fire' || $hiddenpower == 'Ice' || $hiddenpower == 'Flying' "}
+  - Aqua Jet + X-Sp. Atk x2 + Scald
+  :::
+::::
+::::pokemon[Metang]
   - Water Gun + Scald
-  - :info[Or *Scald/Scald at +4]{color=gray}
-:::
-:::pokemon[Dugtrio]
+  - :info[Or *Scald/Scald at +4 if Hidden Power]{color=gray}
+::::
+::::pokemon[Dugtrio]
  - Scald
 :::::
 
+  ![Comet Shard](comet_shard.png)
   - Get the Comet Shard.
   - **Do not heal**
 
@@ -1162,17 +1206,31 @@ Poison damage: 10 with 28 - 31 HP IV
 
 :info[Puzzle 1: Option 1]{color=gray}
 :::::trainer[Electric Trial]
-:::pokemon[Grubbin]{info="Encore Bite or Bug Bite if needed (does ~13 - 22 damage, has Swarm, though)" infoColor=gray}
+:::pokemon[Grubbin:]{info="Encore Bite or Bug Bite if needed (does ~13 - 22 damage, has Swarm, though)" infoColor=gray}
   - Encore
   - **If String Shot**: Aqua Jet.
   - _Otherwise:_
     - *Scald 
 :::
-  - **Teach Sparkling Aria** over Water Gun / Hidden Power (or Scald if HP Flying) **(SLOT 2)**
+  :::if{source="Popplio" condition="$hiddenpower == 'None' "}
+  - **Teach Sparkling Aria** over Water Gun
+  :::
+  :::if{source="Popplio" condition="$hiddenpower == 'Poison' || $hiddenpower == 'Fire' || $hiddenpower == 'Ice' "}
+  - **Teach Sparkling Aria** over Hidden Power **(SLOT 2)**
+  :::
+  :::if{source="Popplio" condition=" $hiddenpower == 'Flying' "}
+  - **Teach Sparkling Aria** over Scald if HP Flying **(SLOT 2)**
+  :::
 
- :::pokemon[Both Charjabugs]{info="Puzzle 2 and 3: Option 2" infoColor=gray}
-  - *Scald (*Sparkling Aria if taught over Scald)
-:::
+ ::::pokemon[Both Charjabugs]{info="Puzzle 2 and 3: Option 2" infoColor=gray}
+  :::if{source="Popplio" condition=" $hiddenpower != 'Flying' "}
+  - *Scald
+  :::
+  :::if{source="Popplio" condition=" $hiddenpower == 'Flying' "}
+  - *Sparkling Aria if taught over Scald
+  :::
+  
+::::
  ::::pokemon[Totem Vikavolt]{info="Puzzle 4: Option 3" infoColor=gray}
   - *Z-Sparkling Aria
 ::::card{theme=error}
@@ -1192,36 +1250,44 @@ Primarina's Z-Sparkling Aria at Level 34 is a 16 / 16 range to kill at 98+ Sp. A
 :::::
 
 
-  - Fly to garden.
-  - Teach Psychic over Scald if not using Hidden Power Flying (slot 3)
-  - Heal to full
-
-  :::::trainer[Team Skull Guzma 1]
-  :::pokemon[Golispod]
-  - Without Hidden Power Flying:
-    - Psychic
-    - X-Sp. Atk :info[Skip if high rolled Psychic and got Sp. Def drop]{color=gray}
-    - Psychic
-  
-  - With Hidden Power Flying:
-    - X-Sp. Atk
-    - Hidden Power 
+- Fly to garden.
+:::if{source="Popplio" condition="$hiddenpower != 'Flying' "}
+- Teach Psychic over Scald
 :::
-  - ::damage[Primarina's Hidden Power Flying at Level 34]{source="Popplio" special=true evolution=2 movePower=60 effectiveness=2 combatStages=2 level=34 evs=8 opponentLevel=31 opponentStat=65 healthThreshold=97 theme=error} 
-  :::pokemon[Ariados]
-  - +2: Hidden Power Flying / Sparkling Aria
-  - +0: Psychic
- :::::
+- Heal to full
 
-  - Head to Route 11.
-  - **At the grass**:
-    - Repel (use all your remaining ones)
-    - Super Potion if cannot live Elekid’s Thunder Punch.
-    - (Teach Psychic over Hidden Power)
 
-  - Quick Bind Mudsdale in the ride pager.
- ::::if{source="Popplio" condition="spatk=(#/24-/1+) || spatk=(x/28+/x)"}
-  - Fight Ace Trainer Yuki
+:::::trainer[Guzma 1]
+::::pokemon[Golispod]
+:::if{source="Popplio" condition="$hiddenpower != 'Flying' "} 
+- Without Hidden Power Flying:
+  - Psychic
+  - X-Sp. Atk :info[Skip if high rolled Psychic and got Sp. Def drop]{color=gray}
+  - Psychic
+:::
+:::if{source="Popplio" condition="$hiddenpower == 'Flying' "}  
+- With Hidden Power Flying:
+  - X-Sp. Atk
+  - Hidden Power
+- ::damage[Primarina's Hidden Power Flying at Level 34]{source="Popplio" special=true evolution=2 movePower=60 effectiveness=2 combatStages=2 level=34 evs=8 opponentLevel=31 opponentStat=65 healthThreshold=97 theme=error}
+:::
+:::: 
+:::pokemon[Ariados:]
+- +2: Hidden Power Flying / Sparkling Aria
+- +0: Psychic
+:::::
+
+- Head to Route 11.
+- **At the grass**:
+  - Repel (use all your remaining ones)
+  - Super Potion if cannot live Elekid’s Thunder Punch.
+  :::if{source="Popplio" condition="$hiddenpower == 'Flying' "} 
+  - (Teach Psychic over Hidden Power)
+  :::
+
+- Quick Bind Mudsdale in the ride pager.
+::::if{source="Popplio" condition="spatk=(#/24-/1+) || spatk=(x/28+/x)"}
+- Fight Ace Trainer Yuki
 
 :::::trainer[Ace Trainer Yuki]
 :::pokemon[Sandshrew]
@@ -1241,7 +1307,7 @@ Primarina's Z-Sparkling Aria at Level 34 is a 16 / 16 range to kill at 98+ Sp. A
  
 - Do not heal paralysis if paralyzed.
 
-:::::trainer[Team Skull Grunt:]
+:::::trainer[Team Skull Grunt]
 ::::pokemon[Drowzee]{info="If paralysed, you are slower than Drowzee" infoColor=blue}
  - Sparkling Aria + Aqua Jet :info[(Sparkling Aria x2 if doubtful about AJ killing)
 ]{color=gray}
@@ -1283,7 +1349,7 @@ Primarina's Z-Sparkling Aria at Level 34 is a 16 / 16 range to kill at 98+ Sp. A
  - Sparkling Aria + Aqua Jet is a 67% chance to kill
 :::
 :::if{source="Popplio" condition="spatk=(x/x/9-14) && atk=(8-/x/x) || spatk=(x/21-28/3-) && atk=(x/26+/9-17) || spatk=(x/x/9-14) && atk=(26+/6-14/0)" theme=error}
-- Sparkling Aria + Aqua Jet is a 68% to kill.
+- Sparkling Aria + Aqua Jet is a 68% to kill
 :::
 :::if{source="Popplio" condition="spatk=(x/x/15-20) && atk=(8-/x/x)" theme=error}
  - Sparkling Aria + Aqua Jet is a 78% chance to kill
@@ -1304,7 +1370,7 @@ Primarina's Z-Sparkling Aria at Level 34 is a 16 / 16 range to kill at 98+ Sp. A
  - Sparkling Aria + Aqua Jet is a 88% chance to kill
 :::
 :::if{source="Popplio" condition="spatk=(x/15-20/x) && atk=(x/26+/9-17) || spatk=(x/x/9-14) && atk=(18-25/5-/x)" theme=error} 
-  - Sparkling Aria + Aqua Jet is a 89% to kill.
+  - Sparkling Aria + Aqua Jet is a 89% to kill
 :::
 :::if{source="Popplio" condition="spatk=(x/x/6-14) && atk=(x/x/18-25)" theme=error}
  - Sparkling Aria + Aqua Jet is a 90% chance to kill
@@ -1316,7 +1382,7 @@ Primarina's Z-Sparkling Aria at Level 34 is a 16 / 16 range to kill at 98+ Sp. A
  - Sparkling Aria + Aqua Jet is a 94% chance to kill
 :::
 :::if{source="Popplio" condition="spatk=(x/15-20/x) && atk=(x/x/18-25) || spatk=(x/21-28/3-) && atk=(x/26+/9-17) || spatk=(x/x/9-14) && atk=(26+/6-14/0)" theme=error}
-  - Sparkling Aria + Aqua Jet is a 95% to kill.
+  - Sparkling Aria + Aqua Jet is a 95% to kill
 :::
 :::if{source="Popplio" condition="spatk=(x/x/26+) && atk=(8-/x/x)" theme=error}
  - Sparkling Aria + Aqua Jet is a 96% chance to kill
@@ -1325,21 +1391,22 @@ Primarina's Z-Sparkling Aria at Level 34 is a 16 / 16 range to kill at 98+ Sp. A
  - Sparkling Aria + Aqua Jet is a 97% chance to kill
 :::
 :::if{source="Popplio" condition="spatk=(x/21-28/3-) && atk=(x/x/18-25) || spatk=(x/x/9-14) && atk=(x/15-25/1-8) || spatk=(x/x/15-20) && atk=(26+/6-14/0) || spatk=(x/x/26+) && atk=(9-17/x/x)" theme=error}
-  - Sparkling Aria + Aqua Jet is a 98% to kill.
+  - Sparkling Aria + Aqua Jet is a 98% to kill
 :::
 :::if{source="Popplio" condition="spatk=(x/x/15-20) && atk=(x/15-25/x) || spatk=(x/x/21-25) && atk=(18-25/0/x)" theme=error}
  - Sparkling Aria + Aqua Jet is a 99% chance to kill
 :::
 :::if{source="Popplio" condition="spatk=(x/x/26+) && atk=(18+/#/#) || spatk=(x/x/21-25) && atk=(26+/6+/x) || spatk=(x/x/15-20) && atk=(x/26+/x) || spatk=(x/x/9-14) && atk=(x/26+/x) || spatk=(x/29+/4-8) && atk=(x/26+/9+) || spatk=(x/21-28/3-) && atk=(x/x/26+) ||spatk=(x/15-20/x) && atk=(x/x/26+)" theme=error}
-  -  Sparkling Aria + Aqua Jet is a 100% to kill.
+  -  Sparkling Aria + Aqua Jet is a 100% to kill
 :::
 :::::
 
-  - Do not heal Poison or Paralysis.
-  - Head to the ghost trial.
-  - Use 3DS motion controls to take pictures faster.
+- Do not heal Poison or Paralysis.
+- Head to the ghost trial.
+- Use 3DS motion controls to take pictures faster.
+![Fisher movement 1 Ghost Tiral](fisherman_ghost.gif)
 
-  - **Try to conserve Sparkling Arias by using Psychic, such that you will have 2 left for Mimikyu.**
+- **Try to conserve Sparkling Arias by using Psychic, such that you will have 2 left for Mimikyu.**
 
 :info[High EXP speed IV is to the left. Low EXP is to the right.]{color=gray}
 :::::trainer[Ghost Trial]
@@ -1347,35 +1414,39 @@ Primarina's Z-Sparkling Aria at Level 34 is a 16 / 16 range to kill at 98+ Sp. A
   - *Aqua Jet/Sparkling Aria/Psychic  
   → :info[*Aqua Jet is 15 / 16 at 67 Attack (36: x / 19 - 20 / 2 - 4) (35: x / 24 - 25 / 6 - 8)]{color=gray}
 :::
-:::pokemon[Haunter]{info="faster at 67+ Speed (36: x/x/26+) (36: x/x/27+) (35: x/x/30+) (35: x/x/31)" infoColor=blue}
-  :info[Haunter has Night Shade (30)]{color=gray}
-  - Sparkling Aria/Psychic
+:::pokemon[Haunter]{info="faster at 67+ Speed (36: x/x/26+) (36: x/x/27+) (35: x/x/30+) (35: x/x/31+)" infoColor=blue}
+   :info[Has Night Shade that does 30]{color=red}
+   - Sparkling Aria/Psychic
 :::
-::damage[Gengar's Shadow Ball usually does:]{source="Popplio" special=true offensive=false evolution=2 movePower=80 stab=true level=36 evs=6 opponentLevel=30 opponentStat=95}
+::damage[Gengar's Shadow Ball]{source="Popplio" special=true offensive=false evolution=2 movePower=80 stab=true level=36 evs=6 opponentLevel=30 opponentStat=95}
 :::pokemon[Gengar]{info="also has Night Shade (30)" infoColor=blue}
   - Psychic :info[Sparkling Aria (+ AJ) if didn’t teach Psychic yet]{color=gray}
 :::
   - Cure Poison or Paralysis
   - **Heal to full**.
+  :::if{source="Popplio" condition="$hiddenpower == 'Flying' "} 
   - *Teach Psychic over Hidden Power Flying if didn’t yet.*
+  :::
   - **Consider saving before the fight**
 :::pokemon[Totem Mimikyu]{info="faster than Haunter at 67+ Speed (x/x/26+) (x/x/27+)" infoColor=blue}
-  - X-Defense
-  - Sparkling Aria (to kill Haunter and break Disguise)
+- X-Defense
+- Sparkling Aria (to kill Haunter and break Disguise)
 
-  - :info[If one X-Defense left, can use it if can’t get out of healing loop]{color=gray}
+- :info[If one X-Defense left, can use it if can’t get out of healing loop]{color=gray}
 
-  - Gambling on Play Rough being used is possible:
-  - +0 *Z-Sparkling Aria kills Mimikyu
- 
-  - *Otherwise*:
-    - X-Sp. Atk
-	- +2 *Sparkling Aria OR Z-Sparkling Aria
+- X-Sp. Atk
+- Z-Sparkling Aria
+
+- Gambling on Play Rough being used is possible:
+  - → +0 *Z-Sparkling Aria kills Mimikyu
+  - → +2 *Sparkling Aria kills Mimikyu
+:::
 :::::
 
-  - Charge to Pokémon Center: 
-  - PC heal.
-  - Withdraw Pikipek.
+![Fisher movement 2 Ghost Tiral](fisherman_ghost_2.gif)
+- Charge to Pokémon Center: 
+- PC heal.
+- Withdraw Pikipek.
 
 ### Shopping 
 > #### Buy
@@ -1417,6 +1488,7 @@ Primarina's Z-Sparkling Aria at Level 34 is a 16 / 16 range to kill at 98+ Sp. A
   - Use Sharpedo to smash water rocks.
   - On Route 17, go to the right on top of the hills.
   - Head to Po Town.
+![Route 17 Hill Movement](route_17.gif)
 
 ::damage[Haunter's Shadow Ball does:]{source="Popplio" special=true offensive=false evolution=2 movePower=80 stab=true level=37 evs=10 opponentLevel=34 opponentStat=88}
 
