@@ -43,7 +43,7 @@
 56 -> 0,0,0,0,0,0
 :::
 
-# Pokémon Moon 7
+# Pokémon Moon 2
 ### Any% Primarina notes
 
 ----
@@ -1676,5 +1676,5 @@ Sparkling Aria x2 is a 100% range to kill at 121 Sp. Attack (x / 26+ / 0+)
 
 - Heal if you could die to the next 3 fights.
 
-::damage[Muk’s Knock Off does:]{source="Popplio" special=false offensive=false evolution=2 movePower=65 stab=true effectiveness=0.5 level=41 evs=23 opponentLevel=37 opponentStat=88}
+::damage[Muk’s Knock Off does:]{source="Popplio" special=false offensive=false evolution=2 movePower=97.5 stab=true effectiveness=0.5 level=41 evs=23 opponentLevel=37 opponentStat=88}
 
