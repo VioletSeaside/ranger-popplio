@@ -1677,4 +1677,21 @@ Sparkling Aria x2 is a 100% range to kill at 121 Sp. Attack (x / 26+ / 0+)
 - Heal if you could die to the next 3 fights.
 
 ::damage[Muk’s Knock Off does:]{source="Popplio" special=false offensive=false evolution=2 movePower=97.5 stab=true effectiveness=0.5 level=41 evs=23 opponentLevel=37 opponentStat=88}
-
+:::::trainer[Aether Foundation Employee:]
+::::pokemon[Muk]
+  - Sparkling Aria x2
+:::if{source="Popplio" condition="spatk=(x/7-11/x)" theme=error}
+Sparkling Aria x2 if Knock Off is a 87.9% range to kill at 113-114 Sp. Attack (x / 7-11 / x)
+:::
+:::if{source="Popplio" condition="spatk=(x/12-16/x)" theme=error}
+Sparkling Aria x2 if Knock Off is a 96.5% range to kill at 115-116 Sp. Attack (x / 12-16 / x)
+:::
+:::if{source="Popplio" condition="spatk=(x/17-21/x)" theme=error}
+Sparkling Aria x2 if Knock Off is a 99.6% range to kill at 117-118 Sp. Attack (x / 17-21 / x)
+:::
+:::if{source="Popplio" condition="spatk=(x/21+/0+)" theme=error}
+Sparkling Aria x2 if Knock Off is a 100% range to kill at 119+ Sp. Attack (x / 21+ / 0+)
+:::
+::::
+:::::
+::::::
